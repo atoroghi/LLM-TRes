@@ -9,7 +9,7 @@ In order to use the code, please follow these steps:
 pip install -r requirements.txt
 ~~~
 
-## 2- Running Experiments for ProntoQA and COPA-SSE
+## 2- Running Experiments
 You can run our model on these datasets using commands like the following:
 ~~~
 python -m run ----dataset_name ProntoQA --scoring_method GD resolution --masked_rules 0 --misleading_rules 0 --experiment_name test
