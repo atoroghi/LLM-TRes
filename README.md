@@ -1,6 +1,6 @@
 
 Thank you for visiting this repository!
-This repository contains the implementation of our NeurIPS-24 paper **erifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution**.
+This repository contains the implementation of our NeurIPS-24 paper **Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution**.
 
 In order to use the code, please follow these steps:
 
