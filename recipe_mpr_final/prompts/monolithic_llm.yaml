@@ -1,0 +1,8 @@
+system: |-
+  Pick the option that best satisfies the query and concisely explain your answer. You must answer with: "Option <option number>. <justification>" and nothing else.
+
+input_template: |-
+  Query: {{QUERY}}
+  {% for option in OPTIONS %}
+  {{ loop.index }}. <{{ option }}>
+  {% endfor %}

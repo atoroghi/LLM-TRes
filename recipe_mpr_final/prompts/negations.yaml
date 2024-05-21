@@ -1,0 +1,20 @@
+system: |-
+  You will be provided with a description of a food recipe. Your task is to negate the recipe description to find the opposite recipe description. 
+
+  Answer with the opposite recipe description and nothing else.
+
+input_template: |-
+  The recipe {{ASPECT}}
+  The opposite recipe
+
+few_shot:
+  - input:
+      ASPECT: |-
+        contains seafood
+    output: |-
+      does not contain seafood
+  - input:
+      ASPECT: |-
+        is a non-traditional breakfast recipe
+    output: |-
+      is a traditional breakfast recipe

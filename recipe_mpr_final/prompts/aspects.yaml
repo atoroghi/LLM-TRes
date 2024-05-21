@@ -1,0 +1,84 @@
+system: |-
+  You are a chef. You will be provided with a user's query for a recipe. Your task is to identify what kind of recipe the user desires by describing what characteristics the perfect recipe should have. 
+
+  You must identify recipe characteristics that are specific and concretely describe the perfect recipe. When part of the query is indirectly implying something about the recipe, you must infer a specific recipe characteristic. For example, if the query asks for a recipe for a cold day, the inferred recipe characteristic is a hot recipe. You must ignore parts of the query that are contextual and do not express a specific recipe characteristic. Each recipe characteristic must be atomic, describing only one aspect about the recipe. 
+
+  Answer with a list of specific recipe characteristics and nothing else. 
+
+  I will tip you $200 for a perfect solution with specific recipe characteristics!
+
+input_template: |-
+  Query: {{QUERY}}
+  The perfect recipe:
+
+few_shot:
+  - input:
+      QUERY: |-
+        I can't eat lactose, and don't have a lot of time in the morning to make food - would I be able to have a quick breakfast recipe?
+    output: |-
+      is lactose-free 
+      is quick to make 
+      is a breakfast recipe 
+  - input:
+      QUERY: |-
+        Would I be able to get a breakfast recipe with seafood if eating dairy makes me sick and I only have a bbq to cook on?
+    output: |-
+      is a breakfast recipe
+      contains seafood 
+      does not contain dairy 
+      is cooked with a bbq 
+  - input:
+      QUERY: |-
+        I want a casserole recipe with minimal hassle - my fridge is almost empty and I'm too lazy to go grocery shopping
+    output: |-
+      is a casserole recipe 
+      is easy to make 
+      uses few ingredients 
+  - input:
+      QUERY: |-
+        What should I make to treat my parents for the new year? They aren't familiar with anything not American or European so I want to lean towards something safe.
+    output: |-
+      is for a special occassion 
+      is American or European 
+  - input:
+      QUERY: |-
+        I made some vanilla cupcakes, can I have tangy icing to pair with them that's not chocolate flavored?
+    output: |-
+      is tangy 
+      is an icing recipe for cupcakes 
+      is not chocolate flavored
+  - input:
+      QUERY: |-
+        I'm sick and tired of a traditional breakfast, would I be able to have a unique breakfast dish without eggs, bacon, or sausage?
+    output: |-
+      is a non-traditional breakfast recipe 
+      does not contain eggs
+      does not contain bacon 
+      does not contain sausage 
+  - input:
+      QUERY: |-
+        I want to avoid getting bloated so I can look good in my prom dress later, what should I eat for lunch?
+    output: |-
+      is a lunch recipe 
+      is easy to digest 
+  - input:
+      QUERY: |-
+        I want to make paella for my spanish mother-in-law who is diabetic
+    output: |-
+      is a paella recipe
+      is low in sugar
+  - input:
+      QUERY: |-
+        What's a good cheesecake recipe if I'm considering going keto?
+    output: |-
+      is a cheesecake recipe
+      is low carb
+  - input:
+      QUERY: |-
+        I remember trying this traditional candy that tastes just like milk when I visited Moscow, can I have a recipe for that?
+    output: |-
+      is a traditional Russian recipe 
+      is a recipe for candy 
+      tastes like milk
+  
+        

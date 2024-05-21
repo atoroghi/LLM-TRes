@@ -1,0 +1,2122 @@
+{
+    "I want to make a warm dish containing oysters": [
+        "is a warm dish",
+        "contains oysters"
+    ],
+    "Can I have a recipe for fish that's roasted?": [
+        "is for roasted fish"
+    ],
+    "What are recipes for fish, but not baked in the oven?": [
+        "are recipes for fish",
+        "does not involve baking in the oven"
+    ],
+    " I would like a shrimp recipe and I'm trying to eat a balanced diet": [
+        "is a shrimp recipe",
+        "is balanced"
+    ],
+    "Can I have a shrimp pasta recipe for someone with low spice tolerance?": [
+        "is a shrimp pasta recipe",
+        "is not spicy"
+    ],
+    "I want to make a paella but I'm short on time": [
+        "is a paella recipe",
+        "is quick to make"
+    ],
+    "What's a lobster recipe without too many ingredients?": [
+        "is a lobster recipe",
+        "has few ingredients"
+    ],
+    "Can I have a recipe for clam chowder that isn't too fat?": [
+        "is a clam chowder recipe",
+        "is low in fat"
+    ],
+    "I would like a beef recipe but not stew": [
+        "is a beef recipe",
+        "is not a stew recipe"
+    ],
+    "May I have a chicken recipe that contains bacon?": [
+        "is a chicken recipe",
+        "contains bacon"
+    ],
+    "I want chicken that has a kick to it": [
+        "is a recipe for chicken",
+        "is spicy"
+    ],
+    "I like eating pulled meats, but not beef or chicken": [
+        "is a pulled meat recipe",
+        "does not contain beef",
+        "does not contain chicken"
+    ],
+    "Ways to cook lamb with fragrant seasoning": [
+        "is a lamb recipe",
+        "uses fragrant seasoning"
+    ],
+    "I want a meat dish suitable for date night": [
+        "is for a meat dish",
+        "is suitable for a romantic date night"
+    ],
+    "I want some crispy chicken like what I could get at KFC": [
+        "is a crispy chicken recipe",
+        "is similar to KFC's chicken"
+    ],
+    "I want a dish with meat and I don't like vegetables": [
+        "is a meat dish",
+        "does not contain vegetables"
+    ],
+    "Can I have a recipe for barbecue meat, but not seafood?": [
+        "is a barbecue meat recipe",
+        "does not contain seafood"
+    ],
+    "What is a sausage recipe for someone new to cooking?": [
+        "is a recipe for sausages",
+        "is easy for beginners to follow"
+    ],
+    "I would like meat lasagna but I'm watching my weight": [
+        "is a meat lasagna recipe",
+        "is low in calories"
+    ],
+    "I want to make a sauce that goes with my ham": [
+        "is a sauce recipe",
+        "pairs well with ham"
+    ],
+    "Can I have a meatball recipe that doesn't take too long?": [
+        "is a meatball recipe",
+        "is quick to make"
+    ],
+    "I have leftover ground pork and I want to make Asian food": [
+        "is an Asian recipe",
+        "uses ground pork"
+    ],
+    "What beef recipe can I make if I like spicy food?": [
+        "is a beef recipe",
+        "is spicy"
+    ],
+    "Bacon breakfast recipe for beginners": [
+        "is a breakfast recipe",
+        "includes bacon",
+        "is beginner-friendly"
+    ],
+    "Can I have a recipe containing ground pork and beef?": [
+        "contains both ground pork and beef"
+    ],
+    "I miss my mom's noodle soup, is there a recipe for that?": [
+        "is a noodle soup recipe",
+        "is comforting",
+        "resembles mom's recipe"
+    ],
+    "What can I do with a leftover loaf of bread?": [
+        "is a recipe for using leftover bread"
+    ],
+    "What's a filling rice dish I can make?": [
+        "is a rice dish recipe",
+        "is filling"
+    ],
+    "Can I have noodles but not Italian?": [
+        "is a noodle recipe",
+        "is not Italian"
+    ],
+    "I want to cook noodles in a wok": [
+        "is a noodle recipe",
+        "is prepared in a wok"
+    ],
+    "How do I make garlic bread that's cheesy?": [
+        "is a garlic bread recipe",
+        "is cheesy"
+    ],
+    "What are some recipes for this cold day that contain canned beans?": [
+        "is for a warm and hearty dish",
+        "contains canned beans"
+    ],
+    "Teach me how to make European-style pastries": [
+        "is for European-style pastries"
+    ],
+    "I'm really craving seafood spaghetti, can I have a recipe for that?": [
+        "is a seafood spaghetti recipe"
+    ],
+    "Give me some bread recipes that are low in fat": [
+        "is a bread recipe",
+        "is low in fat"
+    ],
+    "What's a pasta recipe that doesn't contain meat?": [
+        "is a pasta recipe",
+        "does not contain meat"
+    ],
+    "How to make rice in a pan?": [
+        "is a rice recipe",
+        "is cooked in a pan"
+    ],
+    "What's a low-difficulty potato recipe?": [
+        "is simple",
+        "is a potato recipe"
+    ],
+    "What are some recipes containing corn that aren't too fat?": [
+        "contain corn",
+        "are low in fat"
+    ],
+    "I would like lunch recipes with beans but not spicy": [
+        "is for a lunch recipe",
+        "contains beans",
+        "is not spicy"
+    ],
+    "I want to make a dessert with my brown rice": [
+        "is a dessert recipe",
+        "uses brown rice"
+    ],
+    "I want to make fries but I don't have normal potatoes": [
+        "is a recipe for fries",
+        "does not use normal potatoes"
+    ],
+    "What are ways to cook asparagus if I don't have an oven at home?": [
+        "is a recipe for cooking asparagus",
+        "does not require an oven"
+    ],
+    "What's a broccoli recipe that kids will like?": [
+        "is a recipe with broccoli",
+        "is kid-friendly"
+    ],
+    "Can I have a brussel sprouts recipe with common ingredients?": [
+        "is a recipe for brussel sprouts",
+        "uses common ingredients"
+    ],
+    "I want a hearty dish that has carrots": [
+        "is a hearty dish recipe",
+        "contains carrots"
+    ],
+    "I want a salad that has both vegetables and protein": [
+        "is a salad recipe",
+        "contains vegetables",
+        "contains protein"
+    ],
+    "I would like a comforting recipe with mushrooms for a cold day": [
+        "is a comforting recipe",
+        "contains mushrooms",
+        "is a warm recipe"
+    ],
+    "Can I have cauliflower bites like the ones from Boston Pizza?": [
+        "is a recipe for cauliflower bites",
+        "is similar to the ones from Boston Pizza"
+    ],
+    "How do I cook a zucchini in the oven?": [
+        "is a recipe for cooking zucchini in the oven"
+    ],
+    "I would like a salad but I don't like kale": [
+        "is a salad recipe",
+        "does not contain kale"
+    ],
+    "I want to make vegetable soup but I don't have much time": [
+        "is a vegetable soup recipe",
+        "is quick to make"
+    ],
+    "I'd like a cucumber recipe where the cucumbers aren't cooked": [
+        "is a recipe with cucumbers",
+        "does not involve cooking the cucumbers"
+    ],
+    "I want a dip with vegetables to go with my tortilla chips for snack": [
+        "is a dip recipe",
+        "is to be served with tortilla chips",
+        "contains vegetables"
+    ],
+    "I want a green smoothie to have after my workout": [
+        "is a green smoothie recipe",
+        "is suitable for post-workout consumption"
+    ],
+    "What are some spinach or kale-based dishes I can make in the oven?": [
+        "is a recipe for a dish with spinach or kale",
+        "is made in the oven"
+    ],
+    "Can I have a recipe with green peppers and meat?": [
+        "includes green peppers",
+        "includes meat"
+    ],
+    "I want vegetables for a breakfast meal": [
+        "is a breakfast recipe",
+        "contains vegetables"
+    ],
+    "I would like a tomato recipe that isn't soup": [
+        "is a tomato recipe",
+        "is not a soup recipe"
+    ],
+    "How do I cook green beans in the oven?": [
+        "is for green beans",
+        "is made in the oven"
+    ],
+    "I want a creamy pasta": [
+        "is a pasta recipe",
+        "has a creamy sauce"
+    ],
+    "What's a snack recipe containing cheddar cheese?": [
+        "is a snack recipe",
+        "contains cheddar cheese"
+    ],
+    "How do I make cream puffs that don't have too many calories?": [
+        "is a recipe for cream puffs",
+        "is low in calories"
+    ],
+    "Recipe for a dessert with cream cheese in it": [
+        "is a dessert recipe",
+        "contains cream cheese"
+    ],
+    "What's a treat I can make for myself with milk during this heat wave?": [
+        "is a treat recipe",
+        "contains milk",
+        "is refreshing"
+    ],
+    "I would like a recipe for salad with yogurt dressing": [
+        "is a salad recipe",
+        "has a yogurt-based dressing"
+    ],
+    "My favourite dessert is ice cream but I don't like fruity flavours": [
+        "is a dessert recipe",
+        "is for ice cream",
+        "does not contain fruit"
+    ],
+    "What can I make if I have butter and milk?": [
+        "requires butter",
+        "requires milk"
+    ],
+    "I want a cheesy dip for my afternoon snack": [
+        "is a recipe for a cheesy dip",
+        "is suitable for an afternoon snack"
+    ],
+    "What's a noodle dish I can make with a creamy sauce?": [
+        "is a noodle dish",
+        "has a creamy sauce"
+    ],
+    "What's a drink I can make containing chocolate?": [
+        "contains chocolate",
+        "is a drink"
+    ],
+    "Recipes for mac and cheese with multiple types of cheese": [
+        "includes multiple types of cheese",
+        "is a recipe for mac and cheese"
+    ],
+    "I would like a dessert that's creamy": [
+        "is a dessert recipe",
+        "has a creamy texture"
+    ],
+    "How to easily make homemade yogurt?": [
+        "is a recipe for homemade yogurt",
+        "is easy to make"
+    ],
+    "Can I have a simple cheese pizza?": [
+        "is a cheese pizza recipe",
+        "is simple to make"
+    ],
+    "I want to make cheesy finger foods for my party": [
+        "is a recipe for cheesy finger foods",
+        "is suitable for a party"
+    ],
+    "How to make berry jam at home?": [
+        "is a recipe for berry jam",
+        "can be made at home"
+    ],
+    "I have a lot of apples, what can I bake with them?": [
+        "is a recipe that uses apples",
+        "is a baking recipe"
+    ],
+    "My family wants a recipe for peach cobbler that's healthier": [
+        "is a peach cobbler recipe",
+        "is healthier"
+    ],
+    "What can I make with frozen berries that's not a drink?": [
+        "is a recipe using frozen berries",
+        "is not a drink recipe"
+    ],
+    "I want a tropical fruit drink that reminds me of Hawaii": [
+        "is a tropical fruit drink",
+        "evokes flavors of Hawaii"
+    ],
+    "I would like to make either apple or cherry pie for dessert": [
+        "is a dessert recipe",
+        "is either apple or cherry pie"
+    ],
+    "Could I have a fruit salad containing a variety of fruits?": [
+        "is a fruit salad recipe",
+        "contains a variety of fruits"
+    ],
+    "Give me a fruit cake recipe but I'm allergic to pineapple": [
+        "is a fruit cake recipe",
+        "does not contain pineapple"
+    ],
+    "What are some fruit smoothie recipes that don't contain dairy?": [
+        "is a fruit smoothie recipe",
+        "does not contain dairy"
+    ],
+    "I would like some strawberry breakfast recipes": [
+        "is a breakfast recipe",
+        "features strawberries"
+    ],
+    "Can I have a banana bread recipe that contains nuts?": [
+        "is a banana bread recipe",
+        "contains nuts"
+    ],
+    "Can I have a creamy fruit salad without kiwi?": [
+        "is a recipe for creamy fruit salad",
+        "does not contain kiwi"
+    ],
+    "I'd like to make a classic French fruit tart but I don't like raspberries": [
+        "is a classic French fruit tart recipe",
+        "does not contain raspberries"
+    ],
+    "I would like to make a pear cake for dessert but I'm a beginner at baking": [
+        "is a dessert recipe",
+        "is a pear cake recipe",
+        "is beginner-friendly"
+    ],
+    "Recipes for lemon cake like the ones from Starbucks": [
+        "is a recipe for lemon cake",
+        "is similar to Starbucks' lemon cake"
+    ],
+    "Give me some pineapple recipes that aren't dessert": [
+        "is not a dessert recipe",
+        "contains pineapple"
+    ],
+    "I would like a lunch dish that's spicy": [
+        "is a spicy lunch recipe."
+    ],
+    "I'm craving something sweet and sour, what can I make?": [
+        "is sweet and sour",
+        "is a recipe for a dish or dessert"
+    ],
+    "Show me a recipe for savoury crepes": [
+        "is a recipe crepes",
+        "is savoury"
+    ],
+    "I want to make something warm with chili peppers": [
+        "is a recipe for a warm dish",
+        "contains chili peppers"
+    ],
+    "I want a snack that's sweet like candy": [
+        "is a sweet snack",
+        "resembles candy"
+    ],
+    "Can I have a tangy summer drink?": [
+        "is a summer drink recipe",
+        "is tangy"
+    ],
+    "What's a recipe for soup that's sweet?": [
+        "is a soup recipe",
+        "is sweet"
+    ],
+    "Can I have something chocolate-hazelnut flavoured for breakfast?": [
+        "is a breakfast recipe",
+        "is chocolate-hazelnut flavored"
+    ],
+    "I miss the local dessert I had near the Nile River": [
+        "is a dessert recipe",
+        "is inspired by the Nile River region"
+    ],
+    "I'm from Capetown and I want to introduce my vegetarian friend to cuisine from my country": [
+        "is a South African recipe",
+        "is vegetarian"
+    ],
+    "I'm a Kenyan long distance runner and I want a main dish full of protein from my hometown": [
+        "is a main dish recipe",
+        "is high in protein",
+        "is a Kenyan recipe"
+    ],
+    "I want to try something warm to drink from West Africa": [
+        "is a warm drink recipe",
+        "is a recipe from West Africa"
+    ],
+    "I want to make poutine that has meat in it": [
+        "is a poutine recipe",
+        "contains meat"
+    ],
+    "I'm looking for a vegan burger without tofu": [
+        "is a vegan burger recipe",
+        "does not contain tofu"
+    ],
+    "Is there a filling Canadian main course that's not poutine": [
+        "is Canadian",
+        "is a main course",
+        "is not poutine",
+        "is filling"
+    ],
+    "How can I eat caviar with crackers?": [
+        "is a way to serve caviar",
+        "is a recipe for caviar with crackers"
+    ],
+    "I want healthy Mexican food": [
+        "is a Mexican recipe",
+        "is healthy"
+    ],
+    "I miss my mom's homemade Acadian dessert": [
+        "is an Acadian dessert recipe"
+    ],
+    "I want something similar to Chipotle and also healthy": [
+        "can be made at home",
+        "is similar to Chipotle",
+        "is healthy"
+    ],
+    "I want to make a healthy guacamole": [
+        "is a recipe for guacamole",
+        "is healthy"
+    ],
+    "I want kebabs that are easy on the stomach": [
+        "is a kebab recipe",
+        "is easy to digest"
+    ],
+    "Can I have halal American snacks": [
+        "is for halal snacks",
+        "is American-style"
+    ],
+    "I want to use up the corn in my fridge for a warm dish": [
+        "is a warm dish",
+        "uses corn as a main ingredient"
+    ],
+    "My cousins are vegetarian and they are coming over for mexican food night": [
+        "is a vegetarian Mexican recipe"
+    ],
+    "Make chili that's not spicy": [
+        "is a chili recipe",
+        "is not spicy"
+    ],
+    "I want to make popeyes style chicken at home": [
+        "is a recipe for Popeyes-style chicken",
+        "for making at home"
+    ],
+    "Can I have some cheap junk food?": [
+        "is cheap",
+        "is junk food"
+    ],
+    "I want some filling American food": [
+        "is an American recipe",
+        "is a hearty dish"
+    ],
+    "How do I make a banana split ice cream dessert for my kids?": [
+        "is a dessert recipe",
+        "is a recipe for banana split ice cream",
+        "is kid-friendly"
+    ],
+    "I want to make a fancy grilled fish entree": [
+        "is an entree recipe",
+        "involves grilled fish",
+        "is considered fancy"
+    ],
+    "I want something like a big mac combo meal that I could get at McDonalds": [
+        "is a recipe for a burger similar to a Big Mac",
+        "includes a side dish",
+        "includes a drink"
+    ],
+    "How to make loaded potato salad without sour cream?": [
+        "is a loaded potato salad recipe",
+        "does not contain sour cream"
+    ],
+    "How to make vegan poke at home?": [
+        "is a vegan recipe",
+        "is a recipe for poke",
+        "does not contain any animal products"
+    ],
+    "I want to make fries like the ones in McDonalds": [
+        "is a recipe for fries",
+        "replicates the taste and texture of McDonald's fries"
+    ],
+    "How to make pizza like the ones at Boston Pizza?": [
+        "is a recipe for pizza",
+        "is similar in taste to the pizza at Boston Pizza"
+    ],
+    "I want to make a lunch I can bring to school from leftover Thanksgiving turkey": [
+        "is a lunch recipe",
+        "uses leftover Thanksgiving turkey"
+    ],
+    "What chili can I make if I'm vegan and don't want beans?": [
+        "is a chili recipe",
+        "is vegan",
+        "does not contain beans"
+    ],
+    "I want to make butterbeer from Harry Potter that's also healthy": [
+        "is a recipe for butterbeer",
+        "is a healthy version"
+    ],
+    "I love cookies but most recipes out there are too unhealthy for my liking": [
+        "is a recipe for cookies",
+        "is healthy"
+    ],
+    "I want to make a sandwich at home similar to the ones from Subway": [
+        "is a sandwich recipe",
+        "is similar to Subway's sandwiches"
+    ],
+    "I want to start a lemon drink stand in my backyard to earn some money this summer": [
+        "is a lemon drink recipe"
+    ],
+    "I want to eat pizza but I'm watching my weight": [
+        "is a low-calorie pizza recipe"
+    ],
+    "I want to make Caribbean cuisine for my kid so she can grow better": [
+        "is a recipe for Caribbean cuisine",
+        "is high in protein"
+    ],
+    "I want to make a Peruvian dessert for my dinner guests": [
+        "is a Peruvian dessert recipe"
+    ],
+    "I want dessert with dulce de leche for a hot summer day": [
+        "is a dessert recipe",
+        "contains dulce de leche",
+        "is suitable for a hot summer day"
+    ],
+    "I want to try churros but I'm not a fan of cinnamon": [
+        "is a churros recipe",
+        "does not contain cinnamon"
+    ],
+    "I have a gluten allergy and I want to have dim sum for breakfast": [
+        "is a dim sum recipe",
+        "is gluten-free"
+    ],
+    "I want to make Chinese stir fry but I ran out of soy sauce": [
+        "is a Chinese stir fry recipe",
+        "does not require soy sauce"
+    ],
+    "Could I have some sweet dim sum?": [
+        "is a sweet dim sum recipe"
+    ],
+    "How do I make halal Chinese fried noodle?": [
+        "is a Chinese fried noodle recipe",
+        "is halal"
+    ],
+    "I want to make a Chinese dessert with custard": [
+        "is a Chinese dessert recipe",
+        "contains custard"
+    ],
+    "I want to make an Asian dish with pork and rice": [
+        "is an Asian recipe",
+        "contains pork",
+        "contains rice"
+    ],
+    "I want to cook some Asian comfort food but I'm sick of eating beef": [
+        "is Asian comfort food",
+        "does not contain beef"
+    ],
+    "I'm from Beijing and I want a meat dish from my country": [
+        "is a meat dish",
+        "is a Chinese recipe"
+    ],
+    "How do I cook the simplest stir fry with eggs and tomatoes?": [
+        "is a stir fry recipe",
+        "contains eggs",
+        "contains tomatoes",
+        "uses few ingredients"
+    ],
+    "Can I make an Asian dessert using red bean?": [
+        "is an Asian dessert recipe",
+        "contains red bean"
+    ],
+    "I want some savory Chinese festival food": [
+        "is a savory Chinese recipe",
+        "is a festival food recipe"
+    ],
+    "I want to make a chinese dish with meat but not chicken or beef": [
+        "is a Chinese meat dish recipe",
+        "does not contain chicken",
+        "does not contain beef"
+    ],
+    "I want to prepare a Korean-style hot pot at home": [
+        "is a Korean-style hot pot recipe"
+    ],
+    "I'm on a diet and I'm craving dandan noodles": [
+        "is a dandan noodle recipe",
+        "is low in calories"
+    ],
+    "I want to make a halal stir-fried Chinese dish": [
+        "is a Chinese stir-fry recipe",
+        "is halal"
+    ],
+    "I want to make a well-known Chinese chicken dish": [
+        "is a Chinese recipe",
+        "is well-known",
+        "is for a chicken dish"
+    ],
+    "I want to make spicy korean soup": [
+        "is a Korean soup recipe",
+        "is spicy"
+    ],
+    "I want to cook something chinese but chinese cuisine largely consists of oily dishes, which I don't like": [
+        "is a Chinese recipe",
+        "is not oily"
+    ],
+    "I want to try making some vegan Japanese desserts": [
+        "is a Japanse recipe",
+        "is a dessert recipe",
+        "is vegan"
+    ],
+    "I want to pack a savory Japanese lunch for my boyfriend": [
+        "is a savory Japanese lunch recipe",
+        "is suitable for packing in a lunchbox"
+    ],
+    "Could I have a recipe for Japanese seafood noodles?": [
+        "is a Japanese recipe",
+        "is a seafood noodle recipe"
+    ],
+    "I want a japanese dish with no carbs": [
+        "is a Japanese dish",
+        "is low in carbs"
+    ],
+    "I want vegan sushi": [
+        "is a sushi recipe",
+        "is vegan"
+    ],
+    "Could I make either red bean or green tea flavored Asian dessert?": [
+        "is an Asian dessert recipe",
+        "is either red bean flavored or green tea flavored"
+    ],
+    "I want to make a korean dish with no kimchi": [
+        "is a Korean dish",
+        "does not contain kimchi"
+    ],
+    "I'm interested to try the rice cake soup that Koreans eat during the New Year": [
+        "is a Korean recipe",
+        "is a recipe for rice cake soup",
+        "traditionally eaten during the New Year"
+    ],
+    "I want to cook a korean dish with seafood": [
+        "is a Korean recipe",
+        "contains seafood"
+    ],
+    "I want to make a Japanese soup that doesn't contain seaweed": [
+        "is a Japanese soup recipe",
+        "does not contain seaweed"
+    ],
+    "I want a vegan asian dish that tastes like meat": [
+        "is a vegan Asian recipe",
+        "mimics the taste of meat"
+    ],
+    "I want curry but not indian or japanese": [
+        "is a curry recipe",
+        "is not Indian",
+        "is not Japanese"
+    ],
+    "I want an Indian dish that I can dip naan in": [
+        "is an Indian dish",
+        "is for dipping naan"
+    ],
+    "I want to cook an Asian dish that can also be used as a sauce": [
+        "is an Asian dish recipe",
+        "is saucy"
+    ],
+    "I want to make pho but I ran out of meat": [
+        "is a recipe for pho",
+        "does not contain meat"
+    ],
+    "I miss the egg tarts I had in Asia": [
+        "is a recipe for egg tarts",
+        "is inspired by Asian cuisine"
+    ],
+    "I want to cook polish sausage with sauerkraut": [
+        "is a recipe for Polish sausage and sauerkraut."
+    ],
+    "I want cheap swiss food": [
+        "is a Swiss recipe",
+        "is budget-friendly"
+    ],
+    "I'm craving German snacks": [
+        "is a recipe for German snacks"
+    ],
+    "It's a cold evening and I want German food": [
+        "is a German recipe",
+        "is a dinner recipe",
+        "is a warm dish"
+    ],
+    "I want to make an italian snack": [
+        "is a snack recipe",
+        "is Italian"
+    ],
+    "I want to make a soup from the Mediterranean": [
+        "is a soup recipe",
+        "is from the Mediterranean region"
+    ],
+    "I want a French dish to go with a nice glass of red wine": [
+        "is a French dish",
+        "pairs well with red wine"
+    ],
+    "I want to make paella for my spanish mother-in-law who is diabetic": [
+        "is a diabetic-friendly paella recipe"
+    ],
+    "I want a spanish dish that doesn't contain seafood": [
+        "is a Spanish dish",
+        "does not contain seafood"
+    ],
+    "How do I cook an Italian meatball soup?": [
+        "is a recipe for Italian meatball soup"
+    ],
+    "I want to make an Italian vegan dish": [
+        "is an Italian recipe",
+        "is a vegan dish"
+    ],
+    "I remember trying this traditional candy that tastes just like milk when I visited Moscow, can I have a recipe for that?": [
+        "is a traditional Russian candy recipe",
+        "tastes like milk"
+    ],
+    "I'm on a diet but I still want fish and chips": [
+        "is a fish and chips recipe",
+        "is a healthier version",
+        "is suitable for a diet"
+    ],
+    "I want to try making nordic dessert": [
+        "is a Nordic dessert recipe"
+    ],
+    "I want to cook Greek cuisine but I forgot to buy cheese, tzatziki dip, or garlic": [
+        "is a recipe for Greek cuisine",
+        "does not contain cheese",
+        "does not contain tzatziki dip",
+        "does not contain garlic"
+    ],
+    "How to make a vegan lasagna for dinner?": [
+        "is a dinner recipe",
+        "is a vegan recipe",
+        "is a lasagna recipe"
+    ],
+    "I want to make Italian food for my daughter who hates cheese": [
+        "is an Italian recipe",
+        "does not contain cheese"
+    ],
+    "Today's really hot and I'm craving for a peach flavoured treat": [
+        "is a peach-flavored treat",
+        "is cold"
+    ],
+    "I want to cook pasta but not tortellini": [
+        "is a pasta recipe",
+        "does not include tortellini"
+    ],
+    "What is a hearty French dish I can make for dinner?": [
+        "is a French dish",
+        "is hearty",
+        "suitable for dinner"
+    ],
+    "What French appetizers use wine?": [
+        "is a French appetizer recipe",
+        "uses wine as an ingredient"
+    ],
+    "I have some chocolate, what french dessert can I make with it?": [
+        "is a French dessert recipe",
+        "contains chocolate"
+    ],
+    "For lunch, I want to cook a duck French-style": [
+        "is a lunch recipe",
+        "is a French-style duck recipe"
+    ],
+    "What can I make for a European-inspired breakfast?": [
+        "is a breakfast recipe",
+        "is European-inspired"
+    ],
+    "I want to make a pizza baguette": [
+        "is a recipe for a pizza baguette"
+    ],
+    "What German entree can I make for dinner": [
+        "is a dinner recipe",
+        "is a German entree"
+    ],
+    "I miss Australian damper": [
+        "is a recipe for Australian damper"
+    ],
+    "I want to try making Fijian dessert": [
+        "is a Fijian dessert recipe"
+    ],
+    "I want a drink with chocolate or cinnamon for a cosy night in": [
+        "is a drink recipe",
+        "contains chocolate or cinnamon",
+        "is suitable for a cosy night in"
+    ],
+    "It's freezing and I'm a craving a thick soup": [
+        "is a soup recipe",
+        "is thick",
+        "is hot"
+    ],
+    "What are some snacks I can eat on the sofa without making a mess?": [
+        "is for snacks",
+        "are clean and not messy to eat"
+    ],
+    "What can I make for dinner using winter vegetables?": [
+        "is a dinner recipe",
+        "uses winter vegetables"
+    ],
+    "I'm in the mood to make a unique dessert with a Christmas themed flavour": [
+        "is a dessert recipe",
+        "has a Christmas themed flavor"
+    ],
+    "What are some refreshing drinks that are perfect for the hot summer?": [
+        "is a refreshing",
+        "is a drink",
+        "is cold"
+    ],
+    "My kids want to use the new popsicle maker I bought": [
+        "is a recipe for popsicles"
+    ],
+    "I read online that some healthy juices can improve your digestion, and I'd be interested to try them": [
+        "is a recipe for healthy juices",
+        "aids in digestion"
+    ],
+    "What are some cocktails that can make me feel like I'm on an island vacation?": [
+        "are cocktail recipes",
+        "evoke the feeling of being on an island vacation"
+    ],
+    "How do I make a slushie without artificial flavouring?": [
+        "is a slushie recipe",
+        "does not contain artificial flavoring"
+    ],
+    "I want a nice warm drink or dessert with fall spices": [
+        "is for a warm drink or dessert",
+        "includes fall spices"
+    ],
+    "What are the best fall inspired pastries and baked goods?": [
+        "contain fall flavors (such as pumpkin, apple, cinnamon, nutmeg)",
+        "are baked goods or pastries"
+    ],
+    "What are some fermented vegetables I can make to store during the winter?": [
+        "is a recipe for fermented vegetables"
+    ],
+    "I want a savoury snack after school, but I can't be too full because I'll be eating dinner soon": [
+        "is a savory snack",
+        "is light",
+        "is a quick recipe"
+    ],
+    "I pack my lunch for school every day but I hate the hassle of bringing multiple containers": [
+        "is a lunch recipe",
+        "is easy to pack",
+        "does not require multiple containers"
+    ],
+    "I want to pack a sandwich to school but I hate it when the bread gets soggy": [
+        "is a sandwich recipe",
+        "is not soggy",
+        "is suitable for packing in a lunchbox"
+    ],
+    "I'm in a rush to go to school this morning, what should I make?": [
+        "is quick to make",
+        "is for breakfast"
+    ],
+    "I need breakfast but I have no cooking experience": [
+        "is a breakfast recipe",
+        "requires no cooking experience"
+    ],
+    "What's something that I can just warm up the next morning?": [
+        "is a recipe that can be reheated",
+        "is suitable for breakfast"
+    ],
+    "Can I have some Japanese lunch box ideas?": [
+        "are Japanese recipes",
+        "are lunch box ideas"
+    ],
+    "What are some meals I can keep in the freezer for a week?": [
+        "are freezer-friendly",
+        "can be stored for a week",
+        "is a meal"
+    ],
+    "I want a nutritious meal to be in good shape for a marathon": [
+        "is a meal recipe",
+        "is nutritious",
+        "is high in protein",
+        "is good for marathon training"
+    ],
+    "Any ideas for a brunch that is easy to make in my dormitory kitchen?": [
+        "is a brunch recipe",
+        "is easy to make",
+        "can be prepared in a dormitory kitchen"
+    ],
+    "What's the most simple meal I can make using just a rice cooker?": [
+        "is a simple meal",
+        "only uses a rice cooker"
+    ],
+    "My roommate only eats western food and I'm about to cook dinner for the two of us": [
+        "is a dinner recipe",
+        "is a Western recipe"
+    ],
+    "I want a casserole recipe with minimal hassle - my fridge is almost empty and I'm too lazy to go grocery shopping": [
+        "is a casserole recipe",
+        "uses few ingredients"
+    ],
+    "What's a good lunch I can warm up in the microwave at my office?": [
+        "is a lunch recipe",
+        "is microwaveable"
+    ],
+    "I want to eat lunch at my office desk but I'm worried that the smell of my food will affect my colleagues": [
+        "is a lunch recipe",
+        "is non-fragrant",
+        "is office-friendly"
+    ],
+    "I hate it when my sandwiches make a huge mess after eating it": [
+        "is a sandwich recipe",
+        "is not messy to eat"
+    ],
+    "I need to prepare a traditional Valentine's main course for my significant other.": [
+        "is a main course recipe",
+        "is traditional for Valentine's Day"
+    ],
+    "I want to make those easter chocolate creme eggs at home": [
+        "is a recipe for chocolate creme eggs",
+        "is for Easter"
+    ],
+    "I want to prepare a chocolate fountain for the kids to eat strawberries with": [
+        "is a recipe for a chocolate fountain",
+        "is suitable for dipping strawberries into"
+    ],
+    "I'm looking for pretty macarons that match the Easter pastel colour theme": [
+        "is a macaron recipe",
+        "has pastel colors"
+    ],
+    "I'm looking to host a traditional British-style Sunday roast in my backyard this weekend": [
+        "is a traditional British recipe",
+        "is roasted"
+    ],
+    "Any ideas for dye-free green desserts for St Patrick's day?": [
+        "is a green dessert recipe",
+        "does not contain artificial dyes"
+    ],
+    "I'm looking for decorative treats for my Halloween party": [
+        "resembles a Halloween decoration"
+    ],
+    "I have way too many leftover chocolate candy bars from Halloween and I want to make a dessert": [
+        "is a dessert recipe",
+        "uses chocolate candy bars",
+        "is a recipe for leftovers"
+    ],
+    "I just need to prepare traditional Thanksgiving poultry, with no frills or anything too difficult": [
+        "is a Thanksgiving poultry recipe",
+        "is traditional",
+        "is easy to prepare"
+    ],
+    "My grandma is coming over for Thanksgiving dinner and I remember from last year that she hates cranberry sauce": [
+        "is for Thanksgiving dinner",
+        "does not contain cranberry sauce"
+    ],
+    "I'm craving something with gingerbread - like cookies or tarts!": [
+        "is a recipe for gingerbread",
+        "can be cookies or tarts"
+    ],
+    "I'm looking for a Christmas themed snack that will keep the kids busy and out of my way": [
+        "is a Christmas-themed snack",
+        "is kid-friendly",
+        "involves some form of activity or engagement"
+    ],
+    "I'm looking for a hearty Christmas dinner perfect for a family reunion": [
+        "is a Christmas dinner recipe",
+        "is hearty",
+        "is suitable for a family reunion"
+    ],
+    "I think baking and decorating Christmas cookies this weekend sounds like a fun idea": [
+        "is a Christmas cookie recipe",
+        "is suitable for baking",
+        "is suitable for decorating"
+    ],
+    "This year, I want to make standard Christmas candies": [
+        "is a recipe for candy",
+        "is classic Christmas"
+    ],
+    "Any traditional hotpot ideas for the Chinese new year?": [
+        "is a hotpot recipe",
+        "is for the Chinese New Year tradition"
+    ],
+    "What should I make to treat my parents for the new year? They aren't familiar with anything not American or European so I want to lean towards something safe": [
+        "is an American or European recipe",
+        "is a fancy recipe"
+    ],
+    "What are some traditional Chinese new year dishes?": [
+        "features traditional Chinese dishes",
+        "suitable for Chinese New Year"
+    ],
+    "I want a meal to eat before dawn in Ramadan": [
+        "is a pre-dawn meal recipe",
+        "is suitable for Ramadan"
+    ],
+    "I want to bake some colourful cookies to celebrate pride month": [
+        "is a cookie recipe",
+        "is colorful",
+        "Celebrates pride month"
+    ],
+    "I need to prepare a passionfruit punch bowl, although I don't think I'm able to find actual passionfruits in supermarkets near me": [
+        "is a recipe for a passionfruit punch bowl",
+        "does not require actual passionfruits"
+    ],
+    "What's a good way to make jello shots with a bottle of Chandon?": [
+        "is a recipe for jello shots",
+        "requires Chandon"
+    ],
+    "I told my high school friends that I would be bringing a meat dish to the reunion potluck.": [
+        "is a meat dish",
+        "is potluck-friendly"
+    ],
+    "I need to prepare some fancy finger food for the house party I'm hosting for my colleagues this weekend": [
+        "is a finger food recipe",
+        "is suitable for a fancy event",
+        "is easy to eat without utensils"
+    ],
+    "My brother's birthday is coming up but he is picky and only likes the most traditional birthday cake": [
+        "is a birthday cake recipe",
+        "is a traditional recipe"
+    ],
+    "My daughter told me she wants a cake with lots of cream for her birthday, but my oven is broken - what should I do?": [
+        "is a no-bake cake recipe",
+        "uses lots of cream",
+        "is for a birthday party"
+    ],
+    "My toddler's birthday party is next week and I want to prepare a fried snack that all his friends will love": [
+        "is a fried snack recipe",
+        "is kid-friendly",
+        "is suitable for a toddler's birthday party"
+    ],
+    "What are some interesting cake ideas for a baby boy gender reveal?": [
+        "is a cake recipe",
+        "blue"
+    ],
+    "My friends are coming over to watch a football game and I want to bake a filling appetizer": [
+        "is a recipe for a filling appetizer",
+        "is suitable for serving during a football game gathering"
+    ],
+    "I want to bake something sweet for my grandma's birthday": [
+        "is a sweet baked recipe",
+        "is suitable for a birthday celebration"
+    ],
+    "My best friend called and asked me if I could prepare something sweet for her bridal shower brunch": [
+        "is a sweet recipe",
+        "is suitable for a bridal shower brunch"
+    ],
+    "I'm going to a cocktail party where they will host a competition for the guests to see who can make the prettiest drink.": [
+        "is a cocktail recipe",
+        "is visually appealing"
+    ],
+    "What pasta goes well with white wine?": [
+        "is a pasta recipe",
+        "pairs well with white wine"
+    ],
+    "I want to avoid getting bloated so I can look good in my prom dress later, what should I eat for lunch?": [
+        "is a lunch recipe",
+        "is light",
+        "is low in sodium"
+    ],
+    "I heard eating at night makes you gain weight, but I need something to eat even if it is really light": [
+        "is a light recipe",
+        "is suitable for a nighttime snack"
+    ],
+    "I'm severely hungover and need to eat something solid, but I feel like I will throw up if the food is too greasy or soft": [
+        "is a solid food recipe",
+        "is easy on the stomach",
+        "is not greasy",
+        "is not too soft"
+    ],
+    "What's a good hangover soup recipe?": [
+        "is a soup recipe",
+        "is comforting",
+        "is easy to digest"
+    ],
+    "What snacks should I have after cardio to avoid bulking?": [
+        "is a snack recipe",
+        "is light",
+        "is low in calories"
+    ],
+    "I'm trying to increase my protein intake but cut down on my fat intake to get leaner": [
+        "is a high-protein recipe",
+        "is low in fat"
+    ],
+    "I need a healthy preworkout snack and I can't be too full": [
+        "is a preworkout snack recipe",
+        "is healthy",
+        "is light on the stomach"
+    ],
+    "What are some meals I could have after high intensity exercise for muscle gain?": [
+        "is a high-protein meal",
+        "is nutrient-dense",
+        "is suitable for muscle gain"
+    ],
+    "What meat dishes I can make using a campfire?": [
+        "is a meat dish recipe",
+        "is for cooking over a campfire"
+    ],
+    "I'm going camping, so I need a recipe such that its ingredients won't spoil when kept in room temperature for three days.": [
+        "is a recipe suitable for camping",
+        "uses ingredients that won't spoil at room temperature for three days"
+    ],
+    "Any ideas for a s'mores recipes, but with a small twist?": [
+        "is a s'mores recipe",
+        "includes a unique twist"
+    ],
+    "I'm going on a picnic, what's something I can make with all healthy ingredients?": [
+        "is a picnic-friendly recipe",
+        "contains only healthy ingredients"
+    ],
+    "I want to prepare a charcuterie board with cold cut meat for a picnic.": [
+        "is for a picnic",
+        "is a charcuterie board recipe",
+        "involves cold cut meats"
+    ],
+    "I thought that preparing something on skewers would be a fun idea for a backyard barbeque.": [
+        "is a recipe for skewers",
+        "is barbequed"
+    ],
+    "How do I make barbequed ribs using Tabasco?": [
+        "is a recipe for barbecued ribs",
+        "includes Tabasco sauce"
+    ],
+    "What side dishes can I barbeque along with the other main meat dish?": [
+        "are side dishes",
+        "are suitable for a barbecue grill"
+    ],
+    "What are some lightweight and healthy snacks to bring on a backpacking trip?": [
+        "are lightweight",
+        "are healthy",
+        "are snack recipes",
+        "are suitable for backpacking."
+    ],
+    "What are some desserts I can make for my dog?": [
+        "is a dessert recipe",
+        "is for dogs"
+    ],
+    "I need to make food for my dog, but she's a bit sensitive to pesticides often found in commercially produced leafy vegetables": [
+        "is a recipe for dog food",
+        "avoids leafy vegetables sprayed with pesticides"
+    ],
+    "I need new menu items that are easy for takeout for my noodle restaurant": [
+        "is easy for takeout",
+        "is a noodle dish"
+    ],
+    "I want an interesting fusion dish that will be difficult to find at other restaurants in Toronto": [
+        "is a fusion dish",
+        "is unique and not commonly found in Toronto restaurants"
+    ],
+    "I would like something cheap but I get hungry all the time": [
+        "is affordable",
+        "is filling"
+    ],
+    "I need an easy meal under 10 dollars": [
+        "is budget-friendly",
+        "is easy to make"
+    ],
+    "What desserts can I have while on a budget?": [
+        "is a budget-friendly recipe",
+        "is a dessert recipe"
+    ],
+    "I still have leftover white rice from last night and I want to cook lunch with it": [
+        "is a lunch recipe",
+        "uses white rice",
+        "is a leftover rice recipe"
+    ],
+    "How do I spice up my instant noodles? I'm bored of following the plain recipe on the packaging": [
+        "is a recipe for upgrading instant noodles",
+        "involves adding additional ingredients to the noodles",
+        "adds flavor and variety to the dish"
+    ],
+    "How can I make some tasty yet affordable meals for a dinner date?": [
+        "is affordable",
+        "is for a dinner date",
+        "tasty"
+    ],
+    "I want to prepare enough dinner for my family but we really need to save money right now": [
+        "is a dinner recipe",
+        "is budget-friendly",
+        "serves a large portion"
+    ],
+    "What are some Asian street food I can make at home?": [
+        "is for Asian street food",
+        "is easy to make at home"
+    ],
+    "What can I make for breakfast using SPAM?": [
+        "is a breakfast recipe",
+        "uses SPAM as an ingredient"
+    ],
+    "I want to cook a gourmet dish with seafood": [
+        "is a gourmet recipe",
+        "contains seafood"
+    ],
+    "I want foie gras served with a sweet condiment, jam, or sauce": [
+        "is a recipe for preparing foie gras",
+        "includes a sweet condiment, jam, or sauce"
+    ],
+    "I don't know how to use caviar to make anything other than canapes - how do I use it in a main course?": [
+        "is a main course recipe",
+        "includes caviar"
+    ],
+    "My friend is bringing a bottle of champagne over, what should I make for dinner to go with it?": [
+        "is a recipe that pairs well with champagne"
+    ],
+    "I want a pasta that doesn't taste cheap.": [
+        "is a pasta recipe",
+        "is not made with cheap ingredients"
+    ],
+    "I need an entree that would impress my client, who is a CEO of a multinational company": [
+        "is an impressive entree"
+    ],
+    "I want an uncommon household dish that only uses the best ingredients": [
+        "is uncommon",
+        "uses high-quality ingredients"
+    ],
+    "I want to emulate the fine dining experience at home with expensive seafood.": [
+        "is a fine dining recipe",
+        "features expensive seafood"
+    ],
+    "I'm looking for avocado based baby food": [
+        "is a baby food recipe",
+        "contains avocado"
+    ],
+    "I want a baby food recipe that contains a variety of vitamins from natural sources, such as fruits": [
+        "is a baby food recipe",
+        "contains a variety of vitamins",
+        "uses natural sources such as fruits"
+    ],
+    "I'm looking for a way to introduce a source of greens into my kids' diets": [
+        "is kid-friendly",
+        "contains greens"
+    ],
+    "What foods should I prepare for my one year old to eat for lunch?": [
+        "is a toddler-friendly recipe",
+        "is suitable for a one year old",
+        "is for lunch"
+    ],
+    "I want to make a sweet milkshake for the kids": [
+        "is a milkshake recipe",
+        "is sweet",
+        "is kid-friendly"
+    ],
+    "What's a smoothie with plenty of fruits I can make for my kid's party?": [
+        "is a smoothie recipe",
+        "contains plenty of fruits",
+        "is kid-friendly"
+    ],
+    "Could I have a potato recipe for my baby who is teething?": [
+        "is a potato recipe",
+        "is soft"
+    ],
+    "It's summer and I wanted to make something sweet that will help me cool down": [
+        "is a sweet recipe",
+        "is a cool and refreshing dessert"
+    ],
+    "I want a healthy lunch dish": [
+        "is a healthy lunch recipe"
+    ],
+    "How to make noodles like Chinese takeaway?": [
+        "is a noodle recipe",
+        "is a Chinese recipe"
+    ],
+    "I'm craving a snack that is fried, yet still somewhat healthy": [
+        "is a fried snack recipe",
+        "is relatively healthy"
+    ],
+    "I want to make chips that are healthier than regular potato chips": [
+        "is for homemade chips",
+        "is healthier than regular potato chips"
+    ],
+    "Surprise me with an unconventional vegan noodle recipe": [
+        "is a vegan noodle recipe",
+        "is unconventional"
+    ],
+    "Find me a pasta recipe for my vegan dinner guests": [
+        "is a pasta recipe",
+        "is vegan"
+    ],
+    "What snack can I eat if I just got braces?": [
+        "is a snack",
+        "is easy to chew"
+    ],
+    "I want to make use of the extra bottle of beer I have to bake some bread": [
+        "is a bread recipe",
+        "requires a bottle of beer"
+    ],
+    "I want a seafood soup recipe": [
+        "is a seafood soup recipe"
+    ],
+    "Give me a Subway-style beef sandwich recipe": [
+        "is a beef sandwich recipe",
+        "is inspired by Subway"
+    ],
+    "Get me a dessert recipe that is digestion friendly": [
+        "is a dessert recipe",
+        "is easy to digest"
+    ],
+    "I need to prepare a meal for my friend who's diabetic": [
+        "is a diabetic-friendly recipe"
+    ],
+    "I want to prepare a healthy dinner for my grandparents": [
+        "is a dinner recipe",
+        "is healthy"
+    ],
+    "What snack can I bring to the hospital for my friend who just had an appendectomy?": [
+        "is a snack recipe",
+        "is easy to digest",
+        "is appropriate for someone recovering from surgery"
+    ],
+    "I want to prepare a warm soup for my sick friend, and I need to consider the fact that he is vegan": [
+        "is a warm soup recipe",
+        "is vegan"
+    ],
+    "The chicken I brought is about to expire, and I want to use it in a soup": [
+        "is a soup recipe",
+        "is made with chicken",
+        "utilizes ingredients that complement chicken"
+    ],
+    "I'm recovering from a wisdom tooth extraction, give me something healthy to eat": [
+        "is healthy",
+        "is drinkable"
+    ],
+    "I need to prepare a lunch to eat in the car after my training session at the gym": [
+        "is a lunch recipe",
+        "is portable",
+        "is easy to eat on-the-go"
+    ],
+    "I'd like a dumpling recipe that contains an unconventional meat": [
+        "is a dumpling recipe",
+        "contains an unconventional meat"
+    ],
+    "My uncle who is a Buddhist monk is coming over for lunch and I have no idea what I should cook for him": [
+        "is a vegetarian recipe"
+    ],
+    "Do you have a Kosher meat recipe for Shabbat?": [
+        "is a kosher recipe",
+        "is a meat recipe",
+        "is suitable for Shabbat"
+    ],
+    "Give me a halal salad recipe": [
+        "is a salad recipe",
+        "is halal"
+    ],
+    "Do you have some vegan friendly dinner ideas": [
+        "is for dinner",
+        "is vegan-friendly"
+    ],
+    "I'm lacto-vegetarian and want a dish for dinner": [
+        "is a dinner recipe",
+        "is lacto-vegetarian"
+    ],
+    "What's a good cheesecake recipe if I'm considering going keto?": [
+        "is a keto-friendly cheesecake recipe",
+        "is low in carbs",
+        "contains no added sugar"
+    ],
+    "I want a soup that is vitamin rich and healthy": [
+        "is a soup recipe",
+        "is rich in vitamins",
+        "is healthy"
+    ],
+    "I'm on a paleo diet and want a breakfast I can grab and go": [
+        "is a breakfast recipe",
+        "is paleo-friendly",
+        "is convenient for grabbing on the go"
+    ],
+    "I want to make a hearty paleo stew for my grandchildren": [
+        "is a stew recipe",
+        "is paleo-friendly",
+        "is hearty and filling"
+    ],
+    "What's a good dinner recipe if I want to build up my muscles?": [
+        "is a dinner recipe",
+        "is high in protein"
+    ],
+    "I want a recipe for something I can bake that's oil-free": [
+        "is a baking recipe",
+        "does not contain oil"
+    ],
+    "I'm vegan but I miss eating steak": [
+        "is a vegan recipe",
+        "resembles steak"
+    ],
+    "I want a keto dinner for weight loss": [
+        "is a dinner recipe",
+        "is a keto recipe",
+        "is suitable for weight loss"
+    ],
+    "I'm craving a nut flavoured ice cream, maybe something like white chocolate macadamia or peanut butter": [
+        "is an ice cream recipe",
+        "is a nut flavor",
+        "includes white chocolate, macadamia, or peanut butter as an ingredient"
+    ],
+    "I'm craving a light snack but I would prefer something salty over something sweet": [
+        "is a snack",
+        "is salty"
+    ],
+    "I want to eat spicy seafood but I am sick of Tom Yum": [
+        "is a spicy seafood recipe",
+        "is not Tom Yum"
+    ],
+    "I ran out of flour but I promised my kids would bake them chocolate cake today": [
+        "is a recipe for chocolate cake",
+        "does not require flour"
+    ],
+    "How do I make a spicy soup with chicken?": [
+        "is a spicy soup",
+        "contains chicken"
+    ],
+    "Give me a dairy-free milkshake recipe": [
+        "is a milkshake recipe",
+        "is dairy-free"
+    ],
+    "I'm allergic to dairy but I really love ice cream": [
+        "is a dairy-free recipe",
+        "is a recipe for ice cream"
+    ],
+    "I'm allergic to eggs but want to make a cake": [
+        "is an eggless cake recipe"
+    ],
+    "What snack can I have if I am allergic to soy?": [
+        "is a snack recipe",
+        "does not contain soy"
+    ],
+    "I need a breakfast that won't trigger my Celiac disease": [
+        "is a gluten-free breakfast recipe"
+    ],
+    "I want to try sushi but I am not comfortable with eating raw fish": [
+        "is a sushi recipe",
+        "does not contain raw fish"
+    ],
+    "I want to make pancakes but most recipes out there contain wheat": [
+        "is a pancake recipe",
+        "is gluten-free"
+    ],
+    "It is surprisingly difficult to find snacks that don't contain peanuts at the supermarket, so I think I'll have to resort to making my own": [
+        "is a recipe for a homemade snack",
+        "does not contain peanuts"
+    ],
+    "I wanted to make myself a beef burger, similar to the one I had at Harvey's": [
+        "is a beef burger recipe",
+        "similar to the one at Harvey's"
+    ],
+    "Give me a sandwich recipe that's vegetarian": [
+        "is a sandwich recipe",
+        "is vegetarian"
+    ],
+    "I'd love to have a milkshake but I'm lactose intolerant": [
+        "is a milkshake recipe",
+        "is lactose-free"
+    ],
+    "I want have some diabetes friendly cookies": [
+        "is a cookie recipe",
+        "is diabetes-friendly"
+    ],
+    "Do you have a cookie recipe that's good for someone with a nut allergy?": [
+        "is a cookie recipe",
+        "does not contain nuts"
+    ],
+    "I want to make a weight loss friendly dessert": [
+        "is a dessert recipe",
+        "is weight loss-friendly"
+    ],
+    "Do you have a breakfast recipe for people with dysphagia?": [
+        "is a breakfast recipe",
+        "is easy to swallow or drinkable"
+    ],
+    "I want some roasted vegetables": [
+        "is a recipe for roasted vegetables"
+    ],
+    "Give me a weight loss cabbage soup recipe": [
+        "is a cabbage soup recipe",
+        "is for weight loss"
+    ],
+    "I want some mushy peas to go with my steak and kidney pie": [
+        "is a recipe for mushy peas",
+        "serves as a side dish",
+        "pairs well with steak and kidney pie"
+    ],
+    "I want a creamy pasta recipe that doesn't contain cheese": [
+        "is a creamy pasta recipe",
+        "does not contain cheese"
+    ],
+    "I want a detox salad": [
+        "is a salad recipe",
+        "is a detox recipe"
+    ],
+    "I want muffins for breakfast but I'm out of butter": [
+        "does not require butter",
+        "is a muffin recipe"
+    ],
+    "Give me a low-glycemic dish for dinner": [
+        "is for dinner",
+        "is low-glycemic"
+    ],
+    "I want a salad made with all organic ingredients": [
+        "is a salad recipe",
+        "uses all organic ingredients"
+    ],
+    "I want a dinner recipe that's not too salty": [
+        "is for dinner",
+        "is low in sodium"
+    ],
+    "I wanted to make something salty to season my pea soup": [
+        "is for seasoning soup",
+        "is salty"
+    ],
+    "I want fast food but my doctor says I shouldn't eat too much salty foods": [
+        "is a quick and easy recipe",
+        "is low in salt"
+    ],
+    "I want a diabetes friendly dessert": [
+        "is a dessert recipe",
+        "is diabetes-friendly"
+    ],
+    "I want to cook a simple lunch but I'm trying to lose weight": [
+        "is a simple lunch recipe",
+        "is low in calories"
+    ],
+    "I want healthy fast food for dinner": [
+        "is dinner recipe",
+        "is healthy",
+        "is quick to make"
+    ],
+    "I want a vegetarian meal that still gets me the nutrients I would get with meat": [
+        "is a vegetarian recipe",
+        "is high in protein"
+    ],
+    "I wanted to add some flavor to my homemade pizza": [
+        "is for homemade pizza",
+        "adds extra flavor"
+    ],
+    "I want to make ribs but I don't have a grill": [
+        "is a recipe for ribs",
+        "does not require a grill"
+    ],
+    "Can I have a recipe for grilled fish that's not tuna": [
+        "is a recipe for grilled fish",
+        "does not use tuna"
+    ],
+    "How do I make pan-fried noodles with seafood?": [
+        "is a recipe for pan-fried noodles",
+        "includes seafood"
+    ],
+    "I want to bake a sweet lemon tart": [
+        "is a lemon tart recipe",
+        "is sweet"
+    ],
+    "Do you know how to cook bitter melon the Chinese way?": [
+        "is a Chinese recipe",
+        "is a recipe for bitter melon"
+    ],
+    "Give me a non-spicy hot pot recipe": [
+        "is a non-spicy hot pot recipe"
+    ],
+    "Give me a recommendation for a drink people usually bring to the gym": [
+        "is a drink recipe",
+        "is suitable for the gym",
+        "provides hydration"
+    ],
+    "I want a lunch I can eat cold": [
+        "is a lunch recipe",
+        "is meant to be eaten cold"
+    ],
+    "Can I have a recipe for fried seafood?": [
+        "is a recipe for fried seafood"
+    ],
+    "Do you have an idea for a vegetarian dish I can bring to a summer picnic?": [
+        "is a vegetarian dish",
+        "is suitable for a summer picnic"
+    ],
+    "Is there anything I can drink if I have high blood pressure?": [
+        "is a drink recipe",
+        "is suitable for individuals with high blood pressure"
+    ],
+    "I'm craving a hamburger with a juicy beef patty": [
+        "is a hamburger recipe",
+        "has a juicy beef patty"
+    ],
+    "Can you give me a post-workout recovery meal?": [
+        "is a post-workout meal",
+        "is high in protein",
+        "includes complex carbohydrates",
+        "contains healthy fats"
+    ],
+    "I'm craving Asian style meat pancakes": [
+        "is a recipe for Asian-style meat pancakes"
+    ],
+    "My father likes spicy food and I wanted to find a beef recipe that I could make for our family gathering this week": [
+        "is a beef recipe",
+        "is spicy"
+    ],
+    "I want a soup that is a good for my bones since I have Osteoporosis": [
+        "is a soup recipe",
+        "is bone-strengthening",
+        "suitable for individuals with Osteoporosis"
+    ],
+    "I want a salad rich with antioxidants": [
+        "is a salad recipe",
+        "is rich in antioxidants"
+    ],
+    "I want cookies I can eat despite having a grain allergy": [
+        "is a recipe for cookies",
+        "is grain-free"
+    ],
+    "I want a beef stew with at least two different vegetables": [
+        "is a beef stew recipe",
+        "contains beef",
+        "contains at least two different vegetables"
+    ],
+    "I want to make dinner rolls with some extra flavour in it": [
+        "is a recipe for dinner rolls",
+        "includes extra flavor"
+    ],
+    "I have some extra milk and I want to use it for baking": [
+        "is a baking recipe",
+        "requires milk as an ingredient"
+    ],
+    "It's my cheat day today and I'm craving some junk food for dinner": [
+        "involves junk food",
+        "suitable for dinner"
+    ],
+    "I want a kebab that isn't meat": [
+        "is a kebab recipe",
+        "does not contain meat"
+    ],
+    "I'm craving an egg-based dessert": [
+        "is a dessert recipe",
+        "is egg-based"
+    ],
+    "I have a vegan friend coming over to have dinner and I want to make an inclusive pasta recipe": [
+        "is a pasta recipe",
+        "is vegan-friendly"
+    ],
+    "I only have a pan to cook with, what lean dinner recipe can I make with chicken and vegetables?": [
+        "is a dinner recipe",
+        "contains chicken",
+        "contains vegetables",
+        "can be made in a pan",
+        "is low fat"
+    ],
+    "I had a long day at work, can I have a dinner recipe that isn't too hard to make?": [
+        "is a dinner recipe",
+        "is quick and easy to make"
+    ],
+    "Can I have a steak recipe that's similar to what my Floridian friends would eat?": [
+        "is a steak recipe",
+        "is similar to what is popular in Florida"
+    ],
+    "I've been following a diet, can I have a chicken dinner recipe with low calorie count and isn't basic?": [
+        "is a chicken dinner recipe",
+        "is low in calories",
+        "is not basic"
+    ],
+    "I want a salmon fish recipe and I haven't tried cumin on salmon before, but I would like to": [
+        "is a salmon recipe",
+        "includes cumin in the ingredients"
+    ],
+    "I want a meat lovers pasta recipe to make for dinner when hosting my American friends": [
+        "is for a pasta dish with meat",
+        "is for a dinner recipe",
+        "is meaty",
+        "is suitable for hosting guests"
+    ],
+    "I want a pasta recipe for dinner that is Greek instead of Italian for when it's hot outside and we don't want hot food": [
+        "is a Greek pasta recipe",
+        "is a cold pasta recipe"
+    ],
+    "My son is having an Incredibles themed birthday party tonight, and I want to make a dinner recipe similar to the leftover night dinner scene shown in the movie": [
+        "is a dinner recipe",
+        "is inspired by The Incredibles movie",
+        "features a variety of dishes left over from different nights"
+    ],
+    "Can I have a sandwich lunch recipe that will keep me full during work and I can leave in the heat?": [
+        "is a sandwich recipe",
+        "is filling",
+        "is heat-resistant"
+    ],
+    "What healthy fruit smoothie recipes can I make for lunch with my bookclub members who really track calories?": [
+        "is a fruit smoothie recipe",
+        "is healthy",
+        "is low in calories",
+        "is suitable for lunch"
+    ],
+    "I want a healthy smoothie recipe for lunch that will help me recover after I play baseball": [
+        "is a smoothie recipe",
+        "is healthy",
+        "is suitable for post-workout recovery"
+    ],
+    "I work outside in the winter, whats a thick beef soup recipe I could bring in my thermos for lunch if I don't like stew?": [
+        "is a beef soup recipe",
+        "is thick",
+        "is suitable for a thermos lunch",
+        "Ideal for winter."
+    ],
+    "What pasta salad recipes can I make for a surprise lunch visit from friends?": [
+        "is for a pasta salad",
+        "is ideal for a surprise lunch visit",
+        "is easy to prepare",
+        "is suitable for serving to friends"
+    ],
+    "What are filling vegan lunch recipes I can make for my friends who missed breakfast and don't like seeds?": [
+        "is a lunch recipe",
+        "is vegan",
+        "does not contain seeds"
+    ],
+    "How would I make fresh ramen noodles? I do not want to buy them from a store. Also, spicy food really hurts my stomach": [
+        "is a recipe for fresh ramen noodles",
+        "does not contain spicy ingredients"
+    ],
+    "I have a cold and feel dehydrated, what's a recipe I can make for lunch that will help me feel better?": [
+        "is a lunch recipe",
+        "is hydrating"
+    ],
+    "I want to make spicy chicken for my boyfriend and he doesn't like greasy food": [
+        "is a spicy chicken recipe",
+        "is not greasy"
+    ],
+    "I need some recipe ideas for appetizers I can make on my barbeque": [
+        "is for appetizers",
+        "is cooked on a barbeque"
+    ],
+    "My son is skinny and wants to get bigger, what are some good snacks I could send with him to school?": [
+        "are high in protein",
+        "are nutrient-dense",
+        "are good for promoting muscle growth"
+    ],
+    "I work as a landscaper in the summer, so I don't have any way to refrigerate food. Can I have some snack recipes that I know won't spoil in the heat?": [
+        "are snack recipes",
+        "are heat-resistant",
+        "do not require refrigeration"
+    ],
+    "I need some recipe ideas for snacks I can send with my daughter to bring to school": [
+        "is for school snacks",
+        "is portable",
+        "is kid-friendly"
+    ],
+    "My daughter only eats cheese and crackers for snack, what are some alternative recipes to sneak some vegetables into her diet?": [
+        "is a snack recipe",
+        "includes vegetables"
+    ],
+    "Can I have some healthier snack recipes that have kale?": [
+        "are snack recipes",
+        "contain kale"
+    ],
+    "What's a sweet and spicy snack I can make?": [
+        "is sweet",
+        "is spicy",
+        "is a snack recipe"
+    ],
+    "At my job site I don't have any shade to store my food. What are some snack recipes that can last all day exposed to the sun?": [
+        "are snack recipes",
+        "are non-perishable",
+        "are suitable for sun exposure"
+    ],
+    "I really need to cut down on my weight, all the snacks I eat are too unhealthy. What snack recipes can I make with vegetables?": [
+        "are snack recipes",
+        "contain vegetables"
+    ],
+    "I want to make a fruit dessert for my girlfriend but lactose makes her stomach hurt, and she only likes expensive fruits": [
+        "is a fruit dessert recipe",
+        "uses expensive fruits",
+        "is lactose-free"
+    ],
+    "I want a dessert recipe for brownies and fudge that I won't feel bad about eating on my diet": [
+        "is a dessert recipe",
+        "is for brownies and fudge",
+        "is low in calories"
+    ],
+    "What are some non-standard flavors of ice cream I can make for my mom?": [
+        "is for homemade ice cream",
+        "features unique flavors"
+    ],
+    "I want to start baking desserts as a hobby, can I have a recipe for making pastry dough from scratch?": [
+        "is for making pastry dough from scratch"
+    ],
+    "My sons friend is coming over and he's highly allergic to nuts and dairy. What dessert could I make for him?": [
+        "is a dessert recipe",
+        "does not contain nuts",
+        "does not contain dairy"
+    ],
+    "I want to make apple and blueberry pie desserts for the community center bake sale, could I have one recipe to make both types of pies?": [
+        "is a pie recipe with apple and blueberry"
+    ],
+    "My kid isn't very adventurous and only likes plain ice cream, can I have a recipe for that?": [
+        "is an ice cream recipe",
+        "is chocolate or vanilla flavoured"
+    ],
+    "I'm sick of desserts that sacrifice flavor to be healthy. Can you suggest some nutty brownie dessert recipes?": [
+        "is a dessert recipe",
+        "is a brownie recipe",
+        "features nuts",
+        "is flavorful"
+    ],
+    "I made some vanilla cupcakes, can I have tangy icing to pair with them that's not chocolate flavored?": [
+        "is a tangy icing recipe",
+        "is for vanilla cupcakes",
+        "is not chocolate flavored"
+    ],
+    "I want to show my brother that I can make nachos better than the keg, can I have a nacho recipe that is similar to a high end restaurant?": [
+        "is a nacho recipe",
+        "is gourmet-style",
+        "uses high-quality ingredients"
+    ],
+    "I want to make a meatball appetizer for my party": [
+        "is a meatball recipe",
+        "is an appetizer"
+    ],
+    "I'm having bread sticks as an appetizer while I watch the superbowl, can I have a cheesy dip to go with it?": [
+        "is a cheesy dip recipe",
+        "is for dipping bread sticks"
+    ],
+    "I want some greasy appetizers while I watch the superbowl, can I have a recipe similar to appetizers I would find at a cheap pub?": [
+        "Are greasy appetizers",
+        "are suitable for a Superbowl party",
+        "resemble appetizers found at a cheap pub"
+    ],
+    "I'd like to have a halloween themed snack for my halloween party.": [
+        "is a Halloween-themed snack",
+        "is suitable for a party"
+    ],
+    "I want chicken wing appetizer that I can eat with my 83 year old grandpa, who has a weak heart": [
+        "is an appetizer recipe",
+        "is a chicken wing recipe",
+        "is heart-healthy"
+    ],
+    "My grandparents friends are coming over for dinner, can I get an entree recipe that's easy on the teeth?": [
+        "is an entree recipe",
+        "is easy to chew"
+    ],
+    "I love the cheese filled potato bites served at Costco, can I make something similar but not as unhealthy?": [
+        "is a cheese-filled potato bites recipe",
+        "is a healthier version",
+        "is not as unhealthy as the one at Costco"
+    ],
+    "I don't do well with dairy, but I want a loaded nacho appetizer to watch the game with": [
+        "is an appetizer recipe",
+        "is dairy-free",
+        "is loaded with toppings"
+    ],
+    "I want a healthier breakfast omelette I can make quickly before work": [
+        "is a breakfast omelette recipe",
+        "is healthy",
+        "is quick to make"
+    ],
+    "What's a breakfast dish containing meat that I can make if I'm not in a rush?": [
+        "is a breakfast recipe",
+        "contains meat",
+        "is not time-sensitive"
+    ],
+    "Can you give me a vegan breakfast recipe that's full of nuts and fresh fruit?": [
+        "is a vegan breakfast recipe",
+        "is packed with nuts",
+        "includes fresh fruit"
+    ],
+    "Would I be able to get a breakfast recipe with seafood if eating dairy makes me sick and I only have a bbq to cook on?": [
+        "contains seafood",
+        "is a breakfast recipe",
+        "does not contain dairy",
+        "is cooked with a BBQ"
+    ],
+    "Can you give me a vegan all day breakfast recipe?": [
+        "is a vegan recipe",
+        "is for an all-day breakfast meal"
+    ],
+    "I feel like having a breakfast pie that has sausage": [
+        "is a breakfast pie recipe",
+        "contains sausage"
+    ],
+    "Can I get a breakfast that's easy to eat on-the-go, like a wrap?": [
+        "is a breakfast recipe",
+        "is portable",
+        "can be eaten on-the-go",
+        "is similar to a wrap"
+    ],
+    "Bacon is my favorite food for breakfast, and the consistency is really important to me. Would I be able to have a chewy bacon recipe?": [
+        "is a breakfast recipe",
+        "calls for chewy bacon",
+        "focuses on bacon consistency"
+    ],
+    "I can't eat lactose, and don't have a lot of time in the morning to make food - would I be able to have a quick breakfast recipe?": [
+        "is lactose-free",
+        "is quick to make",
+        "is a breakfast recipe"
+    ],
+    "I'm sick and tired of a traditional breakfast, would I be able to have a unique breakfast dish without eggs, bacon, or sausage?": [
+        "is a non-traditional breakfast recipe",
+        "does not contain eggs",
+        "does not contain bacon",
+        "does not contain sausage"
+    ],
+    "I'm focusing on eating healthy, can I get a hash brown recipe for brunch?": [
+        "is a brunch recipe",
+        "is healthy",
+        "contains hash browns"
+    ],
+    "I'm looking for a vegan egg dish and I also need to watch my cholesterol": [
+        "is a vegan recipe",
+        "is an egg dish",
+        "is heart-healthy / cholesterol-friendly"
+    ],
+    "What's a fried food that isn't too bad for my heart?": [
+        "is a fried food recipe",
+        "is heart-healthy"
+    ],
+    "Can I get a french toast recipe with fruit for breakfast?": [
+        "is a breakfast recipe",
+        "is a French toast recipe",
+        "contains fruit"
+    ],
+    "Can I have a brunch meal that's naturally sweet and doesn't take long to prepare?": [
+        "is a brunch meal",
+        "is naturally sweet",
+        "is quick to prepare"
+    ],
+    "I want to make an Asian vegetable platter for brunch with my friends, what are some good recipes?": [
+        "is a recipe for an Asian vegetable platter",
+        "is suitable for brunch",
+        "includes a variety of Asian vegetables"
+    ],
+    "Can I get a meat lovers soup with noodles for a hangover brunch?": [
+        "is a recipe for soup",
+        "contains meat",
+        "contains noodles",
+        "is suitable for a brunch"
+    ],
+    "I would like a vegan banana bread recipe for brunch, however I'm allergic to nuts and I don't like chocolate": [
+        "is a vegan recipe",
+        "is a banana bread recipe",
+        "does not contain nuts",
+        "does not contain chocolate"
+    ],
+    "I want a winter holiday drink but not something that's too sweet": [
+        "is a winter holiday drink",
+        "is not overly sweet"
+    ],
+    "Can I get a long island iced tea drink that isn't too sweet and has alcohol?": [
+        "is a recipe for Long Island Iced Tea",
+        "is not too sweet",
+        "contains alcohol"
+    ],
+    "I just quit drinking, can I get a non-alcoholic drink recipe?": [
+        "is a non-alcoholic drink recipe"
+    ],
+    "Can I get a recipe for a fruit drink with a kick and isn't too sugary?": [
+        "is a recipe for a fruit drink",
+        "has a kick",
+        "is not too sugary"
+    ],
+    "Can I get a coconut drink that is alcoholic?": [
+        "is a drink recipe",
+        "contains coconut",
+        "is alcoholic"
+    ],
+    "I'm really low on vitamins, can I have a drink that helps with that?": [
+        "is a drink recipe",
+        "is high in vitamins"
+    ],
+    "I haven't been eating many vegetables this winter, can I get a drink recipe that will help me up my vegetable consumption?": [
+        "is a drink recipe",
+        "contains vegetables"
+    ],
+    "I work a stressful job, can you recommend a strong coffee to help me power through the long hours?": [
+        "is a recipe for strong coffee"
+    ],
+    "Can I have a chocolate smoothie without any fruits, berries, or grains?": [
+        "is a chocolate smoothie recipe",
+        "does not contain fruits",
+        "does not contain berries",
+        "does not contain grains"
+    ],
+    "What's a good warm dish to make for my kids who are sick with the flu?": [
+        "is a warm dish",
+        "is comforting",
+        "is suitable for sick children"
+    ],
+    "Can I get a recipe for easy to make beef stew that won't affect my diet?": [
+        "is a recipe for beef stew",
+        "is diet-friendly",
+        "is easy to make"
+    ],
+    "Can I get a vegetable soup recipe that has some sort of meat?": [
+        "is a recipe for vegetable soup",
+        "contains meat"
+    ],
+    "Can I get a soup recipe that contains chicken or beef and other ingredients that aren't vegetables?": [
+        "is a soup recipe",
+        "contains chicken or beef",
+        "does not contain vegetables"
+    ],
+    "I want to make a healthy soup recipe for my family, what is a good recipe?": [
+        "is a soup recipe",
+        "is healthy",
+        "is suitable for a family"
+    ],
+    "I like to try flavors that seem weird and unconventional, would I be able to have a soup recipe with cheese and alcohol?": [
+        "is a soup recipe",
+        "contains cheese",
+        "contains alcohol"
+    ],
+    "Cheese makes me run to the washroom, so I'd like a shrimp soup recipe that isn't chowder": [
+        "is a shrimp soup recipe",
+        "does not contain cheese",
+        "is not a chowder"
+    ],
+    "I want a thick and spicy chicken soup recipe": [
+        "is a chicken soup recipe",
+        "is thick",
+        "is spicy"
+    ],
+    "Can I have a meat stew recipe I can put on the stove and leave for a long time?": [
+        "is a meat stew recipe",
+        "is suitable for long, slow cooking on the stove"
+    ],
+    "I want a recipe to make a lamb entree like I would be able to get at Milos greek restaurant": [
+        "is a lamb entree recipe",
+        "is inspired by Greek cuisine",
+        "is flavorful and elegant like a dish from Milos restaurant"
+    ],
+    "I would like to make a traditional chicken entree that's greek-inspired": [
+        "is a chicken entree",
+        "is Greek-inspired"
+    ],
+    "I can't handle spicy food and I would like a lemon chicken entree recipe": [
+        "is a lemon chicken entree recipe",
+        "is not spicy"
+    ],
+    "Can I get a scallop entree recipe that has bacon, and is similar to an entree you could get at red lobster?": [
+        "contain scallops",
+        "contain bacon",
+        "is a main entree recipe",
+        "is similar to a dish found at Red Lobster"
+    ],
+    "I originally bought some sashimi-grade fish to make sushi, but now I want to use it to make a different entree": [
+        "is not sushi",
+        "uses sashimi-grade fish"
+    ],
+    "What is a cod entree I could make that's not a soup or stew?": [
+        "is a cod entree",
+        "is not a soup or stew"
+    ],
+    "Can I get a healthy vegan burger entree?": [
+        "is a vegan recipe",
+        "is a burger entree",
+        "is healthy"
+    ],
+    "Can I get a fast, fried rice side dish recipe with seafood?": [
+        "is a side dish recipe",
+        "is fried rice",
+        "contains seafood",
+        "is quick to make"
+    ],
+    "Can I get a recipe for a baked potato that watches calories?": [
+        "is a baked potato recipe",
+        "is low in calories"
+    ],
+    "I want a recipe for sweet potato fries that isn't too bad for me but still has flavor": [
+        "is a recipe for sweet potato fries",
+        "is healthy",
+        "is flavorful"
+    ],
+    "Can I get a simple nut-free coleslaw side dish, nothing extra?": [
+        "is a nut-free coleslaw recipe",
+        "is a simple side dish recipe"
+    ],
+    "I want to make an egg-based finger food for a family reunion, can I have a good recipe?": [
+        "is a finger food recipe",
+        "is egg-based",
+        "is suitable for a family reunion"
+    ],
+    "I want to cook a chicken entree on my new grill.": [
+        "is a chicken entree recipe",
+        "is cooked on a grill"
+    ],
+    "I am allergic to nuts, what are some good braised pork entree recipes?": [
+        "is a braised pork entree recipe",
+        "does not contain nuts"
+    ],
+    "I have to use some eggs before they get bad, what's a noodle dish I can make?": [
+        "is a noodle dish recipe",
+        "contains eggs"
+    ],
+    "What is a side dish recipe that will set my mouth on fire?": [
+        "is a side dish",
+        "is very spicy"
+    ],
+    "What's a spicy dish for someone who has lower spice tolerance?": [
+        "is mild in spice"
+    ],
+    "Whats a marinade I could make to make my ribeye taste like a keg entree?": [
+        "is a marinade recipe",
+        "is for ribeye steak",
+        "has flavors similar to those of a keg entree"
+    ],
+    "What's a good broccoli side dish I can make for my young son who loves meat?": [
+        "is a broccoli side dish",
+        "contains meat"
+    ]
+}
