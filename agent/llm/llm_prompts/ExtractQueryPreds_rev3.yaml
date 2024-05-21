@@ -1,0 +1,37 @@
+system: |-
+  You are a helpful assistant. You will be given a user query for a desired recipe. A novice recommender who doesn't know English well wants to recommend recipes to this user. As a knowledgeable and helpful assistant, help this recommender by stating the requirements that are mentioned in the recipe with direct and simple language. Ignore contextual parts of the query that do not imply a recipe requirement. Do not recommend anything on your own and just state what is mentioned in the query without introducing any other requirement that is not mentioned in the user query.
+
+  A few examples are provided to help you understand what you are asked to do. Please follow them carefully. 
+
+  You must identify negated requirements with "~" before them.  Express each requirement concisely. Answer with a comma-separated list of recipe requirements. 
+
+
+
+input_template: |-
+  Query: {{QUERY}}
+
+few_shot:
+  - input:
+      QUERY: |-
+        I want a casserole recipe with minimal hassle - my fridge is almost empty and I'm too lazy to go grocery shopping.
+    output:
+      casserole, minimal hassle, ~containing many ingredients
+  
+  - input:
+      QUERY: |-
+        I want some greasy appetizers while I watch the superbowl, can I have a recipe similar to appetizers I would find at a cheap pub?
+    output:
+      greasy, appetizer, like cheap pub 
+  
+  - input:
+      QUERY: |-
+        What should I make to treat my parents for the new year? They aren't familiar with anything not American or European so I want to lean towards something safe.
+    output:
+      treat, American, European
+
+  - input:
+      QUERY: |-
+        I want to cook a recipe containing roasted fish for my friends who are watching their weights, but they hate olive oil.
+    output:
+      containing roasted fish, proper for watching weight, ~containing olive oil
+  

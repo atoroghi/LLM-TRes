@@ -1,0 +1,4002 @@
+[
+    {
+        "id": 0,
+        "body_text": "Each complex number is imaginary. Real numbers are not imaginary. Every natural number is an integer. Every prime number is a natural number. Each prime number is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 1,
+        "body_text": "Every real number is not imaginary. Each integer is a real number. Each natural number is not negative. Mersenne primes are prime numbers. Every Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 2,
+        "body_text": "Each invertebrate is an animal. Every arthropod is a protostome. Each arthropod is not bony. Each lepidopteran is an insect. Every whale is bony. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 3,
+        "body_text": "Each bilaterian is an animal. Vertebrates are chordates. Every mammal is furry. Carnivores are carnivorous. Felines are carnivores. Cats are felines. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 4,
+        "body_text": "Each invertebrate is an animal. Protostomes are invertebrates. Arthropods are protostomes. Arthropods are small. Every insect is six_legged. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 5,
+        "body_text": "Every animal is not unicellular. Each bilaterian is an animal. Each mammal is a vertebrate. Every mammal is not cold_blooded. Carnivores are carnivorous. Felines are carnivores. Every cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 6,
+        "body_text": "Each snake is not furry. Bilaterians are animals. Vertebrates are chordates. Mammals are furry. Carnivores are mammals. Felines are carnivores. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 7,
+        "body_text": "Each chordate is a bilaterian. Vertebrates are chordates. Each mammal is a vertebrate. Snakes are not furry. Felines are carnivores. Each cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 8,
+        "body_text": "Each invertebrate is an animal. Whales are not small. Insects are arthropods. Insects are six_legged. Each butterfly is a lepidopteran. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 9,
+        "body_text": "Natural numbers are integers. Each prime number is a natural number. Every prime number is prime. Mersenne primes are prime numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 10,
+        "body_text": "Each real number is real. Each natural number is an integer. Prime numbers are prime. Each imaginary number is not real. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 11,
+        "body_text": "Animals are not unicellular. Each protostome is an invertebrate. Every arthropod is a protostome. Every arthropod is segmented. Every insect is six_legged. Every lepidopteran is an insect. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 12,
+        "body_text": "Every chordate is a bilaterian. Each vertebrate is a chordate. Mammals are not cold_blooded. Carnivores are mammals. Each feline is a carnivore. Every cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 13,
+        "body_text": "Every real number is a number. Integers are real numbers. Each complex number is imaginary. Every prime number is a natural number. Every prime number is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 14,
+        "body_text": "Real numbers are numbers. Each integer is a real number. Each prime number is a natural number. Each Mersenne prime is a prime number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 15,
+        "body_text": "Each animal is multicellular. Protostomes are invertebrates. Insects are not eight_legged. Nematodes are not segmented. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 16,
+        "body_text": "Real numbers are numbers. Each real number is not imaginary. Every integer is a real number. Complex numbers are imaginary. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 17,
+        "body_text": "Every real number is real. Each integer is a real number. Natural numbers are not negative. Every Mersenne prime is a prime number. Imaginary numbers are not real. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 18,
+        "body_text": "Each animal is not unicellular. Invertebrates are animals. Each protostome is an invertebrate. Every arthropod is segmented. Every insect is an arthropod. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 19,
+        "body_text": "Animals are multicellular. Mammals are vertebrates. Each snake is not warm_blooded. Every mammal is warm_blooded. Every carnivore is carnivorous. Each feline is a carnivore. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 20,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Every integer is a real number. Natural numbers are positive. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 21,
+        "body_text": "Each real number is a number. Every integer is a real number. Every natural number is an integer. Prime numbers are natural numbers. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 22,
+        "body_text": "Every invertebrate is an animal. Each protostome is an invertebrate. Arthropods are protostomes. Each insect is an arthropod. Every insect is six_legged. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 23,
+        "body_text": "Complex numbers are imaginary. Every real number is a number. Each natural number is not negative. Every prime number is prime. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 24,
+        "body_text": "Each snake is cold_blooded. Animals are multicellular. Bilaterians are animals. Chordates are bilaterians. Carnivores are mammals. Carnivores are not herbivorous. Felines are carnivores. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 25,
+        "body_text": "Each animal is not unicellular. Whales are bony. Every arthropod is a protostome. Every insect is an arthropod. Each lepidopteran is an insect. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 26,
+        "body_text": "Real numbers are numbers. Every integer is a real number. Every natural number is not negative. Every prime number is a natural number. Every Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 27,
+        "body_text": "Every invertebrate is an animal. Protostomes are invertebrates. Each arthropod is a protostome. Nematodes are not segmented. Insects are arthropods. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 28,
+        "body_text": "Each animal is not unicellular. Every invertebrate is an animal. Insects are arthropods. Each insect is six_legged. Lepidopterans are insects. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 29,
+        "body_text": "Animals are multicellular. Each protostome is an invertebrate. Arthropods are protostomes. Arthropods are segmented. Every insect is an arthropod. Each insect is not eight_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 30,
+        "body_text": "Each animal is multicellular. Each bilaterian is an animal. Every snake is not furry. Each mammal is furry. Carnivores are mammals. Carnivores are carnivorous. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 31,
+        "body_text": "Every animal is not unicellular. Every protostome is an invertebrate. Arthropods are protostomes. Each lepidopteran is an insect. Every butterfly is a lepidopteran. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 32,
+        "body_text": "Every invertebrate is an animal. Whales are bony. Every arthropod is a protostome. Each insect is six_legged. Every butterfly is a lepidopteran. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 33,
+        "body_text": "Real numbers are numbers. Each real number is not imaginary. Integers are real numbers. Natural numbers are integers. Natural numbers are positive. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 34,
+        "body_text": "Each animal is not unicellular. Every snake is cold_blooded. Bilaterians are animals. Each mammal is not cold_blooded. Carnivores are mammals. Carnivores are not herbivorous. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 35,
+        "body_text": "Real numbers are not imaginary. Integers are real numbers. Every natural number is an integer. Prime numbers are natural numbers. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 36,
+        "body_text": "Each natural number is not negative. Each prime number is a natural number. Each prime number is not composite. Every Mersenne prime is a prime number. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 37,
+        "body_text": "Each real number is a number. Each natural number is an integer. Each natural number is positive. Every prime number is a natural number. Every Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 38,
+        "body_text": "Every whale is bony. Animals are not unicellular. Every arthropod is a protostome. Each insect is an arthropod. Every butterfly is a lepidopteran. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 39,
+        "body_text": "Each real number is not imaginary. Natural numbers are positive. Prime numbers are natural numbers. Every prime number is not composite. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 40,
+        "body_text": "Animals are multicellular. Each bilaterian is an animal. Every mammal is not cold_blooded. Each carnivore is a mammal. Every feline is a carnivore. Each tabby is a cat. Snakes are cold_blooded. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 41,
+        "body_text": "Each animal is multicellular. Each vertebrate is a chordate. Every snake is not warm_blooded. Carnivores are not herbivorous. Every feline is a carnivore. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 42,
+        "body_text": "Real numbers are real. Each integer is a real number. Each natural number is not negative. Every prime number is a natural number. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 43,
+        "body_text": "Real numbers are numbers. Every real number is not imaginary. Natural numbers are not negative. Each prime number is a natural number. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 44,
+        "body_text": "Each animal is multicellular. Bilaterians are animals. Chordates are bilaterians. Every vertebrate is a chordate. Mammals are furry. Carnivores are mammals. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 45,
+        "body_text": "Every real number is a number. Every real number is real. Every integer is a real number. Every natural number is an integer. Each imaginary number is not real. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 46,
+        "body_text": "Animals are multicellular. Every invertebrate is an animal. Protostomes are invertebrates. Arthropods are protostomes. Insects are arthropods. Insects are not eight_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 47,
+        "body_text": "Each real number is not imaginary. Natural numbers are integers. Prime numbers are natural numbers. Mersenne primes are prime numbers. Every complex number is imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 48,
+        "body_text": "Every complex number is imaginary. Each real number is not imaginary. Integers are real numbers. Natural numbers are positive. Every prime number is a natural number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 49,
+        "body_text": "Bilaterians are animals. Chordates are bilaterians. Carnivores are mammals. Every feline is a carnivore. Every cat is a feline. Every snake is not furry. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 50,
+        "body_text": "Each real number is a number. Every natural number is an integer. Natural numbers are positive. Each prime number is not composite. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 51,
+        "body_text": "Every real number is a number. Every real number is not imaginary. Every complex number is imaginary. Natural numbers are positive. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 52,
+        "body_text": "Each real number is not imaginary. Complex numbers are imaginary. Every natural number is not negative. Prime numbers are natural numbers. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 53,
+        "body_text": "Every nematode is not segmented. Animals are not unicellular. Invertebrates are animals. Arthropods are protostomes. Each arthropod is segmented. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 54,
+        "body_text": "Every protostome is an invertebrate. Arthropods are protostomes. Whales are not small. Arthropods are small. Each insect is an arthropod. Insects are six_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 55,
+        "body_text": "Integers are real numbers. Each natural number is positive. Prime numbers are natural numbers. Every prime number is not composite. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 56,
+        "body_text": "Every real number is a number. Real numbers are not imaginary. Every natural number is an integer. Natural numbers are positive. Every prime number is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 57,
+        "body_text": "Real numbers are not imaginary. Each integer is a real number. Prime numbers are natural numbers. Each prime number is prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 58,
+        "body_text": "Real numbers are numbers. Integers are real numbers. Every natural number is not negative. Every prime number is a natural number. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 59,
+        "body_text": "Every real number is a number. Integers are real numbers. Natural numbers are integers. Each natural number is not negative. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 60,
+        "body_text": "Animals are multicellular. Each chordate is a bilaterian. Mammals are vertebrates. Every carnivore is a mammal. Carnivores are not herbivorous. Each cat is a feline. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 61,
+        "body_text": "Animals are multicellular. Each invertebrate is an animal. Every protostome is an invertebrate. Every arthropod is a protostome. Whales are not small. Every insect is six_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 62,
+        "body_text": "Every bilaterian is an animal. Chordates are bilaterians. Every vertebrate is a chordate. Each mammal is furry. Carnivores are not herbivorous. Each feline is a carnivore. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 63,
+        "body_text": "Each bilaterian is an animal. Chordates are bilaterians. Every mammal is warm_blooded. Carnivores are mammals. Each carnivore is carnivorous. Each feline is a carnivore. Every snake is not warm_blooded. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 64,
+        "body_text": "Each real number is a number. Every real number is not imaginary. Every integer is a real number. Prime numbers are natural numbers. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 65,
+        "body_text": "Animals are multicellular. Bilaterians are animals. Chordates are bilaterians. Snakes are not furry. Each carnivore is carnivorous. Cats are felines. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 66,
+        "body_text": "Invertebrates are animals. Each protostome is an invertebrate. Every arthropod is small. Every insect is six_legged. Every painted lady is a butterfly. Whales are not small. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 67,
+        "body_text": "Every arthropod is a protostome. Each arthropod is segmented. Every insect is an arthropod. Nematodes are not segmented. Insects are not eight_legged. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 68,
+        "body_text": "Animals are multicellular. Every bilaterian is an animal. Each chordate is a bilaterian. Vertebrates are chordates. Carnivores are carnivorous. Snakes are cold_blooded. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 69,
+        "body_text": "Natural numbers are integers. Natural numbers are not negative. Prime numbers are natural numbers. Every Mersenne prime is a prime number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 70,
+        "body_text": "Every real number is a number. Integers are real numbers. Natural numbers are integers. Prime numbers are not composite. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 71,
+        "body_text": "Protostomes are invertebrates. Arthropods are protostomes. Every insect is an arthropod. Every insect is six_legged. Each whale is bony. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 72,
+        "body_text": "Animals are multicellular. Invertebrates are animals. Each arthropod is not bony. Insects are not eight_legged. Every lepidopteran is an insect. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 73,
+        "body_text": "Each real number is a number. Every real number is not imaginary. Each natural number is an integer. Each prime number is a natural number. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 74,
+        "body_text": "Each animal is multicellular. Every protostome is an invertebrate. Every arthropod is a protostome. Arthropods are not bony. Each insect is an arthropod. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 75,
+        "body_text": "Every animal is multicellular. Every protostome is an invertebrate. Arthropods are protostomes. Each insect is an arthropod. Lepidopterans are insects. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 76,
+        "body_text": "Animals are multicellular. Each bilaterian is an animal. Carnivores are mammals. Each carnivore is not herbivorous. Each cat is a feline. Snakes are cold_blooded. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 77,
+        "body_text": "Bilaterians are animals. Every mammal is a vertebrate. Each mammal is warm_blooded. Carnivores are mammals. Every carnivore is carnivorous. Felines are carnivores. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 78,
+        "body_text": "Each bilaterian is an animal. Every chordate is a bilaterian. Snakes are cold_blooded. Each vertebrate is a chordate. Each mammal is a vertebrate. Each mammal is not cold_blooded. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 79,
+        "body_text": "Each animal is not unicellular. Every protostome is an invertebrate. Arthropods are protostomes. Each arthropod is segmented. Every insect is an arthropod. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 80,
+        "body_text": "Animals are not unicellular. Bilaterians are animals. Mammals are vertebrates. Mammals are not cold_blooded. Each carnivore is a mammal. Felines are carnivores. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 81,
+        "body_text": "Animals are multicellular. Every chordate is a bilaterian. Mammals are vertebrates. Mammals are not cold_blooded. Every carnivore is not herbivorous. Felines are carnivores. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 82,
+        "body_text": "Each real number is a number. Complex numbers are imaginary. Every natural number is positive. Every prime number is not composite. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 83,
+        "body_text": "Animals are multicellular. Each invertebrate is an animal. Every protostome is an invertebrate. Each insect is an arthropod. Every lepidopteran is an insect. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 84,
+        "body_text": "Invertebrates are animals. Each protostome is an invertebrate. Arthropods are protostomes. Arthropods are not bony. Insects are arthropods. Every insect is six_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 85,
+        "body_text": "Each animal is multicellular. Every bilaterian is an animal. Every mammal is a vertebrate. Mammals are furry. Carnivores are not herbivorous. Each feline is a carnivore. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 86,
+        "body_text": "Real numbers are not imaginary. Every complex number is imaginary. Each natural number is an integer. Every natural number is not negative. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 87,
+        "body_text": "Each animal is not unicellular. Each snake is not furry. Every chordate is a bilaterian. Mammals are vertebrates. Every mammal is furry. Every carnivore is a mammal. Each carnivore is carnivorous. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 88,
+        "body_text": "Each animal is not unicellular. Whales are bony. Insects are arthropods. Each lepidopteran is an insect. Every butterfly is a lepidopteran. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 89,
+        "body_text": "Every animal is multicellular. Bilaterians are animals. Each mammal is a vertebrate. Carnivores are mammals. Carnivores are carnivorous. Every feline is a carnivore. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 90,
+        "body_text": "Real numbers are numbers. Each prime number is a natural number. Prime numbers are prime. Mersenne primes are prime numbers. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 91,
+        "body_text": "Each bilaterian is an animal. Snakes are cold_blooded. Vertebrates are chordates. Each mammal is a vertebrate. Every mammal is not cold_blooded. Felines are carnivores. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 92,
+        "body_text": "Every animal is not unicellular. Bilaterians are animals. Chordates are bilaterians. Vertebrates are chordates. Each carnivore is carnivorous. Each feline is a carnivore. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 93,
+        "body_text": "Animals are multicellular. Bilaterians are animals. Chordates are bilaterians. Mammals are vertebrates. Mammals are not cold_blooded. Every snake is cold_blooded. Carnivores are not herbivorous. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 94,
+        "body_text": "Animals are not unicellular. Invertebrates are animals. Protostomes are invertebrates. Each arthropod is a protostome. Insects are six_legged. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 95,
+        "body_text": "Each animal is not unicellular. Snakes are cold_blooded. Each vertebrate is a chordate. Each mammal is a vertebrate. Mammals are not cold_blooded. Every carnivore is a mammal. Carnivores are carnivorous. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 96,
+        "body_text": "Every animal is not unicellular. Bilaterians are animals. Each mammal is not cold_blooded. Snakes are cold_blooded. Carnivores are mammals. Carnivores are carnivorous. Each feline is a carnivore. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 97,
+        "body_text": "Each invertebrate is an animal. Arthropods are small. Whales are not small. Every insect is six_legged. Every butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 98,
+        "body_text": "Every animal is multicellular. Protostomes are invertebrates. Every whale is not small. Each insect is an arthropod. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 99,
+        "body_text": "Protostomes are invertebrates. Every arthropod is a protostome. Every arthropod is small. Insects are six_legged. Lepidopterans are insects. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 100,
+        "body_text": "Every animal is multicellular. Bilaterians are animals. Each vertebrate is a chordate. Every carnivore is a mammal. Each carnivore is carnivorous. Snakes are not warm_blooded. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 101,
+        "body_text": "Real numbers are real. Integers are real numbers. Natural numbers are integers. Each natural number is positive. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 102,
+        "body_text": "Every real number is not imaginary. Prime numbers are natural numbers. Complex numbers are imaginary. Every Mersenne prime is a prime number. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 103,
+        "body_text": "Every real number is not imaginary. Every integer is a real number. Each natural number is an integer. Each natural number is positive. Prime numbers are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 104,
+        "body_text": "Snakes are not warm_blooded. Chordates are bilaterians. Each vertebrate is a chordate. Mammals are vertebrates. Each mammal is warm_blooded. Every carnivore is carnivorous. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 105,
+        "body_text": "Each real number is a number. Integers are real numbers. Prime numbers are natural numbers. Each prime number is prime. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 106,
+        "body_text": "Every invertebrate is an animal. Protostomes are invertebrates. Insects are arthropods. Each insect is not eight_legged. Each whale is bony. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 107,
+        "body_text": "Integers are real numbers. Imaginary numbers are not real. Natural numbers are integers. Every prime number is prime. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 108,
+        "body_text": "Each bilaterian is an animal. Chordates are bilaterians. Vertebrates are chordates. Mammals are not cold_blooded. Each carnivore is a mammal. Each feline is a carnivore. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 109,
+        "body_text": "Invertebrates are animals. Protostomes are invertebrates. Whales are bony. Every insect is not eight_legged. Lepidopterans are insects. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 110,
+        "body_text": "Real numbers are not imaginary. Integers are real numbers. Natural numbers are integers. Natural numbers are not negative. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 111,
+        "body_text": "Natural numbers are integers. Each prime number is a natural number. Every Mersenne prime is a prime number. Mersenne primes are not composite. Each imaginary number is not real. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 112,
+        "body_text": "Real numbers are not imaginary. Natural numbers are positive. Prime numbers are natural numbers. Mersenne primes are prime numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 113,
+        "body_text": "Real numbers are real. Every natural number is positive. Prime numbers are not composite. Each imaginary number is not real. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 114,
+        "body_text": "Each real number is a number. Natural numbers are positive. Prime numbers are natural numbers. Prime numbers are prime. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 115,
+        "body_text": "Animals are multicellular. Every invertebrate is an animal. Protostomes are invertebrates. Arthropods are protostomes. Every insect is an arthropod. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 116,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Each prime number is a natural number. Each Mersenne prime is a prime number. Every complex number is imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 117,
+        "body_text": "Every real number is a number. Each real number is real. Prime numbers are natural numbers. Each Mersenne prime is a prime number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 118,
+        "body_text": "Each animal is not unicellular. Chordates are bilaterians. Snakes are not warm_blooded. Vertebrates are chordates. Carnivores are mammals. Felines are carnivores. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 119,
+        "body_text": "Real numbers are numbers. Each real number is not imaginary. Integers are real numbers. Natural numbers are positive. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 120,
+        "body_text": "Animals are not unicellular. Each bilaterian is an animal. Chordates are bilaterians. Mammals are warm_blooded. Every carnivore is a mammal. Cats are felines. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 121,
+        "body_text": "Each animal is multicellular. Every invertebrate is an animal. Each protostome is an invertebrate. Arthropods are protostomes. Each whale is not small. Each insect is six_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 122,
+        "body_text": "Integers are real numbers. Every imaginary number is not real. Natural numbers are integers. Every prime number is prime. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 123,
+        "body_text": "Every real number is real. Integers are real numbers. Natural numbers are integers. Prime numbers are not composite. Imaginary numbers are not real. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 124,
+        "body_text": "Each protostome is an invertebrate. Each arthropod is a protostome. Each arthropod is not bony. Insects are arthropods. Every butterfly is a lepidopteran. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 125,
+        "body_text": "Animals are not unicellular. Every arthropod is a protostome. Insects are arthropods. Insects are six_legged. Every lepidopteran is an insect. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 126,
+        "body_text": "Real numbers are not imaginary. Natural numbers are integers. Each prime number is prime. Mersenne primes are prime numbers. Complex numbers are imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 127,
+        "body_text": "Animals are not unicellular. Every bilaterian is an animal. Chordates are bilaterians. Carnivores are mammals. Each carnivore is carnivorous. Each feline is a carnivore. Every cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 128,
+        "body_text": "Every whale is not small. Protostomes are invertebrates. Arthropods are protostomes. Each insect is an arthropod. Insects are not eight_legged. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 129,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Every natural number is an integer. Natural numbers are positive. Every prime number is a natural number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 130,
+        "body_text": "Animals are not unicellular. Bilaterians are animals. Chordates are bilaterians. Each snake is cold_blooded. Each carnivore is carnivorous. Each feline is a carnivore. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 131,
+        "body_text": "Invertebrates are animals. Arthropods are protostomes. Whales are not small. Each insect is an arthropod. Each lepidopteran is an insect. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 132,
+        "body_text": "Animals are multicellular. Every invertebrate is an animal. Every insect is an arthropod. Every insect is six_legged. Lepidopterans are insects. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 133,
+        "body_text": "Each arthropod is a protostome. Arthropods are segmented. Each nematode is not segmented. Insects are arthropods. Lepidopterans are insects. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 134,
+        "body_text": "Every animal is not unicellular. Each bilaterian is an animal. Chordates are bilaterians. Snakes are not furry. Every mammal is a vertebrate. Every cat is a feline. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 135,
+        "body_text": "Each integer is a real number. Every natural number is positive. Prime numbers are natural numbers. Prime numbers are not composite. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 136,
+        "body_text": "Arthropods are protostomes. Arthropods are segmented. Insects are arthropods. Nematodes are not segmented. Lepidopterans are insects. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 137,
+        "body_text": "Each protostome is an invertebrate. Arthropods are not bony. Every whale is bony. Lepidopterans are insects. Each butterfly is a lepidopteran. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 138,
+        "body_text": "Animals are multicellular. Protostomes are invertebrates. Every insect is an arthropod. Insects are not eight_legged. Every lepidopteran is an insect. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 139,
+        "body_text": "Every animal is multicellular. Each chordate is a bilaterian. Mammals are vertebrates. Carnivores are mammals. Each carnivore is not herbivorous. Each cat is a feline. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 140,
+        "body_text": "Each whale is bony. Every protostome is an invertebrate. Arthropods are protostomes. Insects are arthropods. Each insect is not eight_legged. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 141,
+        "body_text": "Real numbers are not imaginary. Each natural number is not negative. Each prime number is a natural number. Complex numbers are imaginary. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 142,
+        "body_text": "Every real number is a number. Every imaginary number is not real. Every integer is a real number. Prime numbers are natural numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 143,
+        "body_text": "Every complex number is imaginary. Real numbers are not imaginary. Integers are real numbers. Mersenne primes are prime numbers. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 144,
+        "body_text": "Every animal is multicellular. Each protostome is an invertebrate. Arthropods are protostomes. Each arthropod is not bony. Every insect is six_legged. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 145,
+        "body_text": "Animals are multicellular. Every bilaterian is an animal. Each snake is cold_blooded. Mammals are vertebrates. Every mammal is not cold_blooded. Each feline is a carnivore. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 146,
+        "body_text": "Each whale is bony. Insects are arthropods. Each insect is not eight_legged. Lepidopterans are insects. Each butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 147,
+        "body_text": "Integers are real numbers. Natural numbers are integers. Every natural number is not negative. Every prime number is prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 148,
+        "body_text": "Each invertebrate is an animal. Each whale is bony. Each arthropod is a protostome. Arthropods are not bony. Every insect is an arthropod. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 149,
+        "body_text": "Bilaterians are animals. Each chordate is a bilaterian. Every mammal is a vertebrate. Each mammal is not cold_blooded. Carnivores are mammals. Carnivores are carnivorous. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 150,
+        "body_text": "Every real number is a number. Each natural number is an integer. Prime numbers are natural numbers. Every prime number is prime. Complex numbers are imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 151,
+        "body_text": "Each arthropod is a protostome. Arthropods are segmented. Each nematode is not segmented. Insects are arthropods. Each lepidopteran is an insect. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 152,
+        "body_text": "Real numbers are numbers. Each real number is not imaginary. Prime numbers are natural numbers. Every prime number is not composite. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 153,
+        "body_text": "Each real number is a number. Every real number is real. Prime numbers are natural numbers. Every prime number is not composite. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 154,
+        "body_text": "Every real number is a number. Real numbers are real. Each prime number is a natural number. Every imaginary number is not real. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 155,
+        "body_text": "Each complex number is imaginary. Natural numbers are integers. Every natural number is positive. Prime numbers are natural numbers. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 156,
+        "body_text": "Each real number is a number. Integers are real numbers. Prime numbers are natural numbers. Prime numbers are prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 157,
+        "body_text": "Animals are not unicellular. Protostomes are invertebrates. Each arthropod is a protostome. Insects are not eight_legged. Butterflies are lepidopterans. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 158,
+        "body_text": "Each bilaterian is an animal. Each vertebrate is a chordate. Each mammal is warm_blooded. Each carnivore is not herbivorous. Every feline is a carnivore. Cats are felines. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 159,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Each natural number is an integer. Each prime number is prime. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 160,
+        "body_text": "Bilaterians are animals. Every chordate is a bilaterian. Vertebrates are chordates. Mammals are vertebrates. Each carnivore is carnivorous. Each feline is a carnivore. Every cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 161,
+        "body_text": "Every real number is a number. Natural numbers are positive. Prime numbers are not composite. Mersenne primes are prime numbers. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 162,
+        "body_text": "Each real number is a number. Real numbers are not imaginary. Integers are real numbers. Every complex number is imaginary. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 163,
+        "body_text": "Every real number is not imaginary. Natural numbers are integers. Prime numbers are natural numbers. Mersenne primes are prime numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 164,
+        "body_text": "Chordates are bilaterians. Vertebrates are chordates. Mammals are warm_blooded. Carnivores are carnivorous. Each feline is a carnivore. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 165,
+        "body_text": "Every vertebrate is a chordate. Each mammal is a vertebrate. Carnivores are mammals. Each carnivore is carnivorous. Felines are carnivores. Every cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 166,
+        "body_text": "Every imaginary number is not real. Each integer is a real number. Prime numbers are natural numbers. Prime numbers are not composite. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 167,
+        "body_text": "Integers are real numbers. Natural numbers are positive. Prime numbers are prime. Each Mersenne prime is a prime number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 168,
+        "body_text": "Each natural number is an integer. Each natural number is not negative. Prime numbers are natural numbers. Complex numbers are imaginary. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 169,
+        "body_text": "Real numbers are numbers. Real numbers are real. Each prime number is not composite. Every Mersenne prime is a prime number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 170,
+        "body_text": "Each integer is a real number. Each natural number is an integer. Each prime number is a natural number. Complex numbers are imaginary. Every prime number is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 171,
+        "body_text": "Each animal is not unicellular. Protostomes are invertebrates. Every arthropod is a protostome. Arthropods are not bony. Insects are arthropods. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 172,
+        "body_text": "Integers are real numbers. Every natural number is an integer. Each prime number is prime. Mersenne primes are prime numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 173,
+        "body_text": "Snakes are not warm_blooded. Each bilaterian is an animal. Vertebrates are chordates. Mammals are warm_blooded. Every carnivore is a mammal. Every carnivore is not herbivorous. Every feline is a carnivore. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 174,
+        "body_text": "Each animal is multicellular. Protostomes are invertebrates. Each arthropod is not bony. Each insect is an arthropod. Lepidopterans are insects. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 175,
+        "body_text": "Each protostome is an invertebrate. Whales are not small. Arthropods are protostomes. Arthropods are small. Every lepidopteran is an insect. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 176,
+        "body_text": "Integers are real numbers. Natural numbers are integers. Prime numbers are natural numbers. Each prime number is not composite. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 177,
+        "body_text": "Imaginary numbers are not real. Each natural number is an integer. Every prime number is a natural number. Prime numbers are not composite. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 178,
+        "body_text": "Every real number is a number. Real numbers are not imaginary. Each prime number is a natural number. Each prime number is prime. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 179,
+        "body_text": "Real numbers are numbers. Complex numbers are imaginary. Each natural number is positive. Every Mersenne prime is a prime number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 180,
+        "body_text": "Real numbers are real. Every integer is a real number. Prime numbers are natural numbers. Each prime number is not composite. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 181,
+        "body_text": "Every real number is a number. Every integer is a real number. Every complex number is imaginary. Each prime number is a natural number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 182,
+        "body_text": "Every animal is multicellular. Snakes are not warm_blooded. Mammals are vertebrates. Each mammal is warm_blooded. Each carnivore is a mammal. Each carnivore is carnivorous. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 183,
+        "body_text": "Real numbers are real. Integers are real numbers. Every prime number is a natural number. Each prime number is not composite. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 184,
+        "body_text": "Invertebrates are animals. Nematodes are not segmented. Arthropods are protostomes. Arthropods are segmented. Each insect is six_legged. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 185,
+        "body_text": "Whales are not small. Every protostome is an invertebrate. Each insect is six_legged. Each lepidopteran is an insect. Each butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 186,
+        "body_text": "Every animal is multicellular. Each bilaterian is an animal. Mammals are vertebrates. Every carnivore is a mammal. Felines are carnivores. Every cat is a feline. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 187,
+        "body_text": "Arthropods are not bony. Insects are arthropods. Every insect is not eight_legged. Each lepidopteran is an insect. Whales are bony. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 188,
+        "body_text": "Every invertebrate is an animal. Each nematode is not segmented. Each insect is an arthropod. Insects are not eight_legged. Each lepidopteran is an insect. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 189,
+        "body_text": "Every animal is multicellular. Invertebrates are animals. Each insect is an arthropod. Every insect is not eight_legged. Lepidopterans are insects. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 190,
+        "body_text": "Complex numbers are imaginary. Each real number is a number. Natural numbers are not negative. Each prime number is a natural number. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 191,
+        "body_text": "Animals are multicellular. Each bilaterian is an animal. Every mammal is a vertebrate. Mammals are not cold_blooded. Carnivores are mammals. Felines are carnivores. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 192,
+        "body_text": "Animals are not unicellular. Whales are bony. Arthropods are protostomes. Arthropods are not bony. Insects are not eight_legged. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 193,
+        "body_text": "Every integer is a real number. Every natural number is an integer. Prime numbers are natural numbers. Complex numbers are imaginary. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 194,
+        "body_text": "Animals are multicellular. Protostomes are invertebrates. Each arthropod is a protostome. Every arthropod is not bony. Every insect is six_legged. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 195,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Complex numbers are imaginary. Prime numbers are not composite. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 196,
+        "body_text": "Every animal is not unicellular. Invertebrates are animals. Every arthropod is a protostome. Insects are not eight_legged. Lepidopterans are insects. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 197,
+        "body_text": "Real numbers are numbers. Each integer is a real number. Every natural number is not negative. Every prime number is not composite. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 198,
+        "body_text": "Protostomes are invertebrates. Arthropods are protostomes. Each arthropod is small. Each insect is not eight_legged. Lepidopterans are insects. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 199,
+        "body_text": "Every snake is not warm_blooded. Bilaterians are animals. Each mammal is a vertebrate. Every mammal is warm_blooded. Each carnivore is a mammal. Each carnivore is carnivorous. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 200,
+        "body_text": "Real numbers are numbers. Every integer is a real number. Every prime number is a natural number. Mersenne primes are prime numbers. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 201,
+        "body_text": "Each animal is multicellular. Every bilaterian is an animal. Snakes are not warm_blooded. Chordates are bilaterians. Every mammal is warm_blooded. Cats are felines. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 202,
+        "body_text": "Bilaterians are animals. Chordates are bilaterians. Mammals are not cold_blooded. Each carnivore is a mammal. Each feline is a carnivore. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 203,
+        "body_text": "Bilaterians are animals. Chordates are bilaterians. Every snake is cold_blooded. Every mammal is not cold_blooded. Every carnivore is a mammal. Each feline is a carnivore. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 204,
+        "body_text": "Each real number is a number. Every real number is not imaginary. Every natural number is an integer. Prime numbers are prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 205,
+        "body_text": "Every animal is not unicellular. Every whale is bony. Every protostome is an invertebrate. Each arthropod is not bony. Insects are not eight_legged. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 206,
+        "body_text": "Invertebrates are animals. Each arthropod is a protostome. Every insect is an arthropod. Lepidopterans are insects. Every butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 207,
+        "body_text": "Real numbers are numbers. Each natural number is an integer. Prime numbers are not composite. Every Mersenne prime is a prime number. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 208,
+        "body_text": "Protostomes are invertebrates. Whales are not small. Every arthropod is small. Insects are arthropods. Each butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 209,
+        "body_text": "Invertebrates are animals. Every protostome is an invertebrate. Insects are arthropods. Lepidopterans are insects. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 210,
+        "body_text": "Every imaginary number is not real. Real numbers are real. Every integer is a real number. Natural numbers are not negative. Each prime number is a natural number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 211,
+        "body_text": "Invertebrates are animals. Arthropods are protostomes. Arthropods are not bony. Insects are not eight_legged. Each lepidopteran is an insect. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 212,
+        "body_text": "Every animal is not unicellular. Every protostome is an invertebrate. Each arthropod is a protostome. Each arthropod is segmented. Insects are arthropods. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 213,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Integers are real numbers. Natural numbers are integers. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 214,
+        "body_text": "Every real number is a number. Real numbers are not imaginary. Natural numbers are integers. Every prime number is not composite. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 215,
+        "body_text": "Animals are not unicellular. Invertebrates are animals. Protostomes are invertebrates. Arthropods are protostomes. Insects are arthropods. Each whale is bony. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 216,
+        "body_text": "Chordates are bilaterians. Mammals are vertebrates. Mammals are warm_blooded. Every carnivore is a mammal. Carnivores are not herbivorous. Every feline is a carnivore. Snakes are not warm_blooded. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 217,
+        "body_text": "Imaginary numbers are not real. Natural numbers are integers. Prime numbers are natural numbers. Prime numbers are prime. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 218,
+        "body_text": "Each real number is not imaginary. Natural numbers are positive. Every prime number is a natural number. Prime numbers are prime. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 219,
+        "body_text": "Every animal is multicellular. Each protostome is an invertebrate. Every arthropod is not bony. Each whale is bony. Every insect is six_legged. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 220,
+        "body_text": "Animals are multicellular. Snakes are cold_blooded. Each chordate is a bilaterian. Mammals are not cold_blooded. Each feline is a carnivore. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 221,
+        "body_text": "Every animal is multicellular. Invertebrates are animals. Protostomes are invertebrates. Insects are not eight_legged. Lepidopterans are insects. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 222,
+        "body_text": "Every whale is bony. Arthropods are protostomes. Arthropods are not bony. Each insect is not eight_legged. Every lepidopteran is an insect. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 223,
+        "body_text": "Every bilaterian is an animal. Each chordate is a bilaterian. Each vertebrate is a chordate. Mammals are vertebrates. Carnivores are mammals. Carnivores are not herbivorous. Snakes are cold_blooded. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 224,
+        "body_text": "Every invertebrate is an animal. Protostomes are invertebrates. Insects are arthropods. Insects are six_legged. Lepidopterans are insects. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 225,
+        "body_text": "Whales are not small. Arthropods are protostomes. Arthropods are small. Every insect is an arthropod. Every insect is not eight_legged. Each lepidopteran is an insect. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 226,
+        "body_text": "Every mammal is a vertebrate. Every mammal is not cold_blooded. Every carnivore is a mammal. Snakes are cold_blooded. Each feline is a carnivore. Cats are felines. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 227,
+        "body_text": "Protostomes are invertebrates. Arthropods are protostomes. Insects are not eight_legged. Lepidopterans are insects. Every butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 228,
+        "body_text": "Every real number is a number. Every real number is real. Each integer is a real number. Each natural number is an integer. Each Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 229,
+        "body_text": "Every animal is multicellular. Arthropods are protostomes. Arthropods are not bony. Insects are arthropods. Lepidopterans are insects. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 230,
+        "body_text": "Every real number is a number. Real numbers are not imaginary. Integers are real numbers. Every natural number is an integer. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 231,
+        "body_text": "Every animal is not unicellular. Bilaterians are animals. Every chordate is a bilaterian. Vertebrates are chordates. Mammals are vertebrates. Felines are carnivores. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 232,
+        "body_text": "Animals are multicellular. Each invertebrate is an animal. Every arthropod is not bony. Each lepidopteran is an insect. Every butterfly is a lepidopteran. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 233,
+        "body_text": "Animals are multicellular. Each bilaterian is an animal. Chordates are bilaterians. Snakes are not warm_blooded. Every carnivore is a mammal. Each carnivore is not herbivorous. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 234,
+        "body_text": "Each arthropod is a protostome. Insects are six_legged. Whales are bony. Lepidopterans are insects. Butterflies are lepidopterans. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 235,
+        "body_text": "Each imaginary number is not real. Natural numbers are positive. Prime numbers are prime. Each Mersenne prime is a prime number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 236,
+        "body_text": "Each real number is a number. Each natural number is not negative. Every prime number is a natural number. Complex numbers are imaginary. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 237,
+        "body_text": "Every animal is not unicellular. Invertebrates are animals. Protostomes are invertebrates. Lepidopterans are insects. Each painted lady is a butterfly. Whales are bony. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 238,
+        "body_text": "Integers are real numbers. Every complex number is imaginary. Each prime number is prime. Each Mersenne prime is a prime number. Each Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 239,
+        "body_text": "Each animal is multicellular. Invertebrates are animals. Each protostome is an invertebrate. Whales are bony. Every insect is six_legged. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 240,
+        "body_text": "Each natural number is an integer. Every natural number is positive. Prime numbers are natural numbers. Mersenne primes are prime numbers. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 241,
+        "body_text": "Invertebrates are animals. Arthropods are small. Insects are arthropods. Insects are six_legged. Each butterfly is a lepidopteran. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 242,
+        "body_text": "Invertebrates are animals. Each protostome is an invertebrate. Insects are arthropods. Every whale is bony. Every lepidopteran is an insect. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 243,
+        "body_text": "Real numbers are numbers. Integers are real numbers. Imaginary numbers are not real. Each natural number is an integer. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 244,
+        "body_text": "Chordates are bilaterians. Vertebrates are chordates. Each mammal is a vertebrate. Every mammal is not cold_blooded. Carnivores are mammals. Each feline is a carnivore. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 245,
+        "body_text": "Animals are multicellular. Bilaterians are animals. Each vertebrate is a chordate. Carnivores are mammals. Every carnivore is not herbivorous. Each feline is a carnivore. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 246,
+        "body_text": "Arthropods are protostomes. Arthropods are segmented. Every nematode is not segmented. Lepidopterans are insects. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 247,
+        "body_text": "Every animal is not unicellular. Bilaterians are animals. Each chordate is a bilaterian. Carnivores are mammals. Each carnivore is not herbivorous. Felines are carnivores. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 248,
+        "body_text": "Every real number is a number. Real numbers are real. Natural numbers are not negative. Prime numbers are prime. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 249,
+        "body_text": "Each animal is not unicellular. Each bilaterian is an animal. Every snake is not warm_blooded. Each mammal is warm_blooded. Each carnivore is a mammal. Each cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 250,
+        "body_text": "Whales are bony. Every protostome is an invertebrate. Each insect is an arthropod. Insects are six_legged. Lepidopterans are insects. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 251,
+        "body_text": "Every arthropod is a protostome. Insects are arthropods. Insects are six_legged. Lepidopterans are insects. Every butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 252,
+        "body_text": "Real numbers are not imaginary. Natural numbers are integers. Natural numbers are not negative. Every complex number is imaginary. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 253,
+        "body_text": "Every invertebrate is an animal. Every protostome is an invertebrate. Insects are six_legged. Lepidopterans are insects. Every butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 254,
+        "body_text": "Every animal is multicellular. Every snake is cold_blooded. Mammals are vertebrates. Mammals are not cold_blooded. Carnivores are carnivorous. Each cat is a feline. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 255,
+        "body_text": "Whales are not small. Each animal is multicellular. Invertebrates are animals. Protostomes are invertebrates. Arthropods are small. Insects are six_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 256,
+        "body_text": "Each integer is a real number. Natural numbers are integers. Each prime number is a natural number. Every Mersenne prime is a prime number. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 257,
+        "body_text": "Real numbers are not imaginary. Every natural number is not negative. Prime numbers are natural numbers. Every Mersenne prime is a prime number. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 258,
+        "body_text": "Real numbers are not imaginary. Integers are real numbers. Natural numbers are integers. Natural numbers are positive. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 259,
+        "body_text": "Every real number is a number. Each real number is not imaginary. Natural numbers are integers. Each prime number is prime. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 260,
+        "body_text": "Nematodes are not segmented. Each animal is multicellular. Arthropods are protostomes. Insects are arthropods. Insects are not eight_legged. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 261,
+        "body_text": "Every real number is a number. Real numbers are not imaginary. Every integer is a real number. Complex numbers are imaginary. Every Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 262,
+        "body_text": "Each complex number is imaginary. Real numbers are not imaginary. Every integer is a real number. Natural numbers are integers. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 263,
+        "body_text": "Each real number is a number. Each real number is real. Every integer is a real number. Natural numbers are positive. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 264,
+        "body_text": "Every animal is not unicellular. Protostomes are invertebrates. Every insect is an arthropod. Insects are not eight_legged. Every lepidopteran is an insect. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 265,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Each natural number is positive. Every complex number is imaginary. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 266,
+        "body_text": "Each real number is real. Every integer is a real number. Natural numbers are positive. Prime numbers are natural numbers. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 267,
+        "body_text": "Every protostome is an invertebrate. Each arthropod is a protostome. Arthropods are small. Each insect is an arthropod. Each insect is not eight_legged. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 268,
+        "body_text": "Real numbers are real. Integers are real numbers. Natural numbers are integers. Prime numbers are not composite. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 269,
+        "body_text": "Every real number is a number. Each natural number is an integer. Every natural number is positive. Each prime number is a natural number. Complex numbers are imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 270,
+        "body_text": "Each whale is bony. Each arthropod is a protostome. Arthropods are not bony. Every lepidopteran is an insect. Butterflies are lepidopterans. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 271,
+        "body_text": "Every real number is a number. Each imaginary number is not real. Real numbers are real. Natural numbers are integers. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 272,
+        "body_text": "Each chordate is a bilaterian. Mammals are vertebrates. Each carnivore is a mammal. Felines are carnivores. Cats are felines. Tabbies are cats. Snakes are not furry. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 273,
+        "body_text": "Every integer is a real number. Every natural number is not negative. Every prime number is a natural number. Mersenne primes are prime numbers. Each Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 274,
+        "body_text": "Every bilaterian is an animal. Chordates are bilaterians. Each mammal is a vertebrate. Carnivores are mammals. Carnivores are carnivorous. Snakes are not furry. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 275,
+        "body_text": "Animals are multicellular. Each protostome is an invertebrate. Arthropods are segmented. Every insect is an arthropod. Insects are not eight_legged. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 276,
+        "body_text": "Animals are not unicellular. Every invertebrate is an animal. Every protostome is an invertebrate. Each arthropod is a protostome. Each insect is an arthropod. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 277,
+        "body_text": "Real numbers are numbers. Real numbers are real. Imaginary numbers are not real. Every natural number is an integer. Each prime number is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 278,
+        "body_text": "Each animal is multicellular. Each invertebrate is an animal. Arthropods are protostomes. Each arthropod is not bony. Each lepidopteran is an insect. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 279,
+        "body_text": "Every bilaterian is an animal. Chordates are bilaterians. Every snake is cold_blooded. Mammals are vertebrates. Each carnivore is a mammal. Each feline is a carnivore. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 280,
+        "body_text": "Real numbers are not imaginary. Each natural number is an integer. Natural numbers are not negative. Every prime number is a natural number. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 281,
+        "body_text": "Every whale is not small. Protostomes are invertebrates. Arthropods are protostomes. Each insect is an arthropod. Each insect is not eight_legged. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 282,
+        "body_text": "Imaginary numbers are not real. Each natural number is an integer. Natural numbers are positive. Each Mersenne prime is a prime number. Every Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 283,
+        "body_text": "Animals are multicellular. Every chordate is a bilaterian. Each mammal is not cold_blooded. Carnivores are mammals. Each feline is a carnivore. Each cat is a feline. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 284,
+        "body_text": "Every animal is not unicellular. Each bilaterian is an animal. Each vertebrate is a chordate. Every mammal is furry. Carnivores are mammals. Each carnivore is carnivorous. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 285,
+        "body_text": "Every integer is a real number. Each natural number is an integer. Each natural number is positive. Every prime number is not composite. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 286,
+        "body_text": "Each animal is multicellular. Every whale is not small. Each arthropod is a protostome. Insects are arthropods. Each lepidopteran is an insect. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 287,
+        "body_text": "Every real number is a number. Natural numbers are integers. Each natural number is not negative. Imaginary numbers are not real. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 288,
+        "body_text": "Bilaterians are animals. Every chordate is a bilaterian. Each vertebrate is a chordate. Mammals are vertebrates. Each carnivore is not herbivorous. Felines are carnivores. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 289,
+        "body_text": "Protostomes are invertebrates. Every arthropod is a protostome. Arthropods are not bony. Whales are bony. Insects are six_legged. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 290,
+        "body_text": "Natural numbers are integers. Natural numbers are not negative. Prime numbers are natural numbers. Prime numbers are prime. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 291,
+        "body_text": "Every nematode is not segmented. Invertebrates are animals. Arthropods are protostomes. Every insect is an arthropod. Insects are not eight_legged. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 292,
+        "body_text": "Vertebrates are chordates. Mammals are warm_blooded. Every carnivore is not herbivorous. Felines are carnivores. Cats are felines. Tabbies are cats. Snakes are not warm_blooded. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 293,
+        "body_text": "Real numbers are numbers. Every real number is not imaginary. Each integer is a real number. Prime numbers are natural numbers. Every prime number is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 294,
+        "body_text": "Bilaterians are animals. Snakes are not warm_blooded. Every vertebrate is a chordate. Every mammal is warm_blooded. Each carnivore is a mammal. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 295,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Every natural number is an integer. Natural numbers are not negative. Each prime number is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 296,
+        "body_text": "Each real number is not imaginary. Each complex number is imaginary. Each natural number is positive. Each prime number is prime. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 297,
+        "body_text": "Integers are real numbers. Every natural number is an integer. Natural numbers are positive. Every complex number is imaginary. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 298,
+        "body_text": "Bilaterians are animals. Chordates are bilaterians. Each mammal is not cold_blooded. Carnivores are mammals. Carnivores are carnivorous. Felines are carnivores. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 299,
+        "body_text": "Each real number is not imaginary. Integers are real numbers. Natural numbers are integers. Every Mersenne prime is a prime number. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 300,
+        "body_text": "Integers are real numbers. Natural numbers are integers. Every prime number is not composite. Mersenne primes are prime numbers. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 301,
+        "body_text": "Real numbers are numbers. Each real number is real. Each natural number is an integer. Natural numbers are not negative. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 302,
+        "body_text": "Whales are bony. Invertebrates are animals. Arthropods are not bony. Insects are six_legged. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 303,
+        "body_text": "Integers are real numbers. Natural numbers are integers. Every prime number is a natural number. Prime numbers are not composite. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 304,
+        "body_text": "Animals are multicellular. Invertebrates are animals. Arthropods are segmented. Every insect is an arthropod. Each lepidopteran is an insect. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 305,
+        "body_text": "Real numbers are numbers. Natural numbers are integers. Natural numbers are not negative. Prime numbers are natural numbers. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 306,
+        "body_text": "Animals are not unicellular. Protostomes are invertebrates. Every arthropod is a protostome. Arthropods are not bony. Every whale is bony. Insects are arthropods. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 307,
+        "body_text": "Animals are not unicellular. Invertebrates are animals. Each protostome is an invertebrate. Each whale is not small. Insects are arthropods. Insects are six_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 308,
+        "body_text": "Animals are not unicellular. Every invertebrate is an animal. Each arthropod is a protostome. Whales are not small. Each insect is an arthropod. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 309,
+        "body_text": "Each animal is not unicellular. Chordates are bilaterians. Snakes are not furry. Mammals are furry. Each carnivore is a mammal. Each feline is a carnivore. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 310,
+        "body_text": "Each real number is real. Natural numbers are integers. Natural numbers are positive. Each prime number is prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 311,
+        "body_text": "Each protostome is an invertebrate. Arthropods are protostomes. Every insect is an arthropod. Each whale is bony. Each butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 312,
+        "body_text": "Every complex number is imaginary. Every real number is not imaginary. Integers are real numbers. Natural numbers are positive. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 313,
+        "body_text": "Bilaterians are animals. Every vertebrate is a chordate. Every carnivore is a mammal. Each carnivore is not herbivorous. Each feline is a carnivore. Each cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 314,
+        "body_text": "Invertebrates are animals. Arthropods are not bony. Every insect is an arthropod. Each lepidopteran is an insect. Butterflies are lepidopterans. Every whale is bony. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 315,
+        "body_text": "Imaginary numbers are not real. Real numbers are numbers. Every real number is real. Every prime number is a natural number. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 316,
+        "body_text": "Real numbers are numbers. Each integer is a real number. Every prime number is a natural number. Prime numbers are not composite. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 317,
+        "body_text": "Animals are multicellular. Each whale is not small. Invertebrates are animals. Every arthropod is small. Each insect is six_legged. Each lepidopteran is an insect. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 318,
+        "body_text": "Real numbers are numbers. Real numbers are real. Natural numbers are integers. Every prime number is a natural number. Prime numbers are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 319,
+        "body_text": "Each real number is a number. Each complex number is imaginary. Every prime number is a natural number. Each Mersenne prime is a prime number. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 320,
+        "body_text": "Each animal is not unicellular. Snakes are cold_blooded. Chordates are bilaterians. Each carnivore is a mammal. Carnivores are not herbivorous. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 321,
+        "body_text": "Each real number is a number. Complex numbers are imaginary. Integers are real numbers. Each prime number is a natural number. Every prime number is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 322,
+        "body_text": "Bilaterians are animals. Vertebrates are chordates. Mammals are warm_blooded. Every carnivore is not herbivorous. Snakes are not warm_blooded. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 323,
+        "body_text": "Arthropods are protostomes. Each insect is an arthropod. Every whale is bony. Insects are not eight_legged. Each lepidopteran is an insect. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 324,
+        "body_text": "Each real number is not imaginary. Complex numbers are imaginary. Natural numbers are not negative. Prime numbers are not composite. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 325,
+        "body_text": "Real numbers are numbers. Every real number is real. Every natural number is not negative. Every prime number is a natural number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 326,
+        "body_text": "Animals are not unicellular. Protostomes are invertebrates. Insects are arthropods. Insects are six_legged. Whales are bony. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 327,
+        "body_text": "Integers are real numbers. Each natural number is positive. Prime numbers are prime. Each Mersenne prime is a prime number. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 328,
+        "body_text": "Each animal is multicellular. Invertebrates are animals. Protostomes are invertebrates. Each arthropod is a protostome. Lepidopterans are insects. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 329,
+        "body_text": "Every integer is a real number. Every natural number is an integer. Every natural number is positive. Prime numbers are prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 330,
+        "body_text": "Each arthropod is segmented. Each nematode is not segmented. Each insect is six_legged. Every lepidopteran is an insect. Every butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 331,
+        "body_text": "Animals are multicellular. Each arthropod is a protostome. Arthropods are segmented. Nematodes are not segmented. Insects are arthropods. Each insect is not eight_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 332,
+        "body_text": "Each integer is a real number. Every natural number is an integer. Every complex number is imaginary. Every prime number is prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 333,
+        "body_text": "Each real number is a number. Integers are real numbers. Prime numbers are natural numbers. Prime numbers are not composite. Complex numbers are imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 334,
+        "body_text": "Every real number is a number. Every real number is not imaginary. Every integer is a real number. Every prime number is a natural number. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 335,
+        "body_text": "Real numbers are numbers. Natural numbers are integers. Prime numbers are prime. Mersenne primes are prime numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 336,
+        "body_text": "Every animal is not unicellular. Invertebrates are animals. Arthropods are not bony. Insects are arthropods. Insects are six_legged. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 337,
+        "body_text": "Integers are real numbers. Natural numbers are integers. Prime numbers are natural numbers. Every prime number is prime. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 338,
+        "body_text": "Each invertebrate is an animal. Each protostome is an invertebrate. Arthropods are protostomes. Arthropods are small. Lepidopterans are insects. Each whale is not small. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 339,
+        "body_text": "Each real number is not imaginary. Natural numbers are positive. Prime numbers are natural numbers. Every prime number is prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 340,
+        "body_text": "Animals are multicellular. Protostomes are invertebrates. Each arthropod is not bony. Whales are bony. Every insect is an arthropod. Each lepidopteran is an insect. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 341,
+        "body_text": "Every real number is a number. Real numbers are real. Each integer is a real number. Each natural number is an integer. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 342,
+        "body_text": "Animals are multicellular. Each vertebrate is a chordate. Each snake is not furry. Each mammal is a vertebrate. Mammals are furry. Each feline is a carnivore. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 343,
+        "body_text": "Every bilaterian is an animal. Every vertebrate is a chordate. Every mammal is a vertebrate. Each mammal is not cold_blooded. Carnivores are mammals. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 344,
+        "body_text": "Integers are real numbers. Natural numbers are integers. Each natural number is positive. Complex numbers are imaginary. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 345,
+        "body_text": "Every real number is a number. Integers are real numbers. Natural numbers are integers. Mersenne primes are prime numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 346,
+        "body_text": "Invertebrates are animals. Whales are not small. Every arthropod is a protostome. Every insect is an arthropod. Every insect is six_legged. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 347,
+        "body_text": "Every real number is not imaginary. Every integer is a real number. Natural numbers are integers. Prime numbers are natural numbers. Every prime number is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 348,
+        "body_text": "Every snake is cold_blooded. Each bilaterian is an animal. Chordates are bilaterians. Each mammal is a vertebrate. Felines are carnivores. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 349,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Each integer is a real number. Natural numbers are positive. Every prime number is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 350,
+        "body_text": "Every real number is a number. Complex numbers are imaginary. Integers are real numbers. Natural numbers are integers. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 351,
+        "body_text": "Every animal is not unicellular. Each chordate is a bilaterian. Mammals are vertebrates. Mammals are furry. Carnivores are mammals. Each feline is a carnivore. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 352,
+        "body_text": "Every real number is a number. Imaginary numbers are not real. Each integer is a real number. Every Mersenne prime is a prime number. Every Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 353,
+        "body_text": "Each integer is a real number. Every natural number is an integer. Each natural number is positive. Prime numbers are not composite. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 354,
+        "body_text": "Each integer is a real number. Each natural number is positive. Each imaginary number is not real. Prime numbers are prime. Every Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 355,
+        "body_text": "Every real number is a number. Integers are real numbers. Every complex number is imaginary. Every prime number is not composite. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 356,
+        "body_text": "Real numbers are not imaginary. Every integer is a real number. Prime numbers are not composite. Mersenne primes are prime numbers. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 357,
+        "body_text": "Every arthropod is a protostome. Every arthropod is small. Insects are arthropods. Insects are six_legged. Lepidopterans are insects. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 358,
+        "body_text": "Each invertebrate is an animal. Protostomes are invertebrates. Arthropods are protostomes. Every lepidopteran is an insect. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 359,
+        "body_text": "Animals are not unicellular. Each chordate is a bilaterian. Vertebrates are chordates. Each mammal is a vertebrate. Every feline is a carnivore. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 360,
+        "body_text": "Animals are not unicellular. Every chordate is a bilaterian. Every snake is not furry. Every mammal is a vertebrate. Carnivores are mammals. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 361,
+        "body_text": "Bilaterians are animals. Vertebrates are chordates. Each mammal is a vertebrate. Mammals are not cold_blooded. Each carnivore is a mammal. Felines are carnivores. Every cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 362,
+        "body_text": "Each animal is not unicellular. Each protostome is an invertebrate. Every arthropod is segmented. Each insect is an arthropod. Each nematode is not segmented. Every lepidopteran is an insect. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 363,
+        "body_text": "Each real number is a number. Each real number is not imaginary. Prime numbers are natural numbers. Mersenne primes are prime numbers. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 364,
+        "body_text": "Real numbers are not imaginary. Complex numbers are imaginary. Natural numbers are integers. Prime numbers are natural numbers. Prime numbers are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 365,
+        "body_text": "Animals are multicellular. Each nematode is not segmented. Every protostome is an invertebrate. Insects are arthropods. Every butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 366,
+        "body_text": "Each animal is not unicellular. Arthropods are protostomes. Insects are not eight_legged. Each lepidopteran is an insect. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 367,
+        "body_text": "Invertebrates are animals. Every protostome is an invertebrate. Arthropods are protostomes. Every butterfly is a lepidopteran. Painted ladies are butterflies. Every nematode is not segmented. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 368,
+        "body_text": "Every real number is a number. Complex numbers are imaginary. Integers are real numbers. Natural numbers are integers. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 369,
+        "body_text": "Each animal is multicellular. Vertebrates are chordates. Every mammal is a vertebrate. Carnivores are mammals. Carnivores are carnivorous. Every cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 370,
+        "body_text": "Real numbers are numbers. Integers are real numbers. Prime numbers are not composite. Each Mersenne prime is a prime number. Complex numbers are imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 371,
+        "body_text": "Each animal is not unicellular. Protostomes are invertebrates. Every arthropod is a protostome. Each whale is not small. Insects are arthropods. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 372,
+        "body_text": "Complex numbers are imaginary. Every integer is a real number. Natural numbers are integers. Prime numbers are prime. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 373,
+        "body_text": "Each real number is a number. Every integer is a real number. Complex numbers are imaginary. Every prime number is prime. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 374,
+        "body_text": "Every snake is cold_blooded. Bilaterians are animals. Each chordate is a bilaterian. Carnivores are not herbivorous. Each feline is a carnivore. Cats are felines. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 375,
+        "body_text": "Invertebrates are animals. Protostomes are invertebrates. Each insect is an arthropod. Insects are not eight_legged. Each whale is not small. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 376,
+        "body_text": "Animals are multicellular. Bilaterians are animals. Every snake is cold_blooded. Mammals are vertebrates. Every mammal is not cold_blooded. Carnivores are mammals. Every feline is a carnivore. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 377,
+        "body_text": "Animals are multicellular. Each vertebrate is a chordate. Mammals are vertebrates. Mammals are not cold_blooded. Each carnivore is not herbivorous. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 378,
+        "body_text": "Bilaterians are animals. Snakes are cold_blooded. Vertebrates are chordates. Mammals are not cold_blooded. Each feline is a carnivore. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 379,
+        "body_text": "Animals are multicellular. Bilaterians are animals. Every chordate is a bilaterian. Each mammal is a vertebrate. Mammals are warm_blooded. Every cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 380,
+        "body_text": "Real numbers are not imaginary. Every natural number is an integer. Every prime number is prime. Mersenne primes are prime numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 381,
+        "body_text": "Every complex number is imaginary. Every real number is not imaginary. Each integer is a real number. Each prime number is prime. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 382,
+        "body_text": "Real numbers are real. Integers are real numbers. Every natural number is an integer. Each prime number is prime. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 383,
+        "body_text": "Real numbers are numbers. Natural numbers are positive. Every prime number is a natural number. Each prime number is not composite. Every Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 384,
+        "body_text": "Real numbers are not imaginary. Complex numbers are imaginary. Each integer is a real number. Every natural number is an integer. Natural numbers are positive. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 385,
+        "body_text": "Each real number is a number. Each integer is a real number. Each natural number is not negative. Prime numbers are prime. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 386,
+        "body_text": "Nematodes are not segmented. Animals are not unicellular. Each protostome is an invertebrate. Insects are not eight_legged. Lepidopterans are insects. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 387,
+        "body_text": "Protostomes are invertebrates. Every arthropod is a protostome. Insects are arthropods. Insects are not eight_legged. Every butterfly is a lepidopteran. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 388,
+        "body_text": "Complex numbers are imaginary. Integers are real numbers. Natural numbers are integers. Prime numbers are natural numbers. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 389,
+        "body_text": "Each real number is a number. Integers are real numbers. Each natural number is an integer. Each prime number is prime. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 390,
+        "body_text": "Each real number is real. Integers are real numbers. Imaginary numbers are not real. Prime numbers are natural numbers. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 391,
+        "body_text": "Every animal is not unicellular. Invertebrates are animals. Arthropods are protostomes. Lepidopterans are insects. Every butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 392,
+        "body_text": "Animals are multicellular. Every invertebrate is an animal. Every insect is an arthropod. Each insect is not eight_legged. Lepidopterans are insects. Whales are not small. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 393,
+        "body_text": "Every real number is a number. Every real number is not imaginary. Every natural number is an integer. Each natural number is not negative. Prime numbers are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 394,
+        "body_text": "Every invertebrate is an animal. Every arthropod is a protostome. Each arthropod is small. Every insect is an arthropod. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 395,
+        "body_text": "Bilaterians are animals. Chordates are bilaterians. Each vertebrate is a chordate. Mammals are furry. Each carnivore is not herbivorous. Every feline is a carnivore. Every cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 396,
+        "body_text": "Animals are not unicellular. Invertebrates are animals. Arthropods are protostomes. Arthropods are segmented. Insects are arthropods. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 397,
+        "body_text": "Every animal is multicellular. Each invertebrate is an animal. Each whale is bony. Insects are arthropods. Insects are six_legged. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 398,
+        "body_text": "Every snake is cold_blooded. Each animal is not unicellular. Vertebrates are chordates. Mammals are not cold_blooded. Every carnivore is a mammal. Carnivores are not herbivorous. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 399,
+        "body_text": "Chordates are bilaterians. Every vertebrate is a chordate. Every mammal is a vertebrate. Carnivores are mammals. Every carnivore is carnivorous. Felines are carnivores. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 400,
+        "body_text": "Imaginary numbers are not real. Every real number is real. Each natural number is not negative. Every prime number is a natural number. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 401,
+        "body_text": "Every animal is not unicellular. Every snake is cold_blooded. Vertebrates are chordates. Mammals are vertebrates. Every carnivore is a mammal. Cats are felines. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 402,
+        "body_text": "Invertebrates are animals. Each protostome is an invertebrate. Each insect is an arthropod. Every insect is six_legged. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 403,
+        "body_text": "Animals are not unicellular. Protostomes are invertebrates. Arthropods are segmented. Insects are six_legged. Each nematode is not segmented. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 404,
+        "body_text": "Every integer is a real number. Each natural number is an integer. Each natural number is not negative. Prime numbers are natural numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 405,
+        "body_text": "Every invertebrate is an animal. Protostomes are invertebrates. Each insect is an arthropod. Each lepidopteran is an insect. Each butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 406,
+        "body_text": "Every whale is bony. Every protostome is an invertebrate. Arthropods are protostomes. Every insect is six_legged. Lepidopterans are insects. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 407,
+        "body_text": "Mammals are vertebrates. Each mammal is not cold_blooded. Carnivores are mammals. Carnivores are not herbivorous. Felines are carnivores. Each cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 408,
+        "body_text": "Animals are not unicellular. Invertebrates are animals. Every arthropod is a protostome. Lepidopterans are insects. Every whale is bony. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 409,
+        "body_text": "Invertebrates are animals. Arthropods are not bony. Insects are arthropods. Every insect is not eight_legged. Each butterfly is a lepidopteran. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 410,
+        "body_text": "Every animal is multicellular. Each invertebrate is an animal. Protostomes are invertebrates. Arthropods are protostomes. Insects are arthropods. Each lepidopteran is an insect. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 411,
+        "body_text": "Every invertebrate is an animal. Each nematode is not segmented. Each protostome is an invertebrate. Arthropods are protostomes. Lepidopterans are insects. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 412,
+        "body_text": "Each real number is a number. Every natural number is not negative. Prime numbers are natural numbers. Mersenne primes are prime numbers. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 413,
+        "body_text": "Real numbers are not imaginary. Each natural number is an integer. Prime numbers are natural numbers. Mersenne primes are prime numbers. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 414,
+        "body_text": "Each animal is multicellular. Every invertebrate is an animal. Each arthropod is not bony. Insects are six_legged. Butterflies are lepidopterans. Whales are bony. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 415,
+        "body_text": "Every real number is a number. Integers are real numbers. Natural numbers are positive. Each prime number is prime. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 416,
+        "body_text": "Every real number is a number. Integers are real numbers. Natural numbers are positive. Every prime number is prime. Imaginary numbers are not real. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 417,
+        "body_text": "Real numbers are not imaginary. Natural numbers are integers. Prime numbers are natural numbers. Prime numbers are prime. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 418,
+        "body_text": "Animals are not unicellular. Every bilaterian is an animal. Each vertebrate is a chordate. Mammals are vertebrates. Every mammal is not cold_blooded. Felines are carnivores. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 419,
+        "body_text": "Each imaginary number is not real. Real numbers are real. Integers are real numbers. Each natural number is an integer. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 420,
+        "body_text": "Animals are multicellular. Every protostome is an invertebrate. Arthropods are segmented. Insects are arthropods. Every lepidopteran is an insect. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 421,
+        "body_text": "Complex numbers are imaginary. Integers are real numbers. Natural numbers are integers. Prime numbers are not composite. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 422,
+        "body_text": "Real numbers are numbers. Every natural number is an integer. Imaginary numbers are not real. Mersenne primes are prime numbers. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 423,
+        "body_text": "Each invertebrate is an animal. Every protostome is an invertebrate. Arthropods are protostomes. Every whale is bony. Each arthropod is not bony. Each insect is not eight_legged. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 424,
+        "body_text": "Every animal is multicellular. Protostomes are invertebrates. Arthropods are protostomes. Whales are bony. Insects are not eight_legged. Each lepidopteran is an insect. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 425,
+        "body_text": "Animals are not unicellular. Invertebrates are animals. Arthropods are protostomes. Each arthropod is not bony. Each lepidopteran is an insect. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 426,
+        "body_text": "Every real number is not imaginary. Each natural number is an integer. Natural numbers are not negative. Every prime number is a natural number. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 427,
+        "body_text": "Each bilaterian is an animal. Each vertebrate is a chordate. Each mammal is furry. Carnivores are mammals. Carnivores are carnivorous. Every tabby is a cat. Snakes are not furry. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 428,
+        "body_text": "Each real number is not imaginary. Every natural number is an integer. Natural numbers are positive. Prime numbers are prime. Complex numbers are imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 429,
+        "body_text": "Animals are multicellular. Every bilaterian is an animal. Chordates are bilaterians. Mammals are not cold_blooded. Every feline is a carnivore. Cats are felines. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 430,
+        "body_text": "Every real number is not imaginary. Each integer is a real number. Natural numbers are positive. Prime numbers are prime. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 431,
+        "body_text": "Complex numbers are imaginary. Natural numbers are positive. Every prime number is not composite. Mersenne primes are prime numbers. Each Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 432,
+        "body_text": "Natural numbers are integers. Every imaginary number is not real. Prime numbers are natural numbers. Prime numbers are not composite. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 433,
+        "body_text": "Each real number is real. Every integer is a real number. Each natural number is an integer. Every Mersenne prime is a prime number. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 434,
+        "body_text": "Animals are multicellular. Bilaterians are animals. Every chordate is a bilaterian. Each vertebrate is a chordate. Every mammal is a vertebrate. Each snake is cold_blooded. Felines are carnivores. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 435,
+        "body_text": "Real numbers are real. Every imaginary number is not real. Every natural number is positive. Prime numbers are natural numbers. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 436,
+        "body_text": "Real numbers are numbers. Integers are real numbers. Natural numbers are integers. Natural numbers are not negative. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 437,
+        "body_text": "Each animal is not unicellular. Snakes are cold_blooded. Every bilaterian is an animal. Each vertebrate is a chordate. Every mammal is not cold_blooded. Each carnivore is a mammal. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 438,
+        "body_text": "Animals are multicellular. Protostomes are invertebrates. Arthropods are protostomes. Every insect is six_legged. Every butterfly is a lepidopteran. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 439,
+        "body_text": "Animals are multicellular. Invertebrates are animals. Protostomes are invertebrates. Arthropods are protostomes. Insects are six_legged. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 440,
+        "body_text": "Each real number is not imaginary. Every natural number is positive. Every prime number is prime. Complex numbers are imaginary. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 441,
+        "body_text": "Every animal is not unicellular. Each snake is not warm_blooded. Each mammal is a vertebrate. Every mammal is warm_blooded. Each carnivore is a mammal. Carnivores are carnivorous. Every cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, warm_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 442,
+        "body_text": "Each real number is not imaginary. Each integer is a real number. Natural numbers are integers. Each natural number is not negative. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 443,
+        "body_text": "Each integer is a real number. Natural numbers are integers. Every natural number is positive. Every prime number is a natural number. Each Mersenne prime is a prime number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 444,
+        "body_text": "Every invertebrate is an animal. Protostomes are invertebrates. Each arthropod is segmented. Each insect is six_legged. Each nematode is not segmented. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 445,
+        "body_text": "Every real number is a number. Every integer is a real number. Every natural number is not negative. Prime numbers are prime. Mersenne primes are prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 446,
+        "body_text": "Invertebrates are animals. Protostomes are invertebrates. Arthropods are protostomes. Every insect is an arthropod. Insects are not eight_legged. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 447,
+        "body_text": "Each imaginary number is not real. Each real number is real. Natural numbers are integers. Each natural number is positive. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 448,
+        "body_text": "Each imaginary number is not real. Real numbers are numbers. Integers are real numbers. Each prime number is a natural number. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 449,
+        "body_text": "Each animal is multicellular. Each nematode is not segmented. Protostomes are invertebrates. Each insect is an arthropod. Butterflies are lepidopterans. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 450,
+        "body_text": "Invertebrates are animals. Arthropods are not bony. Insects are arthropods. Each lepidopteran is an insect. Whales are bony. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 451,
+        "body_text": "Snakes are not furry. Each animal is not unicellular. Vertebrates are chordates. Mammals are vertebrates. Each mammal is furry. Every carnivore is a mammal. Carnivores are carnivorous. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 452,
+        "body_text": "Every real number is a number. Integers are real numbers. Every natural number is an integer. Natural numbers are positive. Every Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 453,
+        "body_text": "Every real number is not imaginary. Every complex number is imaginary. Each integer is a real number. Every prime number is not composite. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 454,
+        "body_text": "Every real number is real. Natural numbers are integers. Imaginary numbers are not real. Each Mersenne prime is a prime number. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 455,
+        "body_text": "Every integer is a real number. Natural numbers are positive. Prime numbers are natural numbers. Prime numbers are prime. Imaginary numbers are not real. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 456,
+        "body_text": "Each nematode is not segmented. Every animal is multicellular. Invertebrates are animals. Each arthropod is a protostome. Arthropods are segmented. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 457,
+        "body_text": "Real numbers are numbers. Real numbers are not imaginary. Each prime number is a natural number. Prime numbers are not composite. Each complex number is imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 458,
+        "body_text": "Imaginary numbers are not real. Every real number is a number. Integers are real numbers. Natural numbers are integers. Each natural number is not negative. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 459,
+        "body_text": "Protostomes are invertebrates. Every whale is not small. Arthropods are small. Each insect is an arthropod. Lepidopterans are insects. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, small)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 460,
+        "body_text": "Animals are not unicellular. Invertebrates are animals. Protostomes are invertebrates. Arthropods are protostomes. Every lepidopteran is an insect. Each butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 461,
+        "body_text": "Nematodes are not segmented. Animals are not unicellular. Invertebrates are animals. Each arthropod is a protostome. Arthropods are segmented. Butterflies are lepidopterans. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 462,
+        "body_text": "Animals are not unicellular. Protostomes are invertebrates. Each arthropod is not bony. Every insect is not eight_legged. Every lepidopteran is an insect. Each whale is bony. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 463,
+        "body_text": "Animals are multicellular. Each arthropod is not bony. Each insect is an arthropod. Insects are not eight_legged. Butterflies are lepidopterans. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, bony)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 464,
+        "body_text": "Each real number is a number. Integers are real numbers. Natural numbers are integers. Imaginary numbers are not real. Prime numbers are natural numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 465,
+        "body_text": "Animals are not unicellular. Bilaterians are animals. Chordates are bilaterians. Carnivores are mammals. Carnivores are carnivorous. Felines are carnivores. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 466,
+        "body_text": "Every real number is a number. Real numbers are not imaginary. Complex numbers are imaginary. Every prime number is not composite. Mersenne primes are prime numbers. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 467,
+        "body_text": "Real numbers are numbers. Complex numbers are imaginary. Natural numbers are positive. Every prime number is not composite. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 468,
+        "body_text": "Snakes are cold_blooded. Every bilaterian is an animal. Mammals are vertebrates. Every mammal is not cold_blooded. Felines are carnivores. Cats are felines. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 469,
+        "body_text": "Each animal is not unicellular. Each mammal is a vertebrate. Snakes are not warm_blooded. Each mammal is warm_blooded. Every carnivore is a mammal. Carnivores are carnivorous. Cats are felines. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 470,
+        "body_text": "Every mammal is a vertebrate. Each mammal is warm_blooded. Every carnivore is a mammal. Snakes are not warm_blooded. Every carnivore is carnivorous. Each cat is a feline. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 471,
+        "body_text": "Animals are multicellular. Protostomes are invertebrates. Nematodes are not segmented. Arthropods are segmented. Every insect is an arthropod. Lepidopterans are insects. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 472,
+        "body_text": "Real numbers are numbers. Every real number is not imaginary. Complex numbers are imaginary. Integers are real numbers. Each prime number is a natural number. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 473,
+        "body_text": "Every animal is not unicellular. Vertebrates are chordates. Snakes are cold_blooded. Mammals are not cold_blooded. Each carnivore is a mammal. Felines are carnivores. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 474,
+        "body_text": "Natural numbers are integers. Prime numbers are natural numbers. Each prime number is not composite. Every Mersenne prime is a prime number. Each imaginary number is not real. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, real)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 475,
+        "body_text": "Each animal is multicellular. Protostomes are invertebrates. Every arthropod is a protostome. Each insect is six_legged. Each lepidopteran is an insect. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 476,
+        "body_text": "Integers are real numbers. Each natural number is an integer. Natural numbers are positive. Every complex number is imaginary. Prime numbers are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 477,
+        "body_text": "Every protostome is an invertebrate. Arthropods are segmented. Nematodes are not segmented. Each insect is six_legged. Lepidopterans are insects. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, segmented)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 478,
+        "body_text": "Every whale is bony. Protostomes are invertebrates. Every arthropod is a protostome. Insects are not eight_legged. Lepidopterans are insects. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 479,
+        "body_text": "Natural numbers are not negative. Every prime number is not composite. Mersenne primes are prime numbers. Every Mersenne prime is not composite. Complex numbers are imaginary. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 480,
+        "body_text": "Every animal is not unicellular. Mammals are vertebrates. Each mammal is furry. Each snake is not furry. Each carnivore is a mammal. Every cat is a feline. Each tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 481,
+        "body_text": "Every animal is multicellular. Chordates are bilaterians. Vertebrates are chordates. Mammals are vertebrates. Carnivores are mammals. Carnivores are not herbivorous. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 482,
+        "body_text": "Bilaterians are animals. Each chordate is a bilaterian. Each vertebrate is a chordate. Mammals are vertebrates. Each mammal is not cold_blooded. Felines are carnivores. Every tabby is a cat. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 483,
+        "body_text": "Animals are multicellular. Bilaterians are animals. Chordates are bilaterians. Each snake is cold_blooded. Vertebrates are chordates. Every carnivore is a mammal. Each carnivore is carnivorous. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 484,
+        "body_text": "Animals are not unicellular. Invertebrates are animals. Arthropods are protostomes. Each nematode is not segmented. Each butterfly is a lepidopteran. Painted ladies are butterflies. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, segmented)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 485,
+        "body_text": "Real numbers are not imaginary. Every complex number is imaginary. Natural numbers are integers. Each natural number is positive. Every Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "not is(x, imaginary)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 486,
+        "body_text": "Animals are not unicellular. Whales are bony. Arthropods are protostomes. Every arthropod is not bony. Each insect is six_legged. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 487,
+        "body_text": "Every imaginary number is not real. Every natural number is an integer. Natural numbers are positive. Every prime number is not composite. Each Mersenne prime is not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 488,
+        "body_text": "Animals are not unicellular. Bilaterians are animals. Chordates are bilaterians. Vertebrates are chordates. Each carnivore is a mammal. Carnivores are not herbivorous. Each feline is a carnivore. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, furry)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 489,
+        "body_text": "Each animal is multicellular. Each chordate is a bilaterian. Vertebrates are chordates. Mammals are vertebrates. Every mammal is not cold_blooded. Carnivores are mammals. Every cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, cold_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 490,
+        "body_text": "Real numbers are numbers. Every complex number is imaginary. Natural numbers are positive. Each Mersenne prime is a prime number. Each Mersenne prime is prime. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, imaginary)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 491,
+        "body_text": "Real numbers are numbers. Each natural number is not negative. Every prime number is a natural number. Mersenne primes are prime numbers. Mersenne primes are not composite. x is a Mersenne prime.",
+        "world_model": [],
+        "goal": "is(x, real)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 492,
+        "body_text": "Animals are multicellular. Every whale is not small. Each arthropod is a protostome. Arthropods are small. Lepidopterans are insects. Every butterfly is a lepidopteran. x is a painted lady.",
+        "world_model": [],
+        "goal": "not is(x, small)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 493,
+        "body_text": "Every bilaterian is an animal. Each chordate is a bilaterian. Each vertebrate is a chordate. Each mammal is a vertebrate. Carnivores are mammals. Carnivores are carnivorous. Every feline is a carnivore. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, warm_blooded)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 494,
+        "body_text": "Animals are not unicellular. Every bilaterian is an animal. Each mammal is not cold_blooded. Every carnivore is a mammal. Carnivores are carnivorous. Every feline is a carnivore. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 495,
+        "body_text": "Bilaterians are animals. Chordates are bilaterians. Snakes are cold_blooded. Each mammal is a vertebrate. Mammals are not cold_blooded. Every carnivore is carnivorous. Each cat is a feline. x is a tabby.",
+        "world_model": [],
+        "goal": "not is(x, cold_blooded)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 496,
+        "body_text": "Invertebrates are animals. Protostomes are invertebrates. Arthropods are protostomes. Lepidopterans are insects. Butterflies are lepidopterans. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 497,
+        "body_text": "Each bilaterian is an animal. Chordates are bilaterians. Mammals are vertebrates. Mammals are furry. Each snake is not furry. Every carnivore is carnivorous. Tabbies are cats. x is a tabby.",
+        "world_model": [],
+        "goal": "is(x, furry)",
+        "label": true,
+        "program": []
+    },
+    {
+        "id": 498,
+        "body_text": "Each invertebrate is an animal. Every arthropod is a protostome. Every insect is an arthropod. Each insect is not eight_legged. Each lepidopteran is an insect. Each painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    },
+    {
+        "id": 499,
+        "body_text": "Animals are multicellular. Every invertebrate is an animal. Arthropods are protostomes. Insects are not eight_legged. Butterflies are lepidopterans. Every painted lady is a butterfly. x is a painted lady.",
+        "world_model": [],
+        "goal": "is(x, bony)",
+        "label": false,
+        "program": []
+    }
+]

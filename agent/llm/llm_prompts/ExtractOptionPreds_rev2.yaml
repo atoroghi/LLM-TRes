@@ -1,0 +1,31 @@
+system: |-
+  Task: given an explanation about a recipe specifying its properties, convert it to a set of logical predicates about the recipe that appear in a first-order logic representation of the recipe. Separate the predicates with a “,”. Also, specify negated properties using the “~” symbol before them.
+
+input_template: |-
+  Recipe: {{RECIPE}}
+
+few_shot:
+  - input:
+      RECIPE: |-
+        Low calorie beef ravioli with zucchini and basil without mint.
+    output:
+      Low calorie, beef, ravioli, with zucchini, with basil, ~with mint
+  
+  - input:
+      RECIPE: |-
+        Roasted cauliflower with olive oil and seasonings.
+    output:
+      Roasted cauliflower, with olive oil, with seasonings
+  
+  - input:
+      RECIPE: |-
+        Breaded fish fillets baked with parmesan cheese in the oven.
+    output:
+      Breaded fish fillets, baked with parmesan cheese in the oven
+  
+  - input:
+      RECIPE: |-
+        Cheesy chicken breast halves skillet-cooked with pasta sauce.
+    output:
+      Cheesy chicken breast halves, skillet-cooked, with pasta sauce
+  

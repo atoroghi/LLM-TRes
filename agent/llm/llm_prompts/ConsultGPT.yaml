@@ -1,0 +1,43 @@
+system: |-
+  Task: You are a helpful and considerate assistant. A user that is not very familiar with English and also science, wants to know about a concept. We want to replace this term with a very brief one-sentence explanation of the concept in simple English. Do not repeat the term in your explanation and don't state anything else. Please only provide a simple explanation of the concept in simple English.
+
+input_template: |-
+  concept: {{CONCEPT}}
+
+few_shot:
+  - input:
+      CONCEPT: |-
+        multicellular
+    output:
+      organism that consists of more than one cell.
+  
+  - input:
+      CONCEPT: |-
+        cheetah
+    output:
+      large cat with fast speed
+  
+  - input:
+      CONCEPT: |-
+        herbivore
+    output:
+      organism that mostly feeds on plants
+  
+  - input:
+      CONCEPT: |-
+        arthropod
+    output:
+      invertebrate animal having a segmented body
+
+  - input:
+      CONCEPT: |-
+        fermat prime
+    output:
+      near-square prime number
+  
+  - input:
+      CONCEPT: |-
+        integer
+    output:
+      whole number that can be positive, negative, or zero
+  

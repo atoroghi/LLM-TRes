@@ -1,0 +1,6 @@
+system: |-
+  Task: Consider the provided query and the set of options. You must pick the option that is most suitable for the query. Think step by step. First, explain your reason for why you think this recipe is the most proper. Remember that you have to state the reason first. Then, mention the most proper recipe by saying: Therefore, the selected option is: <option number>.
+
+input_template: |-
+  Query: {{ QUERY }}
+  Options: {{ OPTIONS }}

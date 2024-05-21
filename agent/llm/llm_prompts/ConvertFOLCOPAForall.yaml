@@ -1,0 +1,52 @@
+system: |-
+  Task: You are a helpful and knowledgeable assistant. A Knowledge Graph triple is provided to you. An intelligent agent wants to use it, but it only understands sentences written following a particular syntax that is close to First-order Logic. Please convert the triple following this format to help the intelligent agent. The rules that define the syntax are as follows:
+
+  1- Instead of the universal quantifier, write “FOR_ALL”.
+  2- All sentences must be universally quantified.
+  3- All predicates on the left-hand side and right-hand side of the rules must use the variable “(x)”.
+  4- Use “_” instead of “ “.
+  5- Instead of the implication symbol, use “=>”.
+  6- Only use lowercase letters.
+  7- Even if the sentence is incorrect in your opinion, convert it to FOL given the stated rules without any further explanation.
+
+input_template: |-
+  Triple: {{TRIPLE}}
+
+few_shot:
+  - input:
+      TRIPLE: |-
+        'meeting other students, CausesDesire, joining a fraternity'
+    output:
+      FOR_ALL x, meeting_other_students(x) => joining_fraternity(x)
+  
+  - input:
+      TRIPLE: |-
+        'woman, HasProperty, guilty'
+    output:
+      FOR_ALL x, woman(x) => guilty(x)
+  
+  - input:
+      TRIPLE: |-
+        'attending to the victim, PropertyOf, police
+    output:
+      FOR_ALL x, attending_to__victim(x) => police(x)
+  
+  - input:
+      TRIPLE: |-
+        'animals, AtLocation, zoo'
+    output:
+      FOR_ALL x, animal(x) => at_zoo(x)
+  
+  - input:
+      TRIPLE: |-
+        'broken Air conditioner, CapableOf, heating the house'
+    output:
+      FOR_ALL x, broken_air_conditioner(x) => could_heat_the_house(x)
+  
+  - input:
+      TRIPLE: |-
+        'meteorite landing in the ocean, Causes, tsunami created'
+    output:
+      FOR_ALL x, meteorite_landing_in_ocean(x) => tsunami_created(x)
+
+  

@@ -1,0 +1,1965 @@
+[
+    {
+        "query": "band_played_hit_song(x)",
+        "options": [
+            "audience_clapping_along_to_music(x)",
+            "audience_politely_listening_in_silence(x)"
+        ],
+        "answer": "audience_clapping_along_to_music(x)",
+        "rules": [
+            "FOR_ALL x, the_hit_song(x) => clapping(x)",
+            "FOR_ALL x, clapping_along_with_music(x) => supporting_the_band(x)",
+            "FOR_ALL x, politely_listening_in_silence(x) => audience(x)",
+            "FOR_ALL x, audience(x) => could_leave_the_concert(x)",
+            "FOR_ALL x, audience(x) => could_being_polite(x)"
+        ]
+    },
+    {
+        "query": "girl_wanting_to_thank_math_teacher(x)",
+        "options": [
+            "girl_staying_after_school_for_detention(x)",
+            "girl_brought_apple_to_teacher(x)"
+        ],
+        "answer": "girl_brought_apple_to_teacher(x)",
+        "rules": [
+            "FOR_ALL x, thanking_someone(x) => giving_an_apple(x)",
+            "FOR_ALL x, staying_after_school(x) => girl(x)",
+            "FOR_ALL x, staying_after_school(x) => detention(x)",
+            "FOR_ALL x, thanking_your_teacher(x) => you_liking_that_teacher(x)"
+        ]
+    },
+    {
+        "query": "man_hit_head(x)",
+        "options": [
+            "got_lost_in_thought(x)",
+            "got_concussion(x)"
+        ],
+        "answer": "got_concussion(x)",
+        "rules": [
+            "FOR_ALL x, hit(x) => head_injury(x)",
+            "FOR_ALL x, head_injury(x) => concussion(x)",
+            "FOR_ALL x, man(x) => capable_of_hitting_head(x)",
+            "FOR_ALL x, man(x) => could_be_lost_in_thought(x)"
+        ]
+    },
+    {
+        "query": "man_email_inbox_full_of_spam(x)",
+        "options": [
+            "he_deleted_spam(x)",
+            "he_sent_out_mass_email(x)"
+        ],
+        "answer": "he_deleted_spam(x)",
+        "rules": [
+            "FOR_ALL x, email_inbox_being_full(x) => delete_spam(x)",
+            "FOR_ALL x, getting_rid_of_spam(x) => clearing_up_some_inbox_space(x)",
+            "FOR_ALL x, sending_out_mass_email(x) => man(x)"
+        ]
+    },
+    {
+        "query": "man_anticipated_cold_weather_on_trip(x)",
+        "options": [
+            "he_packed_warm_clothing_in_suitcase(x)",
+            "travelled_with_big_suitcase(x)"
+        ],
+        "answer": "he_packed_warm_clothing_in_suitcase(x)",
+        "rules": [
+            "FOR_ALL x, man(x) => desires_to_keep_warm(x)",
+            "FOR_ALL x, packing_lots_of_warm_clothes(x) => big_suitcase(x)",
+            "FOR_ALL x, big_suitcase(x) => man(x)",
+            "FOR_ALL x, big_suitcase(x) => used_for_traveling(x)",
+            "FOR_ALL x, cold_weather_prognosis(x) => pack_warm_clothes(x)",
+            "FOR_ALL x, warm_clothes(x) => used_for_to_keep_warm_in_cold_weather(x)"
+        ]
+    },
+    {
+        "query": "player_won_five_games_in_a_row(x)",
+        "options": [
+            "opponent_accusing_her_of_cheating(x)",
+            "opponent_feeling_sorry_for_her(x)"
+        ],
+        "answer": "opponent_accusing_her_of_cheating(x)",
+        "rules": [
+            "FOR_ALL x, winning_five_games_in_row(x) => opponent_accuses_player_of_cheating(x)",
+            "FOR_ALL x, opponent(x) => angry(x)",
+            "FOR_ALL x, opponent(x) => could_feel_sorry_for_someone(x)"
+        ]
+    },
+    {
+        "query": "man_lost_weight(x)",
+        "options": [
+            "people_isolated_him(x)",
+            "people_complimented_him(x)"
+        ],
+        "answer": "people_complimented_him(x)",
+        "rules": [
+            "FOR_ALL x, losing_weight(x) => gaining_a_compliment(x)",
+            "FOR_ALL x, complimenting_someone(x) => motivating_them(x)",
+            "FOR_ALL x, isolating_someone(x) => people(x)",
+            "FOR_ALL x, man(x) => capable_of_being_isolated(x)"
+        ]
+    },
+    {
+        "query": "warring_countries_wanting_peace(x)",
+        "options": [
+            "developed_nuclear_weapons(x)",
+            "negotiated_treaty(x)"
+        ],
+        "answer": "negotiated_treaty(x)",
+        "rules": [
+            "FOR_ALL x, negotiating_a_treaty(x) => achieving_peace(x)",
+            "FOR_ALL x, developing_nuclear_weapons(x) => war(x)",
+            "FOR_ALL x, developing_nuclear_weapons(x) => warring_countries(x)",
+            "FOR_ALL x, peace(x) => product_of_signing_a_treaty(x)"
+        ]
+    },
+    {
+        "query": "woman_bumped_into_sofa(x)",
+        "options": [
+            "leg_of_sofa_coming_loose(x)",
+            "bruised_her_knee(x)"
+        ],
+        "answer": "bruised_her_knee(x)",
+        "rules": [
+            "FOR_ALL x, trauma_to_knee(x) => bruised_knee(x)",
+            "FOR_ALL x, loosened_leg_of_sofa(x) => sofa(x)",
+            "FOR_ALL x, bumping_into_sofa(x) => trauma_to_the_knee(x)"
+        ]
+    },
+    {
+        "query": "pushed_door(x)",
+        "options": [
+            "door_opened(x)",
+            "door_locked(x)"
+        ],
+        "answer": "door_opened(x)",
+        "rules": [
+            "FOR_ALL x, pushing_the_door(x) => door_to_open(x)",
+            "FOR_ALL x, being_locked(x) => property_of_door(x)"
+        ]
+    },
+    {
+        "query": "child_sprinkling_fish_food_into_tank(x)",
+        "options": [
+            "fish_leaping_out_of_tank(x)",
+            "fish_swam_towards_food(x)"
+        ],
+        "answer": "fish_swam_towards_food(x)",
+        "rules": [
+            "FOR_ALL x, fish(x) => desires_fish_food(x)",
+            "FOR_ALL x, sprinkling_fish_food(x) => fish_swim_towards_food(x)",
+            "FOR_ALL x, fish(x) => could_leap_out_of_tank(x)"
+        ]
+    },
+    {
+        "query": "bathroom_sink_was_clogged(x)",
+        "options": [
+            "turned_on_faucet(x)",
+            "poured_drain_cleaner_into_it(x)"
+        ],
+        "answer": "poured_drain_cleaner_into_it(x)",
+        "rules": [
+            "FOR_ALL x, clogged_sink(x) => unclogged_by_drain_cleaner(x)",
+            "FOR_ALL x, turning_on_the_faucet(x) => flow_of_water(x)",
+            "FOR_ALL x, flow_of_water(x) => may_unclog_the_sink(x)"
+        ]
+    },
+    {
+        "query": "couple_signed_lease_for_apartment(x)",
+        "options": [
+            "couple_moved_into_apartment(x)",
+            "city_condemning_apartment(x)"
+        ],
+        "answer": "couple_moved_into_apartment(x)",
+        "rules": [
+            "FOR_ALL x, signing_a_lease(x) => required_for_moving_into_an_apartment(x)",
+            "FOR_ALL x, couple(x) => desires_a_new_apartment(x)",
+            "FOR_ALL x, lease(x) => used_for_securing_an_apartment(x)",
+            "FOR_ALL x, city(x) => could_condemn_an_apartment(x)"
+        ]
+    },
+    {
+        "query": "woman_making_typo_in_word_processor(x)",
+        "options": [
+            "deleted_document(x)",
+            "she_hit_backspace_key(x)"
+        ],
+        "answer": "she_hit_backspace_key(x)",
+        "rules": [
+            "FOR_ALL x, writing(x) => has_subevent_a_mistake(x)",
+            "FOR_ALL x, the_woman(x) => desires_to_erase_the_mistake(x)",
+            "FOR_ALL x, mistake(x) => erased_by_hitting_the_backspace_key(x)",
+            "FOR_ALL x, deleting_the_document(x) => erasing_the_mistake(x)"
+        ]
+    },
+    {
+        "query": "crowd_intensified(x)",
+        "options": [
+            "father_handed_son_money(x)",
+            "father_grabbed_son_hand(x)"
+        ],
+        "answer": "father_grabbed_son_hand(x)",
+        "rules": [
+            "FOR_ALL x, intense_crowd(x) => could_make_your_son_hard_to_find(x)",
+            "FOR_ALL x, making_your_son_hard_to_find(x) => keep_an_eye_on_son(x)",
+            "FOR_ALL x, keeping_an_eye_on_son(x) => grabbing_son_hand(x)",
+            "FOR_ALL x, handing_money_to_son(x) => son_having_money(x)",
+            "FOR_ALL x, father(x) => could_hand_money_to_son(x)"
+        ]
+    },
+    {
+        "query": "snow_blocking_driveway(x)",
+        "options": [
+            "gathered_snow_into_snowball(x)",
+            "shoveled_snow_out_of_way(x)"
+        ],
+        "answer": "shoveled_snow_out_of_way(x)",
+        "rules": [
+            "FOR_ALL x, removing_snow(x) => enabled_by_using_a_shovel(x)",
+            "FOR_ALL x, snow_blocking_driveway(x) => removing_snow(x)",
+            "FOR_ALL x, snowball(x) => made_of_snow(x)",
+            "FOR_ALL x, gathering_snow_into_snowball(x) => snowball(x)"
+        ]
+    },
+    {
+        "query": "girl_lost_control_of_bike(x)",
+        "options": [
+            "she_let_go_of_handlebars(x)",
+            "crashed_into_fence(x)"
+        ],
+        "answer": "crashed_into_fence(x)",
+        "rules": [
+            "FOR_ALL x, person(x) => used_for_control_moving_bike(x)",
+            "FOR_ALL x, uncontrolled_moving_bike(x) => could_crash_into_fence(x)",
+            "FOR_ALL x, bike(x) => obstructed_by_fence(x)",
+            "FOR_ALL x, letting_go_of_handlebars(x) => uncontrolled_moving_bike(x)",
+            "FOR_ALL x, girl(x) => capable_of_letting_go_of_handlebars(x)"
+        ]
+    },
+    {
+        "query": "husband_feeling_guilty_about_cheating_on_wife(x)",
+        "options": [
+            "accused_her_of_infidelity(x)",
+            "confessed_infidelity_to_her(x)"
+        ],
+        "answer": "confessed_infidelity_to_her(x)",
+        "rules": [
+            "FOR_ALL x, feeling_guilty(x) => confess_your_guilt(x)",
+            "FOR_ALL x, cheating_on_your_partner(x) => feeling_guilty(x)",
+            "FOR_ALL x, accusing_of_infidelity(x) => husband(x)",
+            "FOR_ALL x, accusing_of_infidelity(x) => cheating(x)"
+        ]
+    },
+    {
+        "query": "boy_put_feet_up_on_table(x)",
+        "options": [
+            "father_sitting_down_at_table(x)",
+            "father_lectured_him(x)"
+        ],
+        "answer": "father_lectured_him(x)",
+        "rules": [
+            "FOR_ALL x, boy(x) => could_put_feet_on_table(x)",
+            "FOR_ALL x, father(x) => capable_of_lecturing(x)",
+            "FOR_ALL x, sitting_down_at_table(x) => father(x)",
+            "FOR_ALL x, father(x) => has_a_table(x)",
+            "FOR_ALL x, boy_putting_feet_on_table(x) => father_giving_lecture(x)"
+        ]
+    },
+    {
+        "query": "government_oppressed_citizens(x)",
+        "options": [
+            "citizens_staging_revolt(x)",
+            "citizens_registered_to_vote(x)"
+        ],
+        "answer": "citizens_staging_revolt(x)",
+        "rules": [
+            "FOR_ALL x, oppressing_citizens(x) => citizens_revolt(x)",
+            "FOR_ALL x, citizens(x) => desires_to_not_be_oppressed(x)",
+            "FOR_ALL x, citizens(x) => could_register_to_vote(x)",
+            "FOR_ALL x, registering_to_vote(x) => oppression(x)"
+        ]
+    },
+    {
+        "query": "boy_was_lost_in_woods(x)",
+        "options": [
+            "pitched_tent(x)",
+            "screamed_for_help(x)"
+        ],
+        "answer": "screamed_for_help(x)",
+        "rules": [
+            "FOR_ALL x, the_woods(x) => easy_to_get_lost_in(x)",
+            "FOR_ALL x, being_lost(x) => being_frightened(x)",
+            "FOR_ALL x, being_frightened(x) => screaming(x)",
+            "FOR_ALL x, screaming(x) => attracting_help(x)",
+            "FOR_ALL x, pitching_a_tent(x) => boy(x)",
+            "FOR_ALL x, pitching_a_tent(x) => having_a_place_to_sleep(x)",
+            "FOR_ALL x, having_a_place_to_sleep(x) => pitching_a_tent(x)",
+            "FOR_ALL x, tent(x) => located_near_woods(x)"
+        ]
+    },
+    {
+        "query": "electricity_in_house_shut_off(x)",
+        "options": [
+            "turned_on_light(x)",
+            "reset_circuit_breaker(x)"
+        ],
+        "answer": "reset_circuit_breaker(x)",
+        "rules": [
+            "FOR_ALL x, electricity_going_off(x) => tripping_circuit_breaker(x)",
+            "FOR_ALL x, having_circuit_breaker_go_off(x) => keeping_power_off(x)",
+            "FOR_ALL x, tripping_circuit_breaker(x) => reset_circuit_breaker(x)",
+            "FOR_ALL x, turning_on_a_light(x) => me(x)",
+            "FOR_ALL x, turning_on_a_light(x) => having_light(x)",
+            "FOR_ALL x, having_light(x) => turning_on_a_light(x)"
+        ]
+    },
+    {
+        "query": "tree_fell_on_power_line(x)",
+        "options": [
+            "electricity_in_neighborhood_went_out(x)",
+            "forecast_predicting_heavy_winds(x)"
+        ],
+        "answer": "electricity_in_neighborhood_went_out(x)",
+        "rules": [
+            "FOR_ALL x, tree_fall(x) => damage_to_power_line(x)",
+            "FOR_ALL x, damaged_power_line(x) => electricity_in_neighborhood_went_out(x)",
+            "FOR_ALL x, weather_forecast(x) => could_predict_heavy_winds(x)",
+            "FOR_ALL x, heavy_winds(x) => could_knock_down_trees(x)",
+            "FOR_ALL x, heavy_winds(x) => tree_fall_on_power_line(x)"
+        ]
+    },
+    {
+        "query": "missed_girlfriend_phone_call(x)",
+        "options": [
+            "called_back(x)",
+            "met_for_dinner(x)"
+        ],
+        "answer": "called_back(x)",
+        "rules": [
+            "FOR_ALL x, calling_someone_back(x) => reacting_to_missed_phone_call(x)",
+            "FOR_ALL x, missed_phone_call(x) => desire_to_call_the_person_back(x)",
+            "FOR_ALL x, me(x) => could_meet_for_dinner(x)",
+            "FOR_ALL x, girlfriend(x) => could_meet_for_dinner(x)",
+            "FOR_ALL x, meeting_for_dinner(x) => having_dinner(x)"
+        ]
+    },
+    {
+        "query": "baked_apple_pie(x)",
+        "options": [
+            "rotting_smell_filling_kitchen(x)",
+            "warm_aroma_filled_kitchen(x)"
+        ],
+        "answer": "warm_aroma_filled_kitchen(x)",
+        "rules": [
+            "FOR_ALL x, baking_a_pie(x) => kitchen_smell_warm_and_delicious(x)",
+            "FOR_ALL x, apple_pies_baking_in_oven(x) => aroma_filled_kitchen(x)",
+            "FOR_ALL x, rotting_smell(x) => kitchen(x)",
+            "FOR_ALL x, rotting_smell(x) => caused_by_apples(x)"
+        ]
+    },
+    {
+        "query": "country_declared_war_on_neighboring_territory(x)",
+        "options": [
+            "soldiers_sent_out_to_fight(x)",
+            "soldiers_reunited_with_families(x)"
+        ],
+        "answer": "soldiers_sent_out_to_fight(x)",
+        "rules": [
+            "FOR_ALL x, soldier(x) => part_of_war(x)",
+            "FOR_ALL x, declaring_a_war(x) => soldiers_have_to_fight(x)",
+            "FOR_ALL x, soldiers(x) => could_reunite_with_families(x)"
+        ]
+    },
+    {
+        "query": "court_upheld_controversial_ruling(x)",
+        "options": [
+            "riot_breaking_loose_in_front_of_courthouse(x)",
+            "couple_exchanged_vows_in_front_of_courthouse(x)"
+        ],
+        "answer": "riot_breaking_loose_in_front_of_courthouse(x)",
+        "rules": [
+            "FOR_ALL x, controversial_rulings(x) => could_create_mixed_emotions_among_people(x)",
+            "FOR_ALL x, mixed_emotions(x) => causes_anger(x)",
+            "FOR_ALL x, anger(x) => rebel(x)",
+            "FOR_ALL x, rebel(x) => symbol_of_rebellion(x)",
+            "FOR_ALL x, rebellion(x) => riot(x)",
+            "FOR_ALL x, couple(x) => could_exchange_vows(x)",
+            "FOR_ALL x, exchanging_vows(x) => located_near_courthouse(x)"
+        ]
+    },
+    {
+        "query": "rain_pouring_down(x)",
+        "options": [
+            "storm_worsened(x)",
+            "dashed_to_get_inside(x)"
+        ],
+        "answer": "dashed_to_get_inside(x)",
+        "rules": [
+            "FOR_ALL x, getting_away_from_rain(x) => dashing_to_get_inside(x)",
+            "FOR_ALL x, rain_pouring_down(x) => getting_away_from_rain(x)",
+            "FOR_ALL x, storm_worsening(x) => rain_pouring_down(x)",
+            "FOR_ALL x, pouring_down(x) => rain(x)",
+            "FOR_ALL x, storm(x) => could_worsen(x)"
+        ]
+    },
+    {
+        "query": "father_resenting_son_alcoholism(x)",
+        "options": [
+            "father_bought_beer_for_son(x)",
+            "father_kicked_son_out_of_house(x)"
+        ],
+        "answer": "father_kicked_son_out_of_house(x)",
+        "rules": [
+            "FOR_ALL x, fathers_resentment_of_son(x) => father_evicting_the_son(x)",
+            "FOR_ALL x, family_harmony(x) => obstructed_by_alcoholic_son(x)",
+            "FOR_ALL x, eviction(x) => remove_problem_member(x)",
+            "FOR_ALL x, father(x) => could_buy_beer(x)",
+            "FOR_ALL x, drinking_beer(x) => son(x)",
+            "FOR_ALL x, beer(x) => related_to_alcoholism(x)"
+        ]
+    },
+    {
+        "query": "girl_handed_money_to_cashier(x)",
+        "options": [
+            "cashier_gave_change_to_girl(x)",
+            "cashier_forgot_to_give_receipt_to_girl(x)"
+        ],
+        "answer": "cashier_gave_change_to_girl(x)",
+        "rules": [
+            "FOR_ALL x, handing_money_to_cashier(x) => capable_of_overpaying(x)",
+            "FOR_ALL x, overpaying(x) => change_to_be_given(x)",
+            "FOR_ALL x, cashier(x) => could_forget_giving_receipt(x)"
+        ]
+    },
+    {
+        "query": "team_lost_tournament(x)",
+        "options": [
+            "they_disappointed_fans(x)",
+            "they_inspiring_fans(x)"
+        ],
+        "answer": "they_disappointed_fans(x)",
+        "rules": [
+            "FOR_ALL x, loosing_a_tournament(x) => fans_to_be_dissapointed(x)",
+            "FOR_ALL x, disappointed_fans(x) => poor_performances_by_teams(x)",
+            "FOR_ALL x, inspiring_fans(x) => team(x)",
+            "FOR_ALL x, inspiring_fans(x) => team_losing_the_tournament(x)"
+        ]
+    },
+    {
+        "query": "friend_pointed_out_food_stuck_in_teeth(x)",
+        "options": [
+            "felt_embarrassed(x)",
+            "felt_proud(x)"
+        ],
+        "answer": "felt_embarrassed(x)",
+        "rules": [
+            "FOR_ALL x, food_in_teeth(x) => embarrassment(x)",
+            "FOR_ALL x, embarrassment(x) => part_of_an_uncomfortable_situation(x)",
+            "FOR_ALL x, me(x) => could_feel_proud(x)",
+            "FOR_ALL x, feeling_proud(x) => showing_teeth_to_friend(x)"
+        ]
+    },
+    {
+        "query": "children_simultaneously_reaching_down_to_retrieve_ball(x)",
+        "options": [
+            "ball_rolled_away(x)",
+            "heads_collided(x)"
+        ],
+        "answer": "heads_collided(x)",
+        "rules": [
+            "FOR_ALL x, reaching_down_simultaneously(x) => bumping_their_head(x)",
+            "FOR_ALL x, children(x) => desires_the_ball(x)",
+            "FOR_ALL x, rolling_away(x) => ball(x)",
+            "FOR_ALL x, ball_rolling_away(x) => children_reaching_down_the_ball(x)"
+        ]
+    },
+    {
+        "query": "scratch_in_skin_being_deep(x)",
+        "options": [
+            "it_healed_quickly(x)",
+            "it_left_scar(x)"
+        ],
+        "answer": "it_left_scar(x)",
+        "rules": [
+            "FOR_ALL x, deep_scratch(x) => scar(x)",
+            "FOR_ALL x, scratch(x) => deep(x)",
+            "FOR_ALL x, scratch(x) => capable_of_scar(x)",
+            "FOR_ALL x, scar(x) => created_by_scratch(x)",
+            "FOR_ALL x, healing_quickly(x) => property_of_scratch(x)",
+            "FOR_ALL x, healing(x) => scratch(x)",
+            "FOR_ALL x, scratch(x) => property_of_me(x)"
+        ]
+    },
+    {
+        "query": "child_left_crumbs_on_floor(x)",
+        "options": [
+            "ants_crawled_to_crumbs(x)",
+            "child_put_bread_away(x)"
+        ],
+        "answer": "ants_crawled_to_crumbs(x)",
+        "rules": [
+            "FOR_ALL x, left_crumbs(x) => could_attract_ants(x)",
+            "FOR_ALL x, child(x) => capable_of_leaving_crumbs(x)",
+            "FOR_ALL x, child(x) => could_put_bread_away(x)",
+            "FOR_ALL x, putting_the_bread_away(x) => leaving_crumbs_on_the_floor(x)"
+        ]
+    },
+    {
+        "query": "lost(x)",
+        "options": [
+            "counted_cash(x)",
+            "unfolded_map(x)"
+        ],
+        "answer": "unfolded_map(x)",
+        "rules": [
+            "FOR_ALL x, getting_lost(x) => getting_directions(x)",
+            "FOR_ALL x, getting_directions(x) => unfolding_a_map(x)",
+            "FOR_ALL x, counting_cash(x) => me(x)",
+            "FOR_ALL x, counting_cash(x) => getting_lost(x)"
+        ]
+    },
+    {
+        "query": "hung_wet_linen_on_outdoor_clothesline(x)",
+        "options": [
+            "linen_dried(x)",
+            "linen_stained(x)"
+        ],
+        "answer": "linen_dried(x)",
+        "rules": [
+            "FOR_ALL x, clothesline(x) => used_for_drying(x)",
+            "FOR_ALL x, me(x) => dry_clothing(x)",
+            "FOR_ALL x, hanging_linens_on_clothesline(x) => dried_linens(x)",
+            "FOR_ALL x, get_stained(x) => linen(x)",
+            "FOR_ALL x, being_wet(x) => linen(x)"
+        ]
+    },
+    {
+        "query": "it_began_to_rain(x)",
+        "options": [
+            "driver_turned_on_headlights(x)",
+            "driver_shifting_car_into_reverse(x)"
+        ],
+        "answer": "driver_turned_on_headlights(x)",
+        "rules": [
+            "FOR_ALL x, rainy_weather(x) => bad_visibility(x)",
+            "FOR_ALL x, bad_visibility(x) => turning_on_headlights(x)",
+            "FOR_ALL x, shifting_the_car_into_reverse(x) => driver(x)",
+            "FOR_ALL x, shifting_the_car_into_reverse(x) => beginning_to_rain(x)"
+        ]
+    },
+    {
+        "query": "wind_blew_through_open_window(x)",
+        "options": [
+            "doorbell_rang(x)",
+            "curtains_shuddered(x)"
+        ],
+        "answer": "curtains_shuddered(x)",
+        "rules": [
+            "FOR_ALL x, wind_blowing(x) => could_shudder_curtains(x)",
+            "FOR_ALL x, doorbell_ringing(x) => property_of_door(x)",
+            "FOR_ALL x, doorbell_ringing(x) => wind_blowing(x)",
+            "FOR_ALL x, doorbell(x) => located_near_door(x)",
+            "FOR_ALL x, window(x) => located_near_the_outdoors(x)",
+            "FOR_ALL x, wind(x) => at_the_outdoors(x)"
+        ]
+    },
+    {
+        "query": "student_trying_to_do_math_in_head(x)",
+        "options": [
+            "got_out_calculator(x)",
+            "got_confused(x)"
+        ],
+        "answer": "got_confused(x)",
+        "rules": [
+            "FOR_ALL x, doing_math_in_your_head(x) => could_make_your_brain_hurt(x)",
+            "FOR_ALL x, using_a_calculator(x) => student(x)",
+            "FOR_ALL x, using_a_calculator(x) => trying_to_do_math_in_your_head(x)",
+            "FOR_ALL x, calculator(x) => related_to_math(x)",
+            "FOR_ALL x, making_your_brain_hurt(x) => being_confused(x)"
+        ]
+    },
+    {
+        "query": "girl_threw_water_balloon_at_boy(x)",
+        "options": [
+            "boy_got_concussion(x)",
+            "boy_got_soaked(x)"
+        ],
+        "answer": "boy_got_soaked(x)",
+        "rules": [
+            "FOR_ALL x, throwing_a_water_balloon(x) => water_balloon_breaks(x)",
+            "FOR_ALL x, getting_concussion(x) => boy(x)",
+            "FOR_ALL x, concussion(x) => caused_by_object_thrown_at_head(x)",
+            "FOR_ALL x, water_balloon_breaking(x) => could_soak_the_person(x)"
+        ]
+    },
+    {
+        "query": "squeezed_damp_sponge(x)",
+        "options": [
+            "it_soaked_up_water(x)",
+            "water_seeping_out_of_it(x)"
+        ],
+        "answer": "water_seeping_out_of_it(x)",
+        "rules": [
+            "FOR_ALL x, squeezing_the_sponge(x) => water_to_seep_out_of_it(x)",
+            "FOR_ALL x, water(x) => at_sponge(x)",
+            "FOR_ALL x, water(x) => related_to_sponge(x)",
+            "FOR_ALL x, soaking_up_water(x) => property_of_sponge(x)"
+        ]
+    },
+    {
+        "query": "paid_tollbooth_attendant(x)",
+        "options": [
+            "allowed_to_pass_through_tollbooth(x)",
+            "detained_at_tollbooth(x)"
+        ],
+        "answer": "allowed_to_pass_through_tollbooth(x)",
+        "rules": [
+            "FOR_ALL x, toothbooth_attendant(x) => desires_payment(x)",
+            "FOR_ALL x, paying_tollbooth_attendant(x) => permitted_to_pass_through_tollbooth(x)",
+            "FOR_ALL x, detaining_at_tollbooth(x) => attendant(x)"
+        ]
+    },
+    {
+        "query": "missed_bus(x)",
+        "options": [
+            "early_to_work(x)",
+            "late_to_work(x)"
+        ],
+        "answer": "late_to_work(x)",
+        "rules": [
+            "FOR_ALL x, missing_the_bus(x) => being_late_to_work(x)",
+            "FOR_ALL x, missing_the_bus(x) => find_different_transportation(x)",
+            "FOR_ALL x, me(x) => could_reach_early_to_work(x)"
+        ]
+    },
+    {
+        "query": "truck_collided_with_car(x)",
+        "options": [
+            "truck_speeding_up(x)",
+            "car_got_smashed(x)"
+        ],
+        "answer": "car_got_smashed(x)",
+        "rules": [
+            "FOR_ALL x, collision(x) => smashing_car(x)",
+            "FOR_ALL x, speeding_up(x) => property_of_truck(x)",
+            "FOR_ALL x, speeding_up(x) => collision(x)"
+        ]
+    },
+    {
+        "query": "man_stained_his_suit(x)",
+        "options": [
+            "he_got_it_dry_cleaned(x)",
+            "hanging_it_in_his_closet(x)"
+        ],
+        "answer": "he_got_it_dry_cleaned(x)",
+        "rules": [
+            "FOR_ALL x, stained_suit(x) => requires_stain_removal(x)",
+            "FOR_ALL x, stain_removal(x) => enabled_by_dry_clean(x)",
+            "FOR_ALL x, hanging_in_closet(x) => man(x)",
+            "FOR_ALL x, hanging_in_closet(x) => stained_suit(x)"
+        ]
+    },
+    {
+        "query": "girl_squeezed_tube_of_toothpaste(x)",
+        "options": [
+            "toothpaste_squirted_out_of_tube(x)",
+            "girl_spitting_out_toothpaste(x)"
+        ],
+        "answer": "toothpaste_squirted_out_of_tube(x)",
+        "rules": [
+            "FOR_ALL x, squeezing_tube_of_toothpaste(x) => could_create_pressure_to_toothpaste(x)",
+            "FOR_ALL x, pressure_to_toothpaste(x) => squirting_out_of_tube(x)",
+            "FOR_ALL x, girl(x) => could_spit_out_toothpaste(x)"
+        ]
+    },
+    {
+        "query": "civilian_deaths_from_war_surging(x)",
+        "options": [
+            "pacifists_staged_protest(x)",
+            "pacifists_held_parade(x)"
+        ],
+        "answer": "pacifists_staged_protest(x)",
+        "rules": [
+            "FOR_ALL x, civilian_deaths(x) => motivates_pacifists_protest(x)",
+            "FOR_ALL x, civilian_deaths(x) => related_to_war(x)"
+        ]
+    },
+    {
+        "query": "man_got_plastic_surgery(x)",
+        "options": [
+            "aged(x)",
+            "looked_younger(x)"
+        ],
+        "answer": "looked_younger(x)",
+        "rules": [
+            "FOR_ALL x, plastic_surgery(x) => capable_of_removing_lines_and_wrinkles(x)",
+            "FOR_ALL x, lines_and_wrinkles(x) => could_make_persons_seem_old(x)",
+            "FOR_ALL x, removing_lines_and_wrinkles(x) => could_make_person_look_younger(x)",
+            "FOR_ALL x, man(x) => could_age(x)"
+        ]
+    },
+    {
+        "query": "prisoner_starved(x)",
+        "options": [
+            "died(x)",
+            "fled(x)"
+        ],
+        "answer": "died(x)",
+        "rules": [
+            "FOR_ALL x, starvation(x) => could_cause_death(x)",
+            "FOR_ALL x, fleeing(x) => property_of_prisoner(x)"
+        ]
+    },
+    {
+        "query": "cold_draft_coming_in_through_window(x)",
+        "options": [
+            "relaxed(x)",
+            "shivered(x)"
+        ],
+        "answer": "shivered(x)",
+        "rules": [
+            "FOR_ALL x, cold(x) => shivering(x)",
+            "FOR_ALL x, cold_draft(x) => could_change_temperature(x)",
+            "FOR_ALL x, me(x) => could_relax(x)"
+        ]
+    },
+    {
+        "query": "man_extending_hand_to_me(x)",
+        "options": [
+            "shook_hand(x)",
+            "slapped(x)"
+        ],
+        "answer": "shook_hand(x)",
+        "rules": [
+            "FOR_ALL x, extending_ones_hand(x) => asking_for_a_handshake(x)",
+            "FOR_ALL x, asking_for_a_handshake(x) => shaking_hand(x)",
+            "FOR_ALL x, me(x) => could_slap(x)"
+        ]
+    },
+    {
+        "query": "husband_discovering_wife_having_affair(x)",
+        "options": [
+            "he_fired_lawyer(x)",
+            "he_filed_for_divorce(x)"
+        ],
+        "answer": "he_filed_for_divorce(x)",
+        "rules": [
+            "FOR_ALL x, wife_having_affair(x) => desire_to_file_for_divorce(x)",
+            "FOR_ALL x, divorce(x) => related_to_wife_affair(x)",
+            "FOR_ALL x, husband(x) => could_fire_lawyer(x)"
+        ]
+    },
+    {
+        "query": "girl_dropped_rubber_ball(x)",
+        "options": [
+            "ball_bounced(x)",
+            "ball_glowed(x)"
+        ],
+        "answer": "ball_bounced(x)",
+        "rules": [
+            "FOR_ALL x, dropping_a_ball(x) => ball_bounces(x)",
+            "FOR_ALL x, rubber(x) => material_that_bounces(x)",
+            "FOR_ALL x, glowing(x) => property_of_ball(x)"
+        ]
+    },
+    {
+        "query": "girl_making_mistake_on_exam(x)",
+        "options": [
+            "she_guessing_at_answer(x)",
+            "she_erased_her_answer(x)"
+        ],
+        "answer": "she_erased_her_answer(x)",
+        "rules": [
+            "FOR_ALL x, exam(x) => has_mistakes(x)",
+            "FOR_ALL x, mistakes(x) => desire_to_rectify_mistakes(x)",
+            "FOR_ALL x, rectify_mistakes(x) => erasing(x)",
+            "FOR_ALL x, guessing_at_the_answer(x) => girl(x)"
+        ]
+    },
+    {
+        "query": "player_tackled_opponent(x)",
+        "options": [
+            "opponent_caught_pass(x)",
+            "opponent_hit_ground(x)"
+        ],
+        "answer": "opponent_hit_ground(x)",
+        "rules": [
+            "FOR_ALL x, tackling(x) => hitting_the_ground(x)",
+            "FOR_ALL x, player(x) => desires_to_beat_opponent(x)",
+            "FOR_ALL x, opponent(x) => could_catch_the_pass(x)"
+        ]
+    },
+    {
+        "query": "tornado_came_through_town(x)",
+        "options": [
+            "roof_of_courthouse_blowing_off(x)",
+            "highway_becoming_dangerously_icy(x)"
+        ],
+        "answer": "roof_of_courthouse_blowing_off(x)",
+        "rules": [
+            "FOR_ALL x, tornado(x) => could_blow_the_roof_off(x)",
+            "FOR_ALL x, roof(x) => part_of_a_home(x)",
+            "FOR_ALL x, tornado(x) => made_of_very_heavy_winds(x)",
+            "FOR_ALL x, icy_highway(x) => highway(x)"
+        ]
+    },
+    {
+        "query": "student_received_tutoring(x)",
+        "options": [
+            "grades_improved(x)",
+            "cheated_on_exam(x)"
+        ],
+        "answer": "grades_improved(x)",
+        "rules": [
+            "FOR_ALL x, receiving_tutoring(x) => better_understanding(x)",
+            "FOR_ALL x, better_understanding(x) => grades_improve(x)",
+            "FOR_ALL x, student(x) => could_cheat(x)"
+        ]
+    },
+    {
+        "query": "polished_the_stone(x)",
+        "options": [
+            "became_slippery(x)",
+            "it_became_shiny(x)"
+        ],
+        "answer": "it_became_shiny(x)",
+        "rules": [
+            "FOR_ALL x, polishing(x) => item_becomes_shiny(x)",
+            "FOR_ALL x, becoming_slippery(x) => property_of_stone(x)",
+            "FOR_ALL x, becoming_slippery(x) => polishing(x)"
+        ]
+    },
+    {
+        "query": "added_sugar_to_coffee(x)",
+        "options": [
+            "coffee_smelled_strong(x)",
+            "coffee_tasting_sweet(x)"
+        ],
+        "answer": "coffee_tasting_sweet(x)",
+        "rules": [
+            "FOR_ALL x, sugar(x) => used_for_sweetening_the_coffee(x)",
+            "FOR_ALL x, adding_sugar_to_coffee(x) => coffee_tastes_sweet(x)",
+            "FOR_ALL x, smelling_strong(x) => property_of_coffee(x)"
+        ]
+    },
+    {
+        "query": "man_shuffling_through_papers(x)",
+        "options": [
+            "got_paper_cut(x)",
+            "shredded_papers(x)"
+        ],
+        "answer": "got_paper_cut(x)",
+        "rules": [
+            "FOR_ALL x, paper_edge(x) => sharp(x)",
+            "FOR_ALL x, paper(x) => capable_of_cutting(x)",
+            "FOR_ALL x, shuffling_through_papers(x) => paper_get_cut(x)",
+            "FOR_ALL x, man(x) => could_shred_papers(x)"
+        ]
+    },
+    {
+        "query": "pounded_nail_with_hammer(x)",
+        "options": [
+            "nail_sunk_into_wood(x)",
+            "nail_became_rusty(x)"
+        ],
+        "answer": "nail_sunk_into_wood(x)",
+        "rules": [
+            "FOR_ALL x, the_hammer(x) => used_for_putting_the_nails_into_the_wood(x)",
+            "FOR_ALL x, pounding_nail_with_hammer(x) => nail_sinks_into_wood(x)",
+            "FOR_ALL x, nail(x) => could_become_rusty(x)"
+        ]
+    },
+    {
+        "query": "girl_flashed_smile(x)",
+        "options": [
+            "cheeks_reddened(x)",
+            "dimples_showing(x)"
+        ],
+        "answer": "dimples_showing(x)",
+        "rules": [
+            "FOR_ALL x, girl(x) => happy(x)",
+            "FOR_ALL x, smiling(x) => dimples_shown(x)",
+            "FOR_ALL x, dimples(x) => created_by_smiling(x)",
+            "FOR_ALL x, reddening_cheeks(x) => girl(x)",
+            "FOR_ALL x, reddening_cheeks(x) => blushing(x)",
+            "FOR_ALL x, blushing(x) => girl(x)"
+        ]
+    },
+    {
+        "query": "detectives_dusting_crime_scene_for_fingerprints(x)",
+        "options": [
+            "discovered_identity_of_murderer(x)",
+            "found_weapon_at_crime_scene(x)"
+        ],
+        "answer": "they_discovered_identity_of_murderer(x)",
+        "rules": [
+            "FOR_ALL x, fingerprint(x) => used_for_identification(x)",
+            "FOR_ALL x, dusting(x) => reveals_fingerprints(x)",
+            "FOR_ALL x, weapon(x) => at_crime_scene(x)",
+            "FOR_ALL x, finding_weapon(x) => detectives(x)"
+        ]
+    },
+    {
+        "query": "lot_of_traffic_on_highway(x)",
+        "options": [
+            "took_detour(x)",
+            "asked_for_ride(x)"
+        ],
+        "answer": "took_detour(x)",
+        "rules": [
+            "FOR_ALL x, avoiding_traffic(x) => taking_a_detour(x)",
+            "FOR_ALL x, traffic(x) => avoiding_traffic(x)",
+            "FOR_ALL x, me(x) => could_ask_for_a_ride(x)"
+        ]
+    },
+    {
+        "query": "nation_economy_declined(x)",
+        "options": [
+            "many_people_got_sick(x)",
+            "many_people_faced_unemployment(x)"
+        ],
+        "answer": "many_people_faced_unemployment(x)",
+        "rules": [
+            "FOR_ALL x, economy_declining(x) => many_people_to_be_unemployed(x)",
+            "FOR_ALL x, people_being_unemployed(x) => symbol_of_a_poor_economy(x)",
+            "FOR_ALL x, people_getting_sick(x) => people(x)",
+            "FOR_ALL x, people_getting_sick(x) => caused_by_poor_economy(x)"
+        ]
+    },
+    {
+        "query": "car_running_out_of_gas(x)",
+        "options": [
+            "driver_stranded_on_road(x)",
+            "driver_picked_up_hitchhiker(x)"
+        ],
+        "answer": "driver_stranded_on_road(x)",
+        "rules": [
+            "FOR_ALL x, gas(x) => used_for_car_to_move(x)",
+            "FOR_ALL x, no_gas(x) => no_movement_of_car(x)",
+            "FOR_ALL x, still_car(x) => driver_stranded(x)",
+            "FOR_ALL x, driver(x) => could_be_picked_up_by_hitchhiker(x)"
+        ]
+    },
+    {
+        "query": "woman_went_into_labor(x)",
+        "options": [
+            "baby_was_delivered(x)",
+            "woman_had_morning_sickness(x)"
+        ],
+        "answer": "baby_was_delivered(x)",
+        "rules": [
+            "FOR_ALL x, going_in_labor(x) => delivering_a_baby(x)",
+            "FOR_ALL x, woman(x) => could_have_morning_sickness(x)"
+        ]
+    },
+    {
+        "query": "boy_forehead_felt_hot(x)",
+        "options": [
+            "mother_took_temperature(x)",
+            "mother_taking_him_to_park(x)"
+        ],
+        "answer": "mother_took_temperature(x)",
+        "rules": [
+            "FOR_ALL x, hot_forehead(x) => symbol_of_high_fever(x)",
+            "FOR_ALL x, high_fever(x) => healed_by_taking_temperature(x)",
+            "FOR_ALL x, taking_him_to_park(x) => mother(x)",
+            "FOR_ALL x, taking_him_to_park(x) => could_make_boy_feel_better(x)"
+        ]
+    },
+    {
+        "query": "friend_dog_died(x)",
+        "options": [
+            "rolled_eyes_at_him(x)",
+            "gave_hug(x)"
+        ],
+        "answer": "gave_hug(x)",
+        "rules": [
+            "FOR_ALL x, my_friends_dog_dying(x) => need_to_show_support(x)",
+            "FOR_ALL x, show_support(x) => performed_by_hugging_my_friend(x)",
+            "FOR_ALL x, me(x) => could_roll_eyes(x)"
+        ]
+    },
+    {
+        "query": "businessman_credit_card_declined(x)",
+        "options": [
+            "wrote_iou(x)",
+            "paid_with_cash(x)"
+        ],
+        "answer": "paid_with_cash(x)",
+        "rules": [
+            "FOR_ALL x, declined_credit_card(x) => receives_action_paying_with_cash(x)",
+            "FOR_ALL x, man(x) => has_cash(x)",
+            "FOR_ALL x, writing_iou(x) => businessman(x)",
+            "FOR_ALL x, writing_iou(x) => declined_credit_card(x)"
+        ]
+    },
+    {
+        "query": "girl_wanting_to_learn_about_solar_system(x)",
+        "options": [
+            "went_to_library(x)",
+            "looked_at_stars(x)"
+        ],
+        "answer": "went_to_library(x)",
+        "rules": [
+            "FOR_ALL x, learn_about_solar_system(x) => going_to_the_library(x)",
+            "FOR_ALL x, book(x) => used_for_learning_about_different_subjects(x)",
+            "FOR_ALL x, looking_at_stars(x) => girl(x)",
+            "FOR_ALL x, looking_at_the_stars(x) => could_explore_the_solar_system(x)"
+        ]
+    },
+    {
+        "query": "arrived_late_to_lecture(x)",
+        "options": [
+            "took_seat_in_back_row(x)",
+            "approached_podium(x)"
+        ],
+        "answer": "took_seat_in_back_row(x)",
+        "rules": [
+            "FOR_ALL x, arriving_late(x) => sitting_in_back_row(x)",
+            "FOR_ALL x, picking_seat(x) => obstructed_by_arriving_late(x)",
+            "FOR_ALL x, me(x) => could_approach_podium(x)"
+        ]
+    },
+    {
+        "query": "stomped_on_aluminum_can(x)",
+        "options": [
+            "can_was_recycled(x)",
+            "can_got_crushed(x)"
+        ],
+        "answer": "can_got_crushed(x)",
+        "rules": [
+            "FOR_ALL x, stomping_on_aluminum_can(x) => can_to_crush(x)",
+            "FOR_ALL x, stomping(x) => force_onto_an_object(x)",
+            "FOR_ALL x, being_recycled(x) => can(x)",
+            "FOR_ALL x, being_recycled(x) => aluminum(x)"
+        ]
+    },
+    {
+        "query": "girl_joined_debate_team(x)",
+        "options": [
+            "learned_to_use_computer(x)",
+            "learned_communication_skills(x)"
+        ],
+        "answer": "learned_communication_skills(x)",
+        "rules": [
+            "FOR_ALL x, girl(x) => desires_to_learn_to_debate(x)",
+            "FOR_ALL x, debating(x) => could_hone_communication_skills(x)",
+            "FOR_ALL x, learning_to_use_a_computer(x) => girl(x)"
+        ]
+    },
+    {
+        "query": "charity_making_goal_to_raise_money(x)",
+        "options": [
+            "they_fed_homeless(x)",
+            "held_auction(x)"
+        ],
+        "answer": "held_auction(x)",
+        "rules": [
+            "FOR_ALL x, raising_money(x) => holding_auction(x)",
+            "FOR_ALL x, feeding_the_homeless(x) => charity(x)"
+        ]
+    },
+    {
+        "query": "roller_coaster_plunging_down_steep_drop(x)",
+        "options": [
+            "passengers_giggled(x)",
+            "passengers_screamed(x)"
+        ],
+        "answer": "passengers_screamed(x)",
+        "rules": [
+            "FOR_ALL x, rollercoaster(x) => causes_excitement(x)",
+            "FOR_ALL x, rollercoaster(x) => causes_scariness(x)",
+            "FOR_ALL x, excitement_and_scariness(x) => screaming(x)",
+            "FOR_ALL x, passenger(x) => could_giggle(x)"
+        ]
+    },
+    {
+        "query": "folded_paper(x)",
+        "options": [
+            "recycled_paper(x)",
+            "paper_creased(x)"
+        ],
+        "answer": "paper_creased(x)",
+        "rules": [
+            "FOR_ALL x, folding_paper(x) => crease(x)",
+            "FOR_ALL x, recycling_paper(x) => me(x)",
+            "FOR_ALL x, recyclable(x) => paper(x)"
+        ]
+    },
+    {
+        "query": "nation_enduring_natural_disaster(x)",
+        "options": [
+            "leaders_of_countries_forming_alliance(x)",
+            "leaders_of_countries_sent_emergency_relief(x)"
+        ],
+        "answer": "leaders_of_countries_sent_emergency_relief(x)",
+        "rules": [
+            "FOR_ALL x, natural_disaster(x) => requires_emergency_relief(x)",
+            "FOR_ALL x, leaders(x) => motivated_by_natural_disaster(x)",
+            "FOR_ALL x, forming_an_alliance(x) => leaders(x)",
+            "FOR_ALL x, forming_an_alliance(x) => natural_disaster(x)"
+        ]
+    },
+    {
+        "query": "yanking_imposter_hair(x)",
+        "options": [
+            "wig_came_off(x)",
+            "went_bald(x)"
+        ],
+        "answer": "wig_came_off(x)",
+        "rules": [
+            "FOR_ALL x, yanking_the_hair(x) => wig_coming_off(x)",
+            "FOR_ALL x, going_bald(x) => imposter(x)",
+            "FOR_ALL x, going_bald(x) => caused_by_wig_coming_off(x)"
+        ]
+    },
+    {
+        "query": "student_graduated_from_university(x)",
+        "options": [
+            "looked_for_job(x)",
+            "he_took_up_hobby(x)"
+        ],
+        "answer": "looked_for_job(x)",
+        "rules": [
+            "FOR_ALL x, graduating(x) => look_for_a_job(x)",
+            "FOR_ALL x, student(x) => could_take_up_hubby(x)"
+        ]
+    },
+    {
+        "query": "artist_mixing_yellow_paint_into_blue_paint(x)",
+        "options": [
+            "paint_splattering_everywhere(x)",
+            "paint_turned_green(x)"
+        ],
+        "answer": "paint_turned_green(x)",
+        "rules": [
+            "FOR_ALL x, mixing_yellow_into_blue_paint(x) => paint_turns_green(x)",
+            "FOR_ALL x, splattering_everywhere(x) => paint(x)"
+        ]
+    },
+    {
+        "query": "factory_owner_refusing_to_raise_wages(x)",
+        "options": [
+            "owner_appointing_new_manager(x)",
+            "employees_went_on_strike(x)"
+        ],
+        "answer": "employees_went_on_strike(x)",
+        "rules": [
+            "FOR_ALL x, employees_being_upset(x) => employees_going_on_strike(x)",
+            "FOR_ALL x, refusing_to_give_employees_raises(x) => employees_to_be_upset(x)",
+            "FOR_ALL x, appointing_a_new_manager(x) => owner(x)",
+            "FOR_ALL x, appointing_a_new_manager(x) => could_make_employees_happy(x)"
+        ]
+    },
+    {
+        "query": "walked_barefoot_on_beach(x)",
+        "options": [
+            "sand_sticking_to_feet(x)",
+            "waves_crashing_along_shore(x)"
+        ],
+        "answer": "sand_sticking_to_feet(x)",
+        "rules": [
+            "FOR_ALL x, sand(x) => part_of_the_beach(x)",
+            "FOR_ALL x, walking_barefoot_on_beach(x) => sand_sticks_to_feet(x)",
+            "FOR_ALL x, waves_crashing(x) => property_of_beach(x)",
+            "FOR_ALL x, waves_crashing(x) => caused_by_ocean(x)"
+        ]
+    },
+    {
+        "query": "woke_up_in_middle_of_night_feeling_cold(x)",
+        "options": [
+            "put_sweatpants_on(x)",
+            "drank_glass_of_water(x)"
+        ],
+        "answer": "put_sweatpants_on(x)",
+        "rules": [
+            "FOR_ALL x, sweatpants(x) => used_for_keeping_warm(x)",
+            "FOR_ALL x, feeling_cold(x) => to_put_sweatpants_on(x)",
+            "FOR_ALL x, drinking_water(x) => me(x)",
+            "FOR_ALL x, drinking_water(x) => waking_up(x)"
+        ]
+    },
+    {
+        "query": "boy_wearing_braces(x)",
+        "options": [
+            "he_got_cavity(x)",
+            "teeth_became_straight(x)"
+        ],
+        "answer": "teeth_became_straight(x)",
+        "rules": [
+            "FOR_ALL x, wearing_braces(x) => used_for_straightening_teeth(x)",
+            "FOR_ALL x, braces(x) => at_teeth(x)",
+            "FOR_ALL x, getting_a_cavity(x) => boy(x)",
+            "FOR_ALL x, cavity(x) => at_teeth(x)"
+        ]
+    },
+    {
+        "query": "worked_out_at_gym_yesterday(x)",
+        "options": [
+            "woke_up_with_sore_muscles(x)",
+            "woke_up_today_with_sore_throat(x)"
+        ],
+        "answer": "woke_up_with_sore_muscles(x)",
+        "rules": [
+            "FOR_ALL x, work_out(x) => sore_muscles(x)",
+            "FOR_ALL x, work_out_equipmemt(x) => at_gym(x)",
+            "FOR_ALL x, sore_throat(x) => property_of_me(x)"
+        ]
+    },
+    {
+        "query": "child_landed_on_trampoline(x)",
+        "options": [
+            "she_sprung_back_up_in_air(x)",
+            "she_decided_to_try_to_do_flip(x)"
+        ],
+        "answer": "she_sprung_back_up_in_air(x)",
+        "rules": [
+            "FOR_ALL x, child_to_land_on_trampoline(x) => springing_back_into_air(x)",
+            "FOR_ALL x, child(x) => desires_to_play_on_the_trampoline(x)",
+            "FOR_ALL x, child(x) => could_decide_to_try_to_do_a_flip(x)"
+        ]
+    },
+    {
+        "query": "deposited_letter_in_mailbox(x)",
+        "options": [
+            "post_office_delivered_letter(x)",
+            "post_office_expediting_letter(x)"
+        ],
+        "answer": "post_office_delivered_letter(x)",
+        "rules": [
+            "FOR_ALL x, depositing_a_letter_in_post_office(x) => post_office_delivering_the_letter(x)",
+            "FOR_ALL x, the_letter(x) => at_the_mailbox(x)",
+            "FOR_ALL x, the_post_office(x) => could_deliver_letters(x)",
+            "FOR_ALL x, expediting_the_letter(x) => post_office(x)"
+        ]
+    },
+    {
+        "query": "gambler_confident(x)",
+        "options": [
+            "he_bet_all_money(x)",
+            "he_went_home_broke(x)"
+        ],
+        "answer": "he_bet_all_money(x)",
+        "rules": [
+            "FOR_ALL x, gambler(x) => confident(x)",
+            "FOR_ALL x, gambler(x) => has_money(x)",
+            "FOR_ALL x, gambler(x) => capable_of_betting(x)",
+            "FOR_ALL x, money(x) => used_for_gambling(x)",
+            "FOR_ALL x, bet(x) => created_by_confidence(x)",
+            "FOR_ALL x, man(x) => motivated_by_goal_money(x)",
+            "FOR_ALL x, gambler_being_confident(x) => gambler_betting_all_his_money(x)",
+            "FOR_ALL x, going_home_broke(x) => gambler(x)"
+        ]
+    },
+    {
+        "query": "child_skinned_his_knee(x)",
+        "options": [
+            "mother_sent_him_to_room(x)",
+            "mother_put_bandage_on_wound(x)"
+        ],
+        "answer": "mother_put_bandage_on_wound(x)",
+        "rules": [
+            "FOR_ALL x, mother(x) => related_to_child(x)",
+            "FOR_ALL x, skinned(x) => cut(x)",
+            "FOR_ALL x, cut(x) => putting_bandage_on_wound(x)",
+            "FOR_ALL x, mother(x) => could_send_to_room(x)"
+        ]
+    },
+    {
+        "query": "took_sip_of_scalding_coffee(x)",
+        "options": [
+            "bit_my_tongue(x)",
+            "burnt_tongue(x)"
+        ],
+        "answer": "burnt_tongue(x)",
+        "rules": [
+            "FOR_ALL x, scalding_liquid(x) => burnt_tongue(x)",
+            "FOR_ALL x, me(x) => could_bite_tongue(x)"
+        ]
+    },
+    {
+        "query": "woman_short_on_money_for_rent(x)",
+        "options": [
+            "worked_overtime(x)",
+            "quit_job(x)"
+        ],
+        "answer": "worked_overtime(x)",
+        "rules": [
+            "FOR_ALL x, making_more_money(x) => enabled_by_working_overtime(x)",
+            "FOR_ALL x, being_short_on_rent(x) => not_having_enough_money(x)",
+            "FOR_ALL x, not_having_enough_money(x) => motivating_making_more_money(x)",
+            "FOR_ALL x, quitting_job(x) => woman(x)"
+        ]
+    },
+    {
+        "query": "company_wanting_to_gauge_customer_satisfaction(x)",
+        "options": [
+            "offering_discount_to_new_customers(x)",
+            "they_distributed_survey_to_customers(x)"
+        ],
+        "answer": "they_distributed_survey_to_customers(x)",
+        "rules": [
+            "FOR_ALL x, survey(x) => manner_of_learning_what_your_customers_think(x)",
+            "FOR_ALL x, knowing_your_customer_satisfaction(x) => motivates_distributing_survey(x)",
+            "FOR_ALL x, offering_a_discount(x) => company(x)",
+            "FOR_ALL x, offering_a_discount(x) => could_improve_customer_satisfaction(x)"
+        ]
+    },
+    {
+        "query": "became_enthralled_in_book(x)",
+        "options": [
+            "returned_book(x)",
+            "lost_track_of_time(x)"
+        ],
+        "answer": "lost_track_of_time(x)",
+        "rules": [
+            "FOR_ALL x, enthralled(x) => engrossed(x)",
+            "FOR_ALL x, engrossed(x) => lack_of_awareness(x)",
+            "FOR_ALL x, lack_of_awareness(x) => losing_track_of_time(x)",
+            "FOR_ALL x, me(x) => could_return_the_book(x)"
+        ]
+    },
+    {
+        "query": "apologized_to_friend(x)",
+        "options": [
+            "friend_forgave_me(x)",
+            "friend_became_infuriated(x)"
+        ],
+        "answer": "friend_forgave_me(x)",
+        "rules": [
+            "FOR_ALL x, apologizing_to_friend(x) => friend_forgiving(x)",
+            "FOR_ALL x, forgiving(x) => manner_of_showing_someone_you_are_not_upset(x)",
+            "FOR_ALL x, friend(x) => capable_of_forgiving(x)",
+            "FOR_ALL x, friend(x) => could_become_infuriated(x)"
+        ]
+    },
+    {
+        "query": "witness_lied_under_oath(x)",
+        "options": [
+            "completed_testimony(x)",
+            "charged_with_perjury(x)"
+        ],
+        "answer": "charged_with_perjury(x)",
+        "rules": [
+            "FOR_ALL x, lie_under_oath(x) => charged_with_perjury(x)",
+            "FOR_ALL x, completing_testimony(x) => witness(x)"
+        ]
+    },
+    {
+        "query": "immigrants_caught_illegally_residing_in_country(x)",
+        "options": [
+            "found_employment(x)",
+            "they_were_deported(x)"
+        ],
+        "answer": "they_were_deported(x)",
+        "rules": [
+            "FOR_ALL x, illegally_residing_in_country(x) => being_deported(x)",
+            "FOR_ALL x, finding_employment(x) => immigrants(x)"
+        ]
+    },
+    {
+        "query": "public_speaker_cracked_joke(x)",
+        "options": [
+            "audience_laughed(x)",
+            "audience_standing_up(x)"
+        ],
+        "answer": "audience_laughed(x)",
+        "rules": [
+            "FOR_ALL x, creating_a_joke(x) => audience_laughing(x)",
+            "FOR_ALL x, audience(x) => located_near_public_speaker(x)",
+            "FOR_ALL x, audience(x) => could_stand_up(x)"
+        ]
+    },
+    {
+        "query": "felt_bored(x)",
+        "options": [
+            "snorted(x)",
+            "yawned(x)"
+        ],
+        "answer": "yawned(x)",
+        "rules": [
+            "FOR_ALL x, being_bored(x) => yawning(x)",
+            "FOR_ALL x, me(x) => could_snort(x)"
+        ]
+    },
+    {
+        "query": "lights_in_friend_apartment_were_on(x)",
+        "options": [
+            "wondered_if_he_was_out(x)",
+            "decided_to_pay_visit_to_him(x)"
+        ],
+        "answer": "decided_to_pay_visit_to_him(x)",
+        "rules": [
+            "FOR_ALL x, lights_being_on(x) => being_home(x)",
+            "FOR_ALL x, being_home(x) => pays_visit(x)",
+            "FOR_ALL x, me(x) => could_wonder_if_he_was_out(x)"
+        ]
+    },
+    {
+        "query": "student_procrastinated_on_paper(x)",
+        "options": [
+            "submitted_paper_early(x)",
+            "submitted_paper_incomplete(x)"
+        ],
+        "answer": "submitted_paper_incomplete(x)",
+        "rules": [
+            "FOR_ALL x, procrastination(x) => work_to_be_done_last_second(x)",
+            "FOR_ALL x, work_to_be_done_last_second(x) => paper_that_is_rushed(x)",
+            "FOR_ALL x, rushed_paper(x) => incomplete_paper(x)",
+            "FOR_ALL x, student(x) => could_submit_paper_early(x)"
+        ]
+    },
+    {
+        "query": "bird_flapping_its_wings(x)",
+        "options": [
+            "laid_eggs(x)",
+            "ascended_upwards(x)"
+        ],
+        "answer": "ascended_upwards(x)",
+        "rules": [
+            "FOR_ALL x, wings(x) => part_of_a_bird(x)",
+            "FOR_ALL x, flapping_wings(x) => flight_of_a_bird(x)",
+            "FOR_ALL x, flight_of_a_bird(x) => ascending_upwards(x)",
+            "FOR_ALL x, bird(x) => could_lay_eggs(x)"
+        ]
+    },
+    {
+        "query": "criminal_aimed_gun_at_victim(x)",
+        "options": [
+            "criminal_put_down_gun(x)",
+            "victim_putting_hands_up(x)"
+        ],
+        "answer": "victim_putting_hands_up(x)",
+        "rules": [
+            "FOR_ALL x, aiming_a_gun_at_someone(x) => person_puts_their_hands_up(x)",
+            "FOR_ALL x, putting_your_hands_up(x) => showing_that_you_surrender(x)",
+            "FOR_ALL x, criminal(x) => could_put_down_the_gun(x)",
+            "FOR_ALL x, putting_down_the_gun(x) => victim_pointing_the_gun(x)"
+        ]
+    },
+    {
+        "query": "dip_tasted_bland(x)",
+        "options": [
+            "served_it(x)",
+            "put_salt_in_it(x)"
+        ],
+        "answer": "put_salt_in_it(x)",
+        "rules": [
+            "FOR_ALL x, bland_food(x) => created_by_not_seasoning_it_properly(x)",
+            "FOR_ALL x, not_seasoning_it_properly(x) => adding_salt(x)",
+            "FOR_ALL x, serving_food(x) => me(x)",
+            "FOR_ALL x, dip(x) => could_be_served(x)"
+        ]
+    },
+    {
+        "query": "woman_interrupted_while_reading_book(x)",
+        "options": [
+            "she_bookmarked_page(x)",
+            "she_reread_book(x)"
+        ],
+        "answer": "she_bookmarked_page(x)",
+        "rules": [
+            "FOR_ALL x, being_interrupted(x) => bookmark_page(x)",
+            "FOR_ALL x, bookmark(x) => used_for_remembering_page(X)",
+            "FOR_ALL x, woman(x) => could_reread_book(x)"
+        ]
+    },
+    {
+        "query": "town_receiving_several_inches_of_snow(x)",
+        "options": [
+            "schools_shut_down(x)",
+            "people_hid_underground(x)"
+        ],
+        "answer": "schools_shut_down(x)",
+        "rules": [
+            "FOR_ALL x, snowy_weather(x) => could_close_school(x)",
+            "FOR_ALL x, people_hiding_underground(x) => people(x)",
+            "FOR_ALL x, people_hiding_underground(x) => caused_by_natural_disaster(x)"
+        ]
+    },
+    {
+        "query": "woman_setting_ambitious_goal(x)",
+        "options": [
+            "slacked_off(x)",
+            "worked_hard(x)"
+        ],
+        "answer": "worked_hard(x)",
+        "rules": [
+            "FOR_ALL x, setting_an_ambitious_goal(x) => working_hard(x)",
+            "FOR_ALL x, the_woman(x) => motivated_by_goal(x)",
+            "FOR_ALL x, slacking_off(x) => woman(x)",
+            "FOR_ALL x, slacking_off(x) => not_having_a_proper_goal(x)"
+        ]
+    },
+    {
+        "query": "slept_through_alarm(x)",
+        "options": [
+            "made_breakfast(x)",
+            "missed_breakfast(x)"
+        ],
+        "answer": "missed_breakfast(x)",
+        "rules": [
+            "FOR_ALL x, missing_an_alarm(x) => not_waking_up_on_time(x)",
+            "FOR_ALL x, waking_up_late(x) => missed_breakfast(x)",
+            "FOR_ALL x, me(x) => could_make_breakfast(x)"
+        ]
+    },
+    {
+        "query": "college_student_wanting_to_meet_other_students_on_campus(x)",
+        "options": [
+            "joined_fraternity(x)",
+            "majored_in_engineering(x)"
+        ],
+        "answer": "joined_fraternity(x)",
+        "rules": [
+            "FOR_ALL x, meeting_other_students(x) => joining_fraternity(x)",
+            "FOR_ALL x, fraternity(x) => created_by_students(x)",
+            "FOR_ALL x, student(x) => motivated_by_goal_to_meet_other_students_on_campus(x)",
+            "FOR_ALL x, majoring_in_engineering(x) => student(x)"
+        ]
+    },
+    {
+        "query": "woman_found_guilty_of_misdemeanor(x)",
+        "options": [
+            "sentenced_to_perform_community_service(x)",
+            "put_on_death_row(x)"
+        ],
+        "answer": "sentenced_to_perform_community_service(x)",
+        "rules": [
+            "FOR_ALL x, woman(x) => guilty(x)",
+            "FOR_ALL x, woman(x) => sentenced(x)",
+            "FOR_ALL x, woman(x) => could_perform_community_service(x)",
+            "FOR_ALL x, found_guilty_of_misdemeanor(x) => sentenced_to_perform_community_service(x)",
+            "FOR_ALL x, put_on_death_row(x) => woman(x)"
+        ]
+    },
+    {
+        "query": "criminal_running_away_from_police(x)",
+        "options": [
+            "police_attending_to_victim(x)",
+            "police_chasing_criminal(x)"
+        ],
+        "answer": "police_chasing_criminal(x)",
+        "rules": [
+            "FOR_ALL x, criminal_running(x) => police_officer_chasing(x)",
+            "FOR_ALL x, police(x) => could_run(x)",
+            "FOR_ALL x, police(x) => could_attend_to_the_victim(x)"
+        ]
+    },
+    {
+        "query": "family_went_to_zoo(x)",
+        "options": [
+            "children_admiring_animals(x)",
+            "children_chasing_animals(x)"
+        ],
+        "answer": "children_admiring_animals(x)",
+        "rules": [
+            "FOR_ALL x, animal(x) => at_zoo(x)",
+            "FOR_ALL x, going_to_zoo(x) => admiring_animals(x)",
+            "FOR_ALL x, chasing_animals(x) => children(x)"
+        ]
+    },
+    {
+        "query": "air_conditioner_in_house_broke(x)",
+        "options": [
+            "brought_out_blankets(x)",
+            "opened_windows(x)"
+        ],
+        "answer": "opened_windows(x)",
+        "rules": [
+            "FOR_ALL x, broken_air_conditioner(x) => heating_the_house(x)",
+            "FOR_ALL x, having_hot_house(x) => cool_house(x)",
+            "FOR_ALL x, cooling_house(x) => opening_window(x)",
+            "FOR_ALL x, bringing_out_blankets(x) => me(x)"
+        ]
+    },
+    {
+        "query": "struck_match(x)",
+        "options": [
+            "flame_faded_out(x)",
+            "match_produced_flame(x)"
+        ],
+        "answer": "match_produced_flame(x)",
+        "rules": [
+            "FOR_ALL x, striking_a_match(x) => flame_produced(x)",
+            "FOR_ALL x, matches(x) => used_for_fire(x)",
+            "FOR_ALL x, fading_out(x) => property_of_flame(x)"
+        ]
+    },
+    {
+        "query": "meteorite_landed_in_ocean(x)",
+        "options": [
+            "tsunami_occurred(x)",
+            "hailing_started(x)"
+        ],
+        "answer": "tsunami_occurred(x)",
+        "rules": [
+            "FOR_ALL x, meteorite(x) => could_create_tsunami(x)",
+            "FOR_ALL x, meteorite_landing_in_the_ocean(x) => tsunami_created(x)",
+            "FOR_ALL x, beginning_to_hail(x) => meteorite(x)"
+        ]
+    },
+    {
+        "query": "squeezed_lemon_wedge(x)",
+        "options": [
+            "lemon_getting_moldy(x)",
+            "lemon_squirted(x)"
+        ],
+        "answer": "lemon_squirted(x)",
+        "rules": [
+            "FOR_ALL x, squeezing_lemon(x) => lemon_squirted(x)",
+            "FOR_ALL x, squeezed(x) => me(x)",
+            "FOR_ALL x, being_squeezed(x) => lemon(x)",
+            "FOR_ALL x, getting_moldy(x) => property_of_lemon(x)"
+        ]
+    },
+    {
+        "query": "country_discovering_new_land(x)",
+        "options": [
+            "country_abandoned_land(x)",
+            "country_colonizing_land(x)"
+        ],
+        "answer": "country_colonizing_land(x)",
+        "rules": [
+            "FOR_ALL x, acquiring_new_land(x) => colonized_land(x)",
+            "FOR_ALL x, discovering_new_land(x) => acquiring_new_land(x)",
+            "FOR_ALL x, country(x) => could_abandon_land(x)"
+        ]
+    },
+    {
+        "query": "father_caught_son_lying(x)",
+        "options": [
+            "son_confessed_truth(x)",
+            "father_trusted_son(x)"
+        ],
+        "answer": "son_confessed_truth(x)",
+        "rules": [
+            "FOR_ALL x, being_caught_in_a_lie(x) => confess(x)",
+            "FOR_ALL x, being_caught(x) => making_people_feel_guilt(x)",
+            "FOR_ALL x, guilt(x) => confession(x)",
+            "FOR_ALL x, trusting(x) => property_of_father(x)"
+        ]
+    },
+    {
+        "query": "woman_had_sore_throat(x)",
+        "options": [
+            "voice_sounded_raspy(x)",
+            "spoke_with_accent(x)"
+        ],
+        "answer": "voice_sounded_raspy(x)",
+        "rules": [
+            "FOR_ALL x, sore_throat(x) => raspy_voice(x)",
+            "FOR_ALL x, speaking_with_an_accent(x) => woman(x)",
+            "FOR_ALL x, sore_throat(x) => woman(x)"
+        ]
+    },
+    {
+        "query": "woman_business_succeeding(x)",
+        "options": [
+            "fired_employees(x)",
+            "she_became_wealthy(x)"
+        ],
+        "answer": "she_became_wealthy(x)",
+        "rules": [
+            "FOR_ALL x, successful_business(x) => becoming_wealthy(x)",
+            "FOR_ALL x, woman(x) => could_fire_employees(x)",
+            "FOR_ALL x, employee(x) => at_business(x)"
+        ]
+    },
+    {
+        "query": "woman_claiming_saw_ghost(x)",
+        "options": [
+            "acquaintances_expressing_skepticism(x)",
+            "acquaintances_relating_to_her(x)"
+        ],
+        "answer": "acquaintances_expressing_skepticism(x)",
+        "rules": [
+            "FOR_ALL x, claim_seeing_a_ghost(x) => paranormal_claim(x)",
+            "FOR_ALL x, paranormal_claim(x) => skepticism(x)",
+            "FOR_ALL x, relating_to_her(x) => acquaintances(x)"
+        ]
+    },
+    {
+        "query": "man_did_cannon_ball_into_pool(x)",
+        "options": [
+            "lifeguard_jumping_in_after_him(x)",
+            "man_soaked_lifeguard(x)"
+        ],
+        "answer": "man_soaked_lifeguard(x)",
+        "rules": [
+            "FOR_ALL x, canon_ball(x) => causes_large_splash(x)",
+            "FOR_ALL x, large_splash(x) => could_soak_people(x)",
+            "FOR_ALL x, lifeguard(x) => person(x)",
+            "FOR_ALL x, jumping_in(x) => lifeguard(x)"
+        ]
+    },
+    {
+        "query": "took_antibiotics(x)",
+        "options": [
+            "infection_cleared_up(x)",
+            "infection_spread(x)"
+        ],
+        "answer": "infection_cleared_up(x)",
+        "rules": [
+            "FOR_ALL x, taking_antibiotics(x) => manner_of_healing_an_infection(x)",
+            "FOR_ALL x, an_infection(x) => could_harm_you(x)",
+            "FOR_ALL x, spreading(x) => infection(x)"
+        ]
+    },
+    {
+        "query": "traffic_light_turned_yellow(x)",
+        "options": [
+            "driver_pushed_brake(x)",
+            "driver_honking_his_horn(x)"
+        ],
+        "answer": "driver_pushed_brake(x)",
+        "rules": [
+            "FOR_ALL x, car_being_stopped(x) => pushing_the_brake(x)",
+            "FOR_ALL x, light_turning_red(x) => car_being_stopped(x)",
+            "FOR_ALL x, yellow_traffic_light(x) => symbol_of_light_turning_red(x)",
+            "FOR_ALL x, honking_horn(x) => driver(x)"
+        ]
+    },
+    {
+        "query": "boy_studied_all_night(x)",
+        "options": [
+            "skipped_exam(x)",
+            "passed_exam(x)"
+        ],
+        "answer": "passed_exam(x)",
+        "rules": [
+            "FOR_ALL x, getting_ready_for_exam(x) => passing_exam(x)",
+            "FOR_ALL x, studying_all_night(x) => getting_ready_for_the_exam(x)",
+            "FOR_ALL x, boy(x) => could_skip_the_exam(x)"
+        ]
+    },
+    {
+        "query": "building_adjacent_to_office_under_construction(x)",
+        "options": [
+            "office_was_crowded(x)",
+            "office_was_noisy(x)"
+        ],
+        "answer": "office_was_noisy(x)",
+        "rules": [
+            "FOR_ALL x, being_under_construction(x) => noise(x)",
+            "FOR_ALL x, office(x) => located_near_construction(x)",
+            "FOR_ALL x, crowded(x) => office(x)"
+        ]
+    },
+    {
+        "query": "family_wanting_to_get_to_know_new_neighbors(x)",
+        "options": [
+            "family_inviting_neighbors_for_dinner(x)",
+            "family_waving_to_neighbors_from_yard(x)"
+        ],
+        "answer": "family_inviting_neighbors_for_dinner(x)",
+        "rules": [
+            "FOR_ALL x, getting_to_know_neighbors(x) => inviting_neighbors_over(x)",
+            "FOR_ALL x, waving_to_neighbors(x) => family(x)"
+        ]
+    },
+    {
+        "query": "bit_into_slice_of_watermelon(x)",
+        "options": [
+            "accidentally_swallowed_seed(x)",
+            "accidentally_chipped_tooth(x)"
+        ],
+        "answer": "accidentally_swallowed_seed(x)",
+        "rules": [
+            "FOR_ALL x, seed(x) => part_of_watermelon(x)",
+            "FOR_ALL x, biting_a_slice_of_watermelon(x) => swallowing_a_seed(x)",
+            "FOR_ALL x, chipping_tooth(x) => property_of_me(x)",
+            "FOR_ALL x, tooth(x) => could_get_chipped(x)"
+        ]
+    },
+    {
+        "query": "ship_wrecked(x)",
+        "options": [
+            "crew_drowned(x)",
+            "crew_encountered_pirates(x)"
+        ],
+        "answer": "crew_drowned(x)",
+        "rules": [
+            "FOR_ALL x, ship(x) => has_crew(x)",
+            "FOR_ALL x, crew(x) => capable_of_drowning(x)",
+            "FOR_ALL x, ship_wreck(x) => drowning(x)",
+            "FOR_ALL x, encountering_pirates(x) => crew(x)",
+            "FOR_ALL x, ship(x) => at_sea(x)",
+            "FOR_ALL x, pirate(x) => at_sea(x)"
+        ]
+    },
+    {
+        "query": "boy_felt_stumped_by_riddle(x)",
+        "options": [
+            "solved_riddle(x)",
+            "requested_hint(x)"
+        ],
+        "answer": "requested_hint(x)",
+        "rules": [
+            "FOR_ALL x, being_stumped(x) => requesting_a_hint(x)",
+            "FOR_ALL x, find_answer(x) => asking_for_hint(x)",
+            "FOR_ALL x, solving_riddle(x) => boy(x)"
+        ]
+    },
+    {
+        "query": "phone_ringing(x)",
+        "options": [
+            "man_hung_up_phone(x)",
+            "man_picked_up_phone(x)"
+        ],
+        "answer": "man_picked_up_phone(x)",
+        "rules": [
+            "FOR_ALL x, phone_ringing(x) => pick_up_the_phone(x)",
+            "FOR_ALL x, hanging_up_the_phone(x) => man(x)"
+        ]
+    },
+    {
+        "query": "woman_staring_at_me(x)",
+        "options": [
+            "hugged_her(x)",
+            "felt_uncomfortable(x)"
+        ],
+        "answer": "felt_uncomfortable(x)",
+        "rules": [
+            "FOR_ALL x, being_stared(x) => feeling_uncomfortable(x)",
+            "FOR_ALL x, me(x) => could_hug(x)"
+        ]
+    },
+    {
+        "query": "pen_running_out_of_ink(x)",
+        "options": [
+            "used_pencil(x)",
+            "signed_my_name(x)"
+        ],
+        "answer": "used_pencil(x)",
+        "rules": [
+            "FOR_ALL x, pen(x) => out_of_ink(x)",
+            "FOR_ALL x, pen(x) => could_run_out_of_ink(x)",
+            "FOR_ALL x, pen_running_out_of_ink(x) => using_pencil(x)",
+            "FOR_ALL x, me(x) => could_sign_name(x)"
+        ]
+    },
+    {
+        "query": "man_lost_temper(x)",
+        "options": [
+            "turned_off_computer(x)",
+            "threw_chair_across_room(x)"
+        ],
+        "answer": "threw_chair_across_room(x)",
+        "rules": [
+            "FOR_ALL x, loosing_temper(x) => throwing_a_chair(x)",
+            "FOR_ALL x, throwing_a_chair_across_room(x) => showing_that_you_are_upset(x)",
+            "FOR_ALL x, being_upset(x) => becoming_angry(x)",
+            "FOR_ALL x, man(x) => could_turn_off_computer(x)"
+        ]
+    },
+    {
+        "query": "parents_wanting_children_to_go_to_college(x)",
+        "options": [
+            "they_set_aside_savings_fund_for_tuition(x)",
+            "encouraged_children_to_play_outside(x)"
+        ],
+        "answer": "they_set_aside_savings_fund_for_tuition(x)",
+        "rules": [
+            "FOR_ALL x, tuition(x) => expensive(x)",
+            "FOR_ALL x, wanting_children_to_go_to_college(x) => saving_funds_for_tuition(x)",
+            "FOR_ALL x, encouraging_children_to_play_outside(x) => parents(x)",
+            "FOR_ALL x, children(x) => could_play_outside(x)"
+        ]
+    },
+    {
+        "query": "man_unlacing_shoes(x)",
+        "options": [
+            "shoes_loosened(x)",
+            "shoes_became_worn(x)"
+        ],
+        "answer": "shoes_loosened(x)",
+        "rules": [
+            "FOR_ALL x, unlacing_shoes(x) => could_loosen_shoes(x)",
+            "FOR_ALL x, the_lace(x) => part_of_a_shoe(x)",
+            "FOR_ALL x, shoe(x) => could_become_worn(x)"
+        ]
+    },
+    {
+        "query": "had_to_wait_in_line(x)",
+        "options": [
+            "took_seat(x)",
+            "skimmed_magazine(x)"
+        ],
+        "answer": "skimmed_magazine(x)",
+        "rules": [
+            "FOR_ALL x, waiting_in_line(x) => occupy_your_time(x)",
+            "FOR_ALL x, occupying_your_time(x) => desires_skimming_a_magazine(x)",
+            "FOR_ALL x, me(x) => could_take_a_seat(x)"
+        ]
+    },
+    {
+        "query": "runner_sensing_competitor_gaining_on_him(x)",
+        "options": [
+            "dropped_out_of_race(x)",
+            "he_speeded_up_pace(x)"
+        ],
+        "answer": "he_speeded_up_pace(x)",
+        "rules": [
+            "FOR_ALL x, speeding_up_your_pace(x) => making_sure_other_runners_not_gaining_distance_on_you(x)",
+            "FOR_ALL x, thinking_that_competitor_is_gaining_ground(x) => speed_up_pace(x)",
+            "FOR_ALL x, runner(x) => could_drop_out_of_race(x)"
+        ]
+    },
+    {
+        "query": "thought_carefully_about_problem(x)",
+        "options": [
+            "asked_for_advice(x)",
+            "came_up_with_solution(x)"
+        ],
+        "answer": "came_up_with_solution(x)",
+        "rules": [
+            "FOR_ALL x, thinking_about_a_problem(x) => manner_of_learning_of_a_solution(x)",
+            "FOR_ALL x, thinking_about_the_problem(x) => creates_a_solution(x)",
+            "FOR_ALL x, me(x) => could_ask_for_advice(x)"
+        ]
+    },
+    {
+        "query": "traveler_walking_on_shaky_suspension_bridge(x)",
+        "options": [
+            "felt_terrified(x)",
+            "felt_ecstatic(x)"
+        ],
+        "answer": "felt_terrified(x)",
+        "rules": [
+            "FOR_ALL x, walking_on_shaky_suspension_bridge(x) => feeling_terrified(x)",
+            "FOR_ALL x, traveler(x) => could_feel_ecstatic(x)"
+        ]
+    },
+    {
+        "query": "man_anticipated_team_victory(x)",
+        "options": [
+            "met_friends_to_watch_game(x)",
+            "made_bet_with_friends(x)"
+        ],
+        "answer": "made_bet_with_friends(x)",
+        "rules": [
+            "FOR_ALL x, man(x) => anticipating(x)",
+            "FOR_ALL x, man(x) => capable_of_anticipating(x)",
+            "FOR_ALL x, man(x) => could_make_a_bet(x)",
+            "FOR_ALL x, man(x) => has_friends(x)",
+            "FOR_ALL x, bet(x) => created_by_man(x)",
+            "FOR_ALL x, anticipating_tema_victory(x) => making_a_bet(x)",
+            "FOR_ALL x, man(x) => could_meet_friends_to_watch_game(x)"
+        ]
+    },
+    {
+        "query": "boy_could_not_fall_asleep(x)",
+        "options": [
+            "he_setting_alarm_clock(x)",
+            "he_counted_sheep(x)"
+        ],
+        "answer": "he_counted_sheep(x)",
+        "rules": [
+            "FOR_ALL x, trying_to_get_to_sleep(x) => desires_counting_sheep(x)",
+            "FOR_ALL x, counting_sheep(x) => person_gets_sleepy(x)",
+            "FOR_ALL x, boy(x) => could_set_alarm_clock(x)",
+            "FOR_ALL x, falling_asleep(x) => property_of_boy(x)",
+            "FOR_ALL x, setting_alarm_clock(x) => related_to_sleep(x)"
+        ]
+    }
+]

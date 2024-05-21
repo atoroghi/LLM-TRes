@@ -1,0 +1,2662 @@
+[
+    [
+        "the hit song",
+        "CausesDesire",
+        "clapping"
+    ],
+    [
+        "clapping along with the music",
+        "PartOf",
+        "supporting the band"
+    ],
+    [
+        "politely listening in silence",
+        "Propertyof",
+        "audience"
+    ],
+    [
+        "audience",
+        "CapableOf",
+        "leaving the concert"
+    ],
+    [
+        "audience",
+        "CapableOf",
+        "being polite"
+    ],
+    [
+        "thanking someone",
+        "CausesDesire",
+        "giving an apple"
+    ],
+    [
+        "staying after school",
+        "PropertyOf",
+        "girl"
+    ],
+    [
+        "staying after school",
+        "Causes",
+        "detention"
+    ],
+    [
+        "thanking your teacher",
+        "MotivatedByGoal",
+        "you liking that teacher"
+    ],
+    [
+        "hit",
+        "Causes",
+        "head injury"
+    ],
+    [
+        "head injury",
+        "Causes",
+        "concussion"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "hitting head"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "being lost in thought"
+    ],
+    [
+        "email inbox being full",
+        "CausesDesire",
+        "delete spam"
+    ],
+    [
+        "getting rid of spam",
+        "MannerOf",
+        "clearing up some inbox space"
+    ],
+    [
+        "sending out mass email",
+        "PropertyOf",
+        "man"
+    ],
+    [
+        "The man",
+        "Desires",
+        "to keep warm"
+    ],
+    [
+        "packing lots of warm clothes",
+        "Requires",
+        "big suitcase"
+    ],
+    [
+        "big suitcase",
+        "PropertyOf",
+        "man"
+    ],
+    [
+        "big suitcase",
+        "UsedFor",
+        "Traveling"
+    ],
+    [
+        "cold weather prognosis",
+        "CausesDesire",
+        "pack warm clothes"
+    ],
+    [
+        "warm clothes",
+        "UsedFor",
+        "to keep warm in cold weather"
+    ],
+    [
+        "winning five games in a row",
+        "Causes",
+        "the opponent to accuse the player of cheating"
+    ],
+    [
+        "The opponent",
+        "HasProperty",
+        "angry"
+    ],
+    [
+        "opponent",
+        "CapableOf",
+        "feeling sorry for someone"
+    ],
+    [
+        "losing weight",
+        "MannerOf",
+        "gaining a compliment"
+    ],
+    [
+        "complimenting someone",
+        "PartOf",
+        "motivating them"
+    ],
+    [
+        "isolating someone",
+        "PropertyOf",
+        "people"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "being isolated"
+    ],
+    [
+        "negotiating a treaty",
+        "MannerOf",
+        "achieving peace"
+    ],
+    [
+        "developing nuclear weapons",
+        "Causes",
+        "war"
+    ],
+    [
+        "developing nuclear weapons",
+        "PropertyOf",
+        "warring countries"
+    ],
+    [
+        "Peace",
+        "IsA",
+        "product of signing a treaty"
+    ],
+    [
+        "trauma to the knee",
+        "Causes",
+        "bruised knee"
+    ],
+    [
+        "loosened leg of sofa",
+        "PropertyOf",
+        "sofa"
+    ],
+    [
+        "bumping into sofa",
+        "Causes",
+        "trauma to the knee"
+    ],
+    [
+        "pushing the door",
+        "Causes",
+        "the door to open"
+    ],
+    [
+        "being locked",
+        "PropertyOf",
+        "door"
+    ],
+    [
+        "fish",
+        "Desires",
+        "fish food"
+    ],
+    [
+        "sprinkling fish food",
+        "Causes",
+        "fish to swim towards food"
+    ],
+    [
+        "fish",
+        "CapableOf",
+        "leaping_out_of_tank"
+    ],
+    [
+        "the clogged sink",
+        "unclogged by",
+        "drain cleaner"
+    ],
+    [
+        "turning on the faucet",
+        "Causes",
+        "flow of water"
+    ],
+    [
+        "flow of water",
+        "MayCause",
+        "unclog the sink"
+    ],
+    [
+        "signing A lease",
+        "required for",
+        "moving into an apartment"
+    ],
+    [
+        "the couple",
+        "Desires",
+        "a new apartment"
+    ],
+    [
+        "a lease",
+        "UsedFor",
+        "securing an apartment"
+    ],
+    [
+        "city",
+        "CapableOf",
+        "condemning an apartment"
+    ],
+    [
+        "writing",
+        "HasSubevent",
+        "a mistake"
+    ],
+    [
+        "the woman",
+        "Desires",
+        "to erase the mistake"
+    ],
+    [
+        "mistake",
+        "ErasedBy",
+        "hitting the backspace key"
+    ],
+    [
+        "deleting the document",
+        "Causes",
+        "erasing the mistake"
+    ],
+    [
+        "an intense crowd",
+        "CapableOf",
+        "making your son hard to find"
+    ],
+    [
+        "making your son hard to find",
+        "CausesDesire",
+        "keep an eye on son"
+    ],
+    [
+        "keeping an eye on son",
+        "ResultsIn",
+        "grabbing son's hand"
+    ],
+    [
+        "handing money to son",
+        "Causes",
+        "son having money"
+    ],
+    [
+        "father",
+        "CapableOf",
+        "handing money to son"
+    ],
+    [
+        "removing snow",
+        "EnabledBy",
+        "Using a shovel"
+    ],
+    [
+        "snow blocking driveway",
+        "Motivates",
+        "removing snow"
+    ],
+    [
+        "snowball",
+        "MadeOf",
+        "snow"
+    ],
+    [
+        "gathering snow into snowball",
+        "Causes",
+        "snowball"
+    ],
+    [
+        "person",
+        "UsedFor",
+        "control moving bike"
+    ],
+    [
+        "uncontrolled moving bike",
+        "CapableOf",
+        "crashing into a fence"
+    ],
+    [
+        "bike",
+        "ObstructedBy",
+        "fence"
+    ],
+    [
+        "letting go of handlebars",
+        "Causes",
+        "uncontrolled moving bike"
+    ],
+    [
+        "girl",
+        "CapableOf",
+        "letting go handlebars"
+    ],
+    [
+        "feeling guilty",
+        "CausesDesire",
+        "confess your guilt"
+    ],
+    [
+        "cheating on your partner",
+        "Causes",
+        "a guilty feeling"
+    ],
+    [
+        "accusing of infidelity",
+        "PropertyOf",
+        "husband"
+    ],
+    [
+        "accusing of infidelity",
+        "CausedBy",
+        "cheating"
+    ],
+    [
+        "Boy",
+        "CapableOf",
+        "putting feet on table"
+    ],
+    [
+        "Father",
+        "CapableOf",
+        "lecturing"
+    ],
+    [
+        "sitting down at the table",
+        "PropertyOf",
+        "father"
+    ],
+    [
+        "Father",
+        "HasA",
+        "table"
+    ],
+    [
+        "Boy putting Feet on table",
+        "CausesDesire",
+        "father giving lecture"
+    ],
+    [
+        "oppressing citizens",
+        "Causes",
+        "the citizens to revolt"
+    ],
+    [
+        "the citizens",
+        "Desires",
+        "to not be oppressed"
+    ],
+    [
+        "citizens",
+        "CapableOf",
+        "registering to vote"
+    ],
+    [
+        "registering to vote",
+        "CausedBy",
+        "oppression"
+    ],
+    [
+        "the woods",
+        "HasProperty",
+        "easy to get lost in"
+    ],
+    [
+        "being lost",
+        "Causes",
+        "being frightened"
+    ],
+    [
+        "being frightened",
+        "CausesDesire",
+        "screaming"
+    ],
+    [
+        "screaming",
+        "MannerOf",
+        "attracting help"
+    ],
+    [
+        "pitching a tent",
+        "PropertyOf",
+        "the boy"
+    ],
+    [
+        "pitching a tent",
+        "Causes",
+        "having a place to sleep"
+    ],
+    [
+        "having a place to sleep",
+        "CausesDesire",
+        "pitching a tent"
+    ],
+    [
+        "tent",
+        "LocatedNear",
+        "woods"
+    ],
+    [
+        "Electricity going off",
+        "HasProperty",
+        "tripping a circuit breaker"
+    ],
+    [
+        "Having circuit breaker go off",
+        "HasProperty",
+        "keeping power off"
+    ],
+    [
+        "tripping a circuit breaker",
+        "CausesDesire",
+        "reset the circuit breaker"
+    ],
+    [
+        "turining on a light",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "turining on a light",
+        "Causes",
+        "having light"
+    ],
+    [
+        "having light",
+        "CausesDesire",
+        "turining on a light"
+    ],
+    [
+        "tree fall",
+        "Causes",
+        "damage to power line"
+    ],
+    [
+        "damaged power line",
+        "Causes",
+        "electricity in neighborhood went out"
+    ],
+    [
+        "weather forecast",
+        "CapableOf",
+        "predicting heavy winds"
+    ],
+    [
+        "heavy winds",
+        "CapableOf",
+        "knocking down trees"
+    ],
+    [
+        "heavy winds",
+        "Causes",
+        "tree fall on power line"
+    ],
+    [
+        "calling someone back",
+        "MannerOf",
+        "reacting to a missed phone call"
+    ],
+    [
+        "a missed phone call",
+        "CausesDesire",
+        "call the person back"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "meeting for dinner"
+    ],
+    [
+        "girlfriend",
+        "CapableOf",
+        "meeting for dinne"
+    ],
+    [
+        "meeting for dinner",
+        "Causes",
+        "having dinner"
+    ],
+    [
+        "Baking a pie",
+        "Causes",
+        "a kitchen to smell warm and delicious"
+    ],
+    [
+        "apple pies baking in the oven",
+        "Causes",
+        "An aroma filled kitchen"
+    ],
+    [
+        "rotting smell",
+        "PropertyOf",
+        "kitchen"
+    ],
+    [
+        "rotting smell",
+        "CausedBy",
+        "apples"
+    ],
+    [
+        "a soldier",
+        "PartOf",
+        "war"
+    ],
+    [
+        "declaring a war",
+        "Causes",
+        "soldiers to have to fight"
+    ],
+    [
+        "soldiers",
+        "CapableOf",
+        "reuiniting with families"
+    ],
+    [
+        "controversial rulings",
+        "CapableOf",
+        "creating mixed emotions among people"
+    ],
+    [
+        "mixed emotions",
+        "Causes",
+        "anger"
+    ],
+    [
+        "anger",
+        "CausesDesire",
+        "rebel"
+    ],
+    [
+        "rebel",
+        "SymbolOf",
+        "rebellion"
+    ],
+    [
+        "rebellion",
+        "Synonym",
+        "riot"
+    ],
+    [
+        "couple",
+        "CapableOf",
+        "exchanging vows"
+    ],
+    [
+        "exchanging vows",
+        "LocatedNear",
+        "courthouse"
+    ],
+    [
+        "getting away from the rain",
+        "Causes",
+        "dashing to get inside"
+    ],
+    [
+        "the rain pouring down",
+        "CausesDesire",
+        "getting away from the rain"
+    ],
+    [
+        "the storm worsening",
+        "Causes",
+        "rain pouring down"
+    ],
+    [
+        "pouring down",
+        "PropertyOf",
+        "rain"
+    ],
+    [
+        "storm",
+        "CapableOf",
+        "worsening"
+    ],
+    [
+        "father's resentment of son",
+        "CausesDesire",
+        "father evicting the son"
+    ],
+    [
+        "family harmony",
+        "ObstructedBy",
+        "alcoholic son"
+    ],
+    [
+        "eviction",
+        "MannerOf",
+        "remove problem member"
+    ],
+    [
+        "father",
+        "CapableOf",
+        "buying beer"
+    ],
+    [
+        "drinking beer",
+        "PropertyOf",
+        "son"
+    ],
+    [
+        "beer",
+        "RelatedTo",
+        "alcoholism"
+    ],
+    [
+        "handing money to cashier",
+        "CapableOf",
+        "overpaying"
+    ],
+    [
+        "overpaying",
+        "Causes",
+        "change to be given"
+    ],
+    [
+        "cashier",
+        "CapableOf",
+        "forgetting to give receipt"
+    ],
+    [
+        "loosing a tournament",
+        "Causes",
+        "fans to be dissapointed"
+    ],
+    [
+        "dissapointed fans",
+        "CreatedBy",
+        "poor performances by teams"
+    ],
+    [
+        "inspiring fans",
+        "PropertyOf",
+        "team"
+    ],
+    [
+        "inspiring fans",
+        "HasPrerequisite",
+        "team losing the tournament"
+    ],
+    [
+        "food in teeth",
+        "Causes",
+        "embarrassment"
+    ],
+    [
+        "embarrassment",
+        "PartOf",
+        "an uncomfortable situation"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "feeling proud"
+    ],
+    [
+        "feeling proud",
+        "CausesDesire",
+        "showing teeth to friend"
+    ],
+    [
+        "reaching down simultaneously",
+        "Causes",
+        "bumping their head"
+    ],
+    [
+        "the children",
+        "Desires",
+        "the ball"
+    ],
+    [
+        "rolling away",
+        "PropertyOf",
+        "the ball"
+    ],
+    [
+        "ball rolling away",
+        "HasPrerequisite",
+        "children reaching down the ball"
+    ],
+    [
+        "deep scratch",
+        "Causes",
+        "scar"
+    ],
+    [
+        "scratch",
+        "HasProperty",
+        "deep"
+    ],
+    [
+        "scratch",
+        "CapableOf",
+        "scar"
+    ],
+    [
+        "scar",
+        "CreatedBy",
+        "scratch"
+    ],
+    [
+        "healing quickly",
+        "PropertyOf",
+        "scratch"
+    ],
+    [
+        "healing",
+        "HasPrerequisite",
+        "scratch"
+    ],
+    [
+        "scratch",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "left crumbs",
+        "CapableOf",
+        "attracting ants"
+    ],
+    [
+        "Child",
+        "CapableOf",
+        "leaving crumbs"
+    ],
+    [
+        "child",
+        "CapableOf",
+        "putting the bread away"
+    ],
+    [
+        "putting the bread away",
+        "HasPrerequisite",
+        "leaving crumbs on the floor"
+    ],
+    [
+        "getting lost",
+        "CausesDesire",
+        "getting directions"
+    ],
+    [
+        "getting directions",
+        "CausesDesire",
+        "unfolding a map"
+    ],
+    [
+        "counting cash",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "counting cash",
+        "HasPrerequisite",
+        "getting lost"
+    ],
+    [
+        "Clothesline",
+        "UsedFor",
+        "drying"
+    ],
+    [
+        "I",
+        "Desires",
+        "dry clothing"
+    ],
+    [
+        "hanging linen on clothesline",
+        "Causes",
+        "dried linen"
+    ],
+    [
+        "get stained",
+        "PropertyOf",
+        "linen"
+    ],
+    [
+        "being wet",
+        "PropertyOf",
+        "linen"
+    ],
+    [
+        "rainy weather",
+        "Causes",
+        "bad visibility"
+    ],
+    [
+        "bad visibility",
+        "CausesDesire",
+        "turning on headlights"
+    ],
+    [
+        "shifting the car into reverse",
+        "PropertyOf",
+        "driver"
+    ],
+    [
+        "shifting the car into reverse",
+        "HasPrerequisite",
+        "beginning to rain"
+    ],
+    [
+        "wind blowing",
+        "CapableOf",
+        "shuddering curtains"
+    ],
+    [
+        "doorbell ringing",
+        "PropertyOf",
+        "door"
+    ],
+    [
+        "doorbell ringing",
+        "HasPrerequisite",
+        "wind blowing"
+    ],
+    [
+        "doorbell",
+        "LocatedNear",
+        "door"
+    ],
+    [
+        "a window",
+        "LocatedNear",
+        "the outdoors"
+    ],
+    [
+        "wind",
+        "AtLocation",
+        "the outdoors"
+    ],
+    [
+        "doing math in your head",
+        "CapableOf",
+        "making your brain hurt"
+    ],
+    [
+        "using a calculator",
+        "PropertyOf",
+        "student"
+    ],
+    [
+        "using a calculator",
+        "HasPrerequisite",
+        "trying to do math in your head"
+    ],
+    [
+        "calculator",
+        "RelatedTo",
+        "math"
+    ],
+    [
+        "making your brain hurt",
+        "HasSubevent",
+        "being confused"
+    ],
+    [
+        "throwing a water balloon",
+        "Causes",
+        "the water ballon to break"
+    ],
+    [
+        "getting concussion",
+        "PropertyOf",
+        "boy"
+    ],
+    [
+        "concussion",
+        "CausedBy",
+        "object thrown at head"
+    ],
+    [
+        "water balloon breaking",
+        "CapableOf",
+        "soaking the person"
+    ],
+    [
+        "squeezing the sponge",
+        "Causes",
+        "water to seep out of it"
+    ],
+    [
+        "water",
+        "AtLocation",
+        "the sponge"
+    ],
+    [
+        "water",
+        "RelatedTo",
+        "sponge"
+    ],
+    [
+        "soaking up water",
+        "PropertyOf",
+        "sponge"
+    ],
+    [
+        "Toothbooth attendant",
+        "Desires",
+        "payment"
+    ],
+    [
+        "Paying tollbooth attendant",
+        "Causes",
+        "permitted to pass through tollbooth"
+    ],
+    [
+        "detaining at tollbooth",
+        "PropertyOf",
+        "attendant"
+    ],
+    [
+        "missing the bus",
+        "Causes",
+        "being late to work"
+    ],
+    [
+        "missing the bus",
+        "CausesDesire",
+        "find different transportation"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "being early to work"
+    ],
+    [
+        "collision",
+        "Causes",
+        "smashing car"
+    ],
+    [
+        "Speeding up",
+        "PropertyOf",
+        "truck"
+    ],
+    [
+        "Speeding up",
+        "HasPrerequisite",
+        "collision"
+    ],
+    [
+        "Stained suit",
+        "Requires",
+        "Stain removal"
+    ],
+    [
+        "Stain removal",
+        "EnabledBy",
+        "dry-clean"
+    ],
+    [
+        "hanging in closet",
+        "PropertyOf",
+        "man"
+    ],
+    [
+        "hanging in closet",
+        "HasPrerequisite",
+        "stained suit"
+    ],
+    [
+        "Squeezing tube of toothpaste",
+        "CapableOf",
+        "creating pressure to toothpaste"
+    ],
+    [
+        "pressure to toothpaste",
+        "Causes",
+        "squirting out of tube"
+    ],
+    [
+        "girl",
+        "CapableOf",
+        "spitting out toothpaste"
+    ],
+    [
+        "civilian deaths",
+        "Motivates",
+        "Pacifists protest"
+    ],
+    [
+        "civilian deaths",
+        "RelatedTo",
+        "the war"
+    ],
+    [
+        "Plastic surgery",
+        "CapableOf",
+        "removing lines and wrinkles"
+    ],
+    [
+        "lines and wrinkles",
+        "CapableOf",
+        "making persons seem old"
+    ],
+    [
+        "removing lines and wrinkles",
+        "CapableOf",
+        "person looking younger"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "aging"
+    ],
+    [
+        "starvation",
+        "CapableOf",
+        "causing death"
+    ],
+    [
+        "fleeing",
+        "PropertyOf",
+        "prisoner"
+    ],
+    [
+        "cold",
+        "Causes",
+        "shivering"
+    ],
+    [
+        "cold draft",
+        "CapableOf",
+        "changing temperature"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "relaxing"
+    ],
+    [
+        "extending one's hand",
+        "MannerOf",
+        "asking for a handshake"
+    ],
+    [
+        "asking for a handshake",
+        "CausesDesire",
+        "shaking hand"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "slapping"
+    ],
+    [
+        "wife having affair",
+        "CausesDesire",
+        "file for divorce"
+    ],
+    [
+        "The divorce",
+        "RelatedTo",
+        "the wife's affair"
+    ],
+    [
+        "husband",
+        "CapableOf",
+        "firing lawyer"
+    ],
+    [
+        "dropping a ball",
+        "Causes",
+        "the ball to bounce"
+    ],
+    [
+        "rubber",
+        "IsA",
+        "material that bounces"
+    ],
+    [
+        "glowing",
+        "PropertyOf",
+        "ball"
+    ],
+    [
+        "exam",
+        "HasSubevent",
+        "Mistakes"
+    ],
+    [
+        "Mistakes",
+        "CausesDesire",
+        "rectify mistakes"
+    ],
+    [
+        "rectify mistakes",
+        "ReceivesAction",
+        "Erasing"
+    ],
+    [
+        "guessing at the answer",
+        "PropertyOf",
+        "girl"
+    ],
+    [
+        "Tackling",
+        "Causes",
+        "hitting the ground"
+    ],
+    [
+        "The player",
+        "Desires",
+        "beat opponent"
+    ],
+    [
+        "opponent",
+        "CapableOf",
+        "catching the pass"
+    ],
+    [
+        "a tornado",
+        "CapableOf",
+        "blowing the roof off"
+    ],
+    [
+        "a roof",
+        "PartOf",
+        "a home"
+    ],
+    [
+        "a tornado",
+        "MadeOf",
+        "very heavy winds"
+    ],
+    [
+        "icy highway",
+        "PropertyOf",
+        "highway"
+    ],
+    [
+        "receiving tutoring",
+        "Causes",
+        "better understanding"
+    ],
+    [
+        "better understanding",
+        "Causes",
+        "grades improve"
+    ],
+    [
+        "student",
+        "CapableOf",
+        "cheating on the exam"
+    ],
+    [
+        "polishing",
+        "Causes",
+        "item become shiny"
+    ],
+    [
+        "becoming slippery",
+        "PropertyOf",
+        "stone"
+    ],
+    [
+        "becoming slippery",
+        "HasPrerequisite",
+        "polishing"
+    ],
+    [
+        "sugar",
+        "UsedFor",
+        "sweetening the coffee"
+    ],
+    [
+        "adding sugar to coffee",
+        "Causes",
+        "the coffee tastes sweet"
+    ],
+    [
+        "smelling strong",
+        "PropertyOf",
+        "coffee"
+    ],
+    [
+        "The paper's edge",
+        "HasProperty",
+        "sharp"
+    ],
+    [
+        "paper",
+        "CapableOf",
+        "cutting"
+    ],
+    [
+        "shuffling through papers",
+        "Causes",
+        "paper get cut"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "shredding papers"
+    ],
+    [
+        "the hammer",
+        "UsedFor",
+        "putting the nails into the wood"
+    ],
+    [
+        "pounding nail with hammer",
+        "Causes",
+        "the nail to sink into the wood"
+    ],
+    [
+        "nail",
+        "CapableOf",
+        "becoming rusty"
+    ],
+    [
+        "girl",
+        "HasProperty",
+        "happy"
+    ],
+    [
+        "smiling",
+        "Causes",
+        "dimples shown"
+    ],
+    [
+        "dimples",
+        "CreatedBy",
+        "smiling"
+    ],
+    [
+        "reddening cheeks",
+        "PropertyOf",
+        "girl"
+    ],
+    [
+        "reddening cheeks",
+        "CausedBy",
+        "blushing"
+    ],
+    [
+        "blushing",
+        "PropertyOf",
+        "girl"
+    ],
+    [
+        "fingerprint",
+        "UsedFor",
+        "identification"
+    ],
+    [
+        "dusting",
+        "reveals",
+        "fingerprints"
+    ],
+    [
+        "weapon",
+        "AtLocation",
+        "crime scene"
+    ],
+    [
+        "finding weapon",
+        "PropertyOf",
+        "detectives"
+    ],
+    [
+        "avoiding traffic",
+        "caused by",
+        "taking a detour"
+    ],
+    [
+        "traffic",
+        "CausesDesire",
+        "avoiding traffic"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "asking for a ride"
+    ],
+    [
+        "economy declining",
+        "Causes",
+        "many people to be unemployed"
+    ],
+    [
+        "people being unemployed",
+        "SymbolOf",
+        "a poor economy"
+    ],
+    [
+        "people getting sick",
+        "PropertyOf",
+        "people"
+    ],
+    [
+        "people getting sick",
+        "CausedBy",
+        "poor economy"
+    ],
+    [
+        "Gas",
+        "UsedFor",
+        "car to move"
+    ],
+    [
+        "No gas",
+        "Causes",
+        "no movement of the car"
+    ],
+    [
+        "still car",
+        "Causes",
+        "driver stranded"
+    ],
+    [
+        "driver",
+        "CapableOf",
+        "picking up hitchhiker"
+    ],
+    [
+        "going in labor",
+        "MannerOf",
+        "delivering a baby"
+    ],
+    [
+        "woman",
+        "CapableOf",
+        "having morning sickness"
+    ],
+    [
+        "hot forehead",
+        "SymbolOf",
+        "high fever"
+    ],
+    [
+        "high fever",
+        "HealedBy",
+        "taking temperature"
+    ],
+    [
+        "taking him to the park",
+        "PropertyOf",
+        "mother"
+    ],
+    [
+        "taking him to the park",
+        "CapableOf",
+        "Making boy feel better"
+    ],
+    [
+        "my friend's dog dying",
+        "Causes",
+        "need to show support"
+    ],
+    [
+        "show support",
+        "PerformedBy",
+        "hugging my friend"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "rolling eyes"
+    ],
+    [
+        "declined credit card",
+        "ReceivesAction",
+        "paying with cash"
+    ],
+    [
+        "The man",
+        "HasA",
+        "cash"
+    ],
+    [
+        "writing IOU",
+        "PropertyOf",
+        "businessman"
+    ],
+    [
+        "writing IOU",
+        "HasPrerequisite",
+        "declined credit card"
+    ],
+    [
+        "learn about the solar system",
+        "ReceivesAction",
+        "going to the library"
+    ],
+    [
+        "a book",
+        "UsedFor",
+        "learning about different subjects"
+    ],
+    [
+        "looking at the stars",
+        "PropertyOf",
+        "girl"
+    ],
+    [
+        "looking at the stars",
+        "CapableOf",
+        "exploring the solar system"
+    ],
+    [
+        "arriving late",
+        "Causes",
+        "sitting in back row"
+    ],
+    [
+        "picking seat",
+        "ObstructedBy",
+        "arriving late"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "approaching podium"
+    ],
+    [
+        "stomping on aluminum can",
+        "Causes",
+        "the can to crush"
+    ],
+    [
+        "stomping",
+        "Causes",
+        "force onto an object"
+    ],
+    [
+        "being recycled",
+        "PropertyOf",
+        "can"
+    ],
+    [
+        "being recycled",
+        "PropertyOf",
+        "aluminum"
+    ],
+    [
+        "the girl",
+        "Desires",
+        "to learn to debate"
+    ],
+    [
+        "debating",
+        "CapableOf",
+        "honing communication skills"
+    ],
+    [
+        "learning to use a computer",
+        "PropertyOf",
+        "girl"
+    ],
+    [
+        "raising money",
+        "ReceivesAction",
+        "holding auction"
+    ],
+    [
+        "feeding the homeless",
+        "PropertyOf",
+        "charity"
+    ],
+    [
+        "rollercoaster",
+        "Causes",
+        "excitement and scariness"
+    ],
+    [
+        "excitement and scariness",
+        "Causes",
+        "screaming"
+    ],
+    [
+        "passengers",
+        "CapableOf",
+        "giggling"
+    ],
+    [
+        "folding paper",
+        "Causes",
+        "crease"
+    ],
+    [
+        "recycling paper",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "being recyclable",
+        "PropertyOf",
+        "paper"
+    ],
+    [
+        "natural disaster",
+        "Requires",
+        "emergency relief"
+    ],
+    [
+        "The leaders",
+        "MotivatedByGoal",
+        "natural disaster"
+    ],
+    [
+        "forming an alliance",
+        "PropertyOf",
+        "leaders"
+    ],
+    [
+        "forming an alliance",
+        "HasPrerequisite",
+        "natural disaster"
+    ],
+    [
+        "yanking the hair",
+        "Causes",
+        "the wig coming off"
+    ],
+    [
+        "going bald",
+        "PropertyOf",
+        "imposter"
+    ],
+    [
+        "going bald",
+        "CausedBy",
+        "wig coming off"
+    ],
+    [
+        "graduating",
+        "CausesDesire",
+        "look for a job"
+    ],
+    [
+        "student",
+        "CapableOf",
+        "taking up a hobby"
+    ],
+    [
+        "mixing yellow into blue paint",
+        "Causes",
+        "the paint to turn green"
+    ],
+    [
+        "splattering everywhere",
+        "PropertyOf",
+        "paint"
+    ],
+    [
+        "employees being upset",
+        "Causes",
+        "employees going on strike"
+    ],
+    [
+        "refusing to give employees raises",
+        "Causes",
+        "employees to be upset"
+    ],
+    [
+        "appointing a new manager",
+        "PropertyOf",
+        "owner"
+    ],
+    [
+        "appointing a new manager",
+        "CapableOf",
+        "making employees happy"
+    ],
+    [
+        "Sand",
+        "PartOf",
+        "the beach"
+    ],
+    [
+        "Walking barefoot on the beach",
+        "Causes",
+        "sand to stick to feet"
+    ],
+    [
+        "waves crashing",
+        "PropertyOf",
+        "beach"
+    ],
+    [
+        "waves crashing",
+        "CausedBy",
+        "ocean"
+    ],
+    [
+        "sweatpants",
+        "UsedFor",
+        "keeping warm"
+    ],
+    [
+        "feeling cold",
+        "CausesDesire",
+        "to put sweatpants on"
+    ],
+    [
+        "drinking water",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "drinking water",
+        "HasPrerequisite",
+        "waking up"
+    ],
+    [
+        "wearing braces",
+        "UsedFor",
+        "straightening teeth"
+    ],
+    [
+        "Braces",
+        "AtLocation",
+        "the teeth"
+    ],
+    [
+        "getting a cavity",
+        "PropertyOf",
+        "boy"
+    ],
+    [
+        "cavity",
+        "AtLocation",
+        "teeth"
+    ],
+    [
+        "Work out",
+        "Causes",
+        "sore muscles"
+    ],
+    [
+        "Work out equipmemt",
+        "AtLocation",
+        "gym"
+    ],
+    [
+        "sore throat",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "the child to land on a trmpoline",
+        "Causes",
+        "springing back into the air"
+    ],
+    [
+        "the child",
+        "Desires",
+        "to play on the trampoline"
+    ],
+    [
+        "child",
+        "CapableOf",
+        "deciding to try to do a flip"
+    ],
+    [
+        "depositing a letter in the post office",
+        "MotivatedByGoal",
+        "post office delivering the letter"
+    ],
+    [
+        "the letter",
+        "AtLocation",
+        "the mailbox"
+    ],
+    [
+        "the post office",
+        "CapableOf",
+        "delivering letters"
+    ],
+    [
+        "expediting the letter",
+        "PropertyOf",
+        "post office"
+    ],
+    [
+        "Gamber",
+        "HasProperty",
+        "confident"
+    ],
+    [
+        "Gambler",
+        "HasA",
+        "money"
+    ],
+    [
+        "Gambler",
+        "CapableOf",
+        "betting"
+    ],
+    [
+        "Money",
+        "UsedFor",
+        "Gambling"
+    ],
+    [
+        "Bet",
+        "CreatedBy",
+        "Confidence"
+    ],
+    [
+        "Man",
+        "MotivatedByGoal",
+        "money"
+    ],
+    [
+        "Gambler being confident",
+        "Causes",
+        "Gambler betting all his money"
+    ],
+    [
+        "Going home broke",
+        "PropertyOf",
+        "Gambler"
+    ],
+    [
+        "mother",
+        "RelatedTo",
+        "child"
+    ],
+    [
+        "skinned",
+        "Synonym",
+        "cut"
+    ],
+    [
+        "cut",
+        "Motivates",
+        "putting bandage on the wound"
+    ],
+    [
+        "mother",
+        "PropertyOf",
+        "sending to room"
+    ],
+    [
+        "scalding liquid",
+        "Causes",
+        "burnt tongue"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "biting tongue"
+    ],
+    [
+        "making more money",
+        "EnabledBy",
+        "working overtime"
+    ],
+    [
+        "being short on rent",
+        "CreatedBy",
+        "not having enough money"
+    ],
+    [
+        "not having enough money",
+        "Motivates",
+        "making more money"
+    ],
+    [
+        "quitting job",
+        "PropertyOf",
+        "woman"
+    ],
+    [
+        "a survey",
+        "MannerOf",
+        "learning what your customers think"
+    ],
+    [
+        "knowing your customer satisfaction",
+        "Motivates",
+        "distributing a survey"
+    ],
+    [
+        "offering a discount",
+        "PropertyOf",
+        "company"
+    ],
+    [
+        "offering a discount",
+        "CapableOf",
+        "improving customer satisfaction"
+    ],
+    [
+        "enthralled",
+        "Synonym",
+        "engrossed"
+    ],
+    [
+        "engrossed",
+        "Causes",
+        "lack of awareness"
+    ],
+    [
+        "lack of awareness",
+        "Causes",
+        "losing track of time"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "returning the book"
+    ],
+    [
+        "apologizing to friend",
+        "CausesDesire",
+        "frined forgiving"
+    ],
+    [
+        "forgiving",
+        "MannerOf",
+        "showing someone you are not upset"
+    ],
+    [
+        "a friend",
+        "CapableOf",
+        "forgiving"
+    ],
+    [
+        "friend",
+        "CapableOf",
+        "becoming infuriated"
+    ],
+    [
+        "lie under oath",
+        "Creates",
+        "charged with perjury"
+    ],
+    [
+        "completing testimony",
+        "PropertyOf",
+        "witness"
+    ],
+    [
+        "illegally residing in a country",
+        "CausesDesire",
+        "being deported"
+    ],
+    [
+        "finding employment",
+        "PropertyOf",
+        "immigrants"
+    ],
+    [
+        "creating a joke",
+        "Causes",
+        "audience laughing"
+    ],
+    [
+        "audience",
+        "LocatedNear",
+        "public speaker"
+    ],
+    [
+        "audience",
+        "CapableOf",
+        "standing up"
+    ],
+    [
+        "being bored",
+        "CausesDesire",
+        "yawn"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "snorting"
+    ],
+    [
+        "lights being on",
+        "SymbolOf",
+        "being home"
+    ],
+    [
+        "being home",
+        "Motivates",
+        "paying visit"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "wondering if he was out"
+    ],
+    [
+        "procrastination",
+        "Causes",
+        "work to be done last second"
+    ],
+    [
+        "work to be done last second",
+        "causes",
+        "paper that is rushed"
+    ],
+    [
+        "a rushed paper",
+        "CapableOf",
+        "incomplete paper"
+    ],
+    [
+        "student",
+        "CapableOf",
+        "submitting paper early"
+    ],
+    [
+        "wings",
+        "PartOf",
+        "a bird"
+    ],
+    [
+        "flapping wings",
+        "Causes",
+        "flight of a bird"
+    ],
+    [
+        "flight of a bird",
+        "causes",
+        "ascending upwards"
+    ],
+    [
+        "bird",
+        "CapableOf",
+        "laying eggs"
+    ],
+    [
+        "aiming a gun at someone",
+        "Causes",
+        "the person to put their hands up"
+    ],
+    [
+        "putting your hands up",
+        "MannerOf",
+        "showing that you surrender"
+    ],
+    [
+        "criminal",
+        "CapableOf",
+        "putting down the gun"
+    ],
+    [
+        "putting down the gun",
+        "HasPrerequisite",
+        "victim pointing the gun"
+    ],
+    [
+        "bland food",
+        "CreatedBy",
+        "not seasoning it properly"
+    ],
+    [
+        "not seasoning it properly",
+        "CausesDesire",
+        "adding salt"
+    ],
+    [
+        "serving food",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "dip",
+        "CapableOf",
+        "being served"
+    ],
+    [
+        "being interrupted",
+        "CausesDesire",
+        "bookmark page"
+    ],
+    [
+        "bookmark",
+        "UsedFor",
+        "remembering page"
+    ],
+    [
+        "woman",
+        "CapableOf",
+        "rereading book"
+    ],
+    [
+        "Snowy weather",
+        "CapableOf",
+        "closing school"
+    ],
+    [
+        "people hiding underground",
+        "PropertyOf",
+        "people"
+    ],
+    [
+        "people hiding underground",
+        "CausedBy",
+        "natural disaster"
+    ],
+    [
+        "setting an ambitious goal",
+        "Causes",
+        "working hard"
+    ],
+    [
+        "The woman",
+        "MotivatedByGoal",
+        "an ambitious goal"
+    ],
+    [
+        "slacking off",
+        "PropertyOf",
+        "woman"
+    ],
+    [
+        "slacking off",
+        "CausedBy",
+        "not having a proper goal"
+    ],
+    [
+        "Missing an alarm",
+        "Causes",
+        "not waking up on time"
+    ],
+    [
+        "Waking up late",
+        "Causes",
+        "missed breakfast"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "making breakfast"
+    ],
+    [
+        "meeting other students",
+        "CausesDesire",
+        "joining a fraternity"
+    ],
+    [
+        "fraternity",
+        "CreatedBy",
+        "students"
+    ],
+    [
+        "the student",
+        "MotivatedByGoal",
+        "meeting other students on campus"
+    ],
+    [
+        "majoring in engineering",
+        "PropertyOf",
+        "student"
+    ],
+    [
+        "woman",
+        "HasProperty",
+        "guilty"
+    ],
+    [
+        "woman",
+        "HasProperty",
+        "sentenced"
+    ],
+    [
+        "woman",
+        "CapableOf",
+        "performing  community service"
+    ],
+    [
+        "found guilty of misdemeanor",
+        "Causes",
+        "being sentenced to perform community service"
+    ],
+    [
+        "put on death row",
+        "PropertyOf",
+        "woman"
+    ],
+    [
+        "the criminal running",
+        "Causes",
+        "the police officer to chase them"
+    ],
+    [
+        "the police",
+        "CapableOf",
+        "running"
+    ],
+    [
+        "police",
+        "CapableOf",
+        "attending to the victim"
+    ],
+    [
+        "animals",
+        "AtLocation",
+        "zoo"
+    ],
+    [
+        "going to zoo",
+        "Causes",
+        "admiring animals"
+    ],
+    [
+        "chasing animals",
+        "PropertyOf",
+        "children"
+    ],
+    [
+        "broken Air conditioner",
+        "CapableOf",
+        "heating the house"
+    ],
+    [
+        "having hot house",
+        "CausesDesire",
+        "cool house"
+    ],
+    [
+        "cooling house",
+        "Desires",
+        "opening window"
+    ],
+    [
+        "bringing out blankets",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "striking a match",
+        "Causes",
+        "a flame produced"
+    ],
+    [
+        "matches",
+        "UsedFor",
+        "fire"
+    ],
+    [
+        "fading out",
+        "PropertyOf",
+        "flame"
+    ],
+    [
+        "the meteorite",
+        "CapableOf",
+        "creating a tsunami"
+    ],
+    [
+        "meteorite landing in the ocean",
+        "Causes",
+        "tsunami created"
+    ],
+    [
+        "beginning to hail",
+        "PropertyOf",
+        "meteorite"
+    ],
+    [
+        "squeezing lemon",
+        "Causes",
+        "lemon squirted"
+    ],
+    [
+        "squeezed",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "being squeezed",
+        "PropertyOf",
+        "lemon"
+    ],
+    [
+        "getting moldy",
+        "PropertyOf",
+        "lemon"
+    ],
+    [
+        "acquiring new land",
+        "Causes",
+        "colonized land"
+    ],
+    [
+        "discovering new land",
+        "Desires",
+        "acquiring new land"
+    ],
+    [
+        "country",
+        "CapableOf",
+        "abandoning land"
+    ],
+    [
+        "Being caught in a lie",
+        "CausesDesire",
+        "confess"
+    ],
+    [
+        "being caught",
+        "HasProperty",
+        "making people feel guilt"
+    ],
+    [
+        "guilt",
+        "HasProperty",
+        "confession"
+    ],
+    [
+        "trusting",
+        "PropertyOf",
+        "father"
+    ],
+    [
+        "sore throat",
+        "Causes",
+        "raspy voice"
+    ],
+    [
+        "speaking with an accent",
+        "PropertyOf",
+        "woman"
+    ],
+    [
+        "sore throat",
+        "PropertyOf",
+        "woman"
+    ],
+    [
+        "successful business",
+        "Causes",
+        "becoming wealthy"
+    ],
+    [
+        "woman",
+        "CapableOf",
+        "firing employees"
+    ],
+    [
+        "employees",
+        "AtLocation",
+        "business"
+    ],
+    [
+        "claim seeing a ghost",
+        "HasProperty",
+        "paranormal claim"
+    ],
+    [
+        "paranormal claim",
+        "causes",
+        "skepticism"
+    ],
+    [
+        "relating to her",
+        "PropertyOf",
+        "acquaintances"
+    ],
+    [
+        "canon ball",
+        "Causes",
+        "large splash"
+    ],
+    [
+        "large splash",
+        "CapableOf",
+        "soaking people"
+    ],
+    [
+        "lifegaurd",
+        "IsA",
+        "person"
+    ],
+    [
+        "jumping in",
+        "PropertyOf",
+        "lifeguard"
+    ],
+    [
+        "taking antibiotics",
+        "MannerOf",
+        "healing an infection"
+    ],
+    [
+        "an infection",
+        "CapableOf",
+        "harming you"
+    ],
+    [
+        "spreading",
+        "PropertyOf",
+        "infection"
+    ],
+    [
+        "a car being stopped",
+        "HasFirstSubevent",
+        "pushing the brake"
+    ],
+    [
+        "the light turning red",
+        "Causes",
+        "a car being stopped"
+    ],
+    [
+        "a yellow traffic light",
+        "SymbolOf",
+        "the light turning red"
+    ],
+    [
+        "honking horn",
+        "PropertyOf",
+        "driver"
+    ],
+    [
+        "getting ready for the exam",
+        "Causes",
+        "passing the exam"
+    ],
+    [
+        "studying all night",
+        "PartOf",
+        "getting ready for the exam"
+    ],
+    [
+        "boy",
+        "CapableOf",
+        "skipping the exam"
+    ],
+    [
+        "being under construction",
+        "Causes",
+        "noise"
+    ],
+    [
+        "office",
+        "LocatedNear",
+        "construction"
+    ],
+    [
+        "crowded",
+        "PropertyOf",
+        "office"
+    ],
+    [
+        "getting to know neighbors",
+        "Desires",
+        "inviting neighbors over"
+    ],
+    [
+        "waving to neighbors",
+        "PropertyOf",
+        "family"
+    ],
+    [
+        "a seed",
+        "PartOf",
+        "watermelon"
+    ],
+    [
+        "biting a slice of  watermelon",
+        "Causes",
+        "swallowing a seed"
+    ],
+    [
+        "chipping tooth",
+        "PropertyOf",
+        "me"
+    ],
+    [
+        "tooth",
+        "CapableOf",
+        "getting chipped"
+    ],
+    [
+        "ship",
+        "HasA",
+        "crew"
+    ],
+    [
+        "crew",
+        "CapableOf",
+        "drowning"
+    ],
+    [
+        "ship wreck",
+        "Causes",
+        "drowning"
+    ],
+    [
+        "encountering pirates",
+        "PropertyOf",
+        "crew"
+    ],
+    [
+        "ship",
+        "AtLocation",
+        "sea"
+    ],
+    [
+        "pirates",
+        "AtLocation",
+        "sea"
+    ],
+    [
+        "being stumped",
+        "Desires",
+        "requesting a hint"
+    ],
+    [
+        "find answer",
+        "ReceivesAction",
+        "asking for hint"
+    ],
+    [
+        "solving riddle",
+        "PropertyOf",
+        "boy"
+    ],
+    [
+        "a phone ringing",
+        "CausesDesire",
+        "pick up the phone"
+    ],
+    [
+        "hanging up the phone",
+        "PropertyOf",
+        "man"
+    ],
+    [
+        "being stared",
+        "Causes",
+        "feeling uncomfortable"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "hugging"
+    ],
+    [
+        "pen",
+        "HasProperty",
+        "out of ink"
+    ],
+    [
+        "pen",
+        "CapableOf",
+        "running out of ink"
+    ],
+    [
+        "pen running out of ink",
+        "Causes",
+        "using pencil"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "signing name"
+    ],
+    [
+        "losing temper",
+        "Causes",
+        "throwing a chair"
+    ],
+    [
+        "throwing a chair across a room",
+        "MannerOf",
+        "showing that you are upset"
+    ],
+    [
+        "being upset",
+        "PartOf",
+        "becoming angry"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "turning off computer"
+    ],
+    [
+        "tuition",
+        "HasProperty",
+        "expensive"
+    ],
+    [
+        "wanting children to go to college",
+        "CausesDesire",
+        "saving funds for tuition"
+    ],
+    [
+        "encouraging children to play outside",
+        "PropertyOf",
+        "parents"
+    ],
+    [
+        "children",
+        "CapableOf",
+        "playing outside"
+    ],
+    [
+        "Unlacing shoes",
+        "CapableOf",
+        "loosen shoes"
+    ],
+    [
+        "The lace",
+        "PartOf",
+        "a shoe"
+    ],
+    [
+        "shoe",
+        "CapableOf",
+        "becoming worn"
+    ],
+    [
+        "waiting in line",
+        "CausesDesire",
+        "occupy your time"
+    ],
+    [
+        "occupying your time",
+        "Desires",
+        "skimming a magazine"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "taking a seat"
+    ],
+    [
+        "Speeding up your pace",
+        "MannerOf",
+        "making sure other runners won't gain distance on you"
+    ],
+    [
+        "Thinking that a competitor is gaining ground",
+        "CausesDesire",
+        "speed up pace"
+    ],
+    [
+        "runner",
+        "CapableOf",
+        "dropping out of race"
+    ],
+    [
+        "thinking about a problem",
+        "MannerOf",
+        "learning of a solution"
+    ],
+    [
+        "thinking about the problem",
+        "Creates",
+        "a solution"
+    ],
+    [
+        "me",
+        "CapableOf",
+        "asking for advice"
+    ],
+    [
+        "walking on shaky suspension bridge",
+        "Causes",
+        "feeling terrified"
+    ],
+    [
+        "traveler",
+        "PropertyOf",
+        "feeling ecstatic"
+    ],
+    [
+        "man",
+        "HasProperty",
+        "anticipating"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "anticipating"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "making a bet"
+    ],
+    [
+        "man",
+        "HasA",
+        "friends"
+    ],
+    [
+        "bet",
+        "CreatedBy",
+        "man"
+    ],
+    [
+        "anticipating tema's victory",
+        "Causes",
+        "making a bet"
+    ],
+    [
+        "man",
+        "CapableOf",
+        "meeting friends to watch game"
+    ],
+    [
+        "trying to get to sleep",
+        "Desires",
+        "counting sheep"
+    ],
+    [
+        "Counting sheep",
+        "Causes",
+        "a person to get sleepy"
+    ],
+    [
+        "boy",
+        "CapableOf",
+        "setting alarm clock"
+    ],
+    [
+        "falling asleep",
+        "PropertyOf",
+        "boy"
+    ],
+    [
+        "setting alarm clock",
+        "RelatedTo",
+        "sleep"
+    ]
+]

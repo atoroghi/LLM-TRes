@@ -1,0 +1,4282 @@
+[
+    {
+        "query": "The band played their hit song.",
+        "options": [
+            "The audience clapped along to the music.",
+            "The audience politely listened in silence."
+        ],
+        "answer": "The audience clapped along to the music.",
+        "rules": [
+            [
+                "the hit song",
+                "CausesDesire",
+                "clapping"
+            ],
+            [
+                "clapping along with the music",
+                "PartOf",
+                "supporting the band"
+            ],
+            [
+                "politely listening in silence",
+                "Propertyof",
+                "audience"
+            ],
+            [
+                "audience",
+                "CapableOf",
+                "leaving the concert"
+            ],
+            [
+                "audience",
+                "CapableOf",
+                "being polite"
+            ]
+        ]
+    },
+    {
+        "query": "The girl wanted to thank her math teacher.",
+        "options": [
+            "The girl stayed after school for detention.",
+            "The girl brought the teacher an apple."
+        ],
+        "answer": "The girl brought the teacher an apple.",
+        "rules": [
+            [
+                "thanking someone",
+                "CausesDesire",
+                "giving an apple"
+            ],
+            [
+                "staying after school",
+                "PropertyOf",
+                "girl"
+            ],
+            [
+                "staying after school",
+                "Causes",
+                "detention"
+            ],
+
+            [
+                "thanking your teacher",
+                "MotivatedByGoal",
+                "you liking that teacher"
+            ]
+        ]
+    },
+    {
+        "query": "The man hit his head.",
+        "options": [
+            "He got lost in thought.",
+            "He got a concussion."
+        ],
+        "answer": "He got a concussion.",
+        "rules": [
+            [
+                "hit",
+                "Causes",
+                "head injury"
+            ],
+            [
+                "head injury",
+                "Causes",
+                "concussion"
+            ],
+            [   "man",
+                "CapableOf",
+                "hitting head"
+            ],
+            [
+                "man",
+                "CapableOf",
+                "being lost in thought"
+            ]
+            
+        ]
+    },
+    {
+        "query": "The man's email inbox was full of spam.",
+        "options": [
+            "He deleted the spam.",
+            "He sent out a mass email."
+        ],
+        "answer": "He deleted the spam.",
+        "rules": [
+            [
+                "email inbox being full",
+                "CausesDesire",
+                "delete spam"
+            ],
+            [
+                "getting rid of spam",
+                "MannerOf",
+                "clearing up some inbox space"
+            ],
+            [
+                "sending out mass email",
+                "PropertyOf",
+                "man"
+            ]
+        ]
+    },
+    {
+        "query": "The man anticipated cold weather on his trip.",
+        "options": [
+            "He packed warm clothing in his suitcase.",
+            "He travelled with a big suitcase."
+        ],
+        "answer": "He packed warm clothing in his suitcase.",
+        "rules": [
+            [
+                "The man",
+                "Desires",
+                "to keep warm"
+            ],
+            [
+                "packing lots of warm clothes",
+                "Requires",
+                "big suitcase"
+            ],
+            [
+                "big suitcase",
+                "PropertyOf",
+                "man"
+            ],
+            [
+                "big suitcase",
+                "UsedFor",
+                "Traveling"
+            ],
+            [
+                "cold weather prognosis",
+                "CausesDesire",
+                "pack warm clothes"
+            ],
+            [
+                "warm clothes",
+                "UsedFor",
+                "to keep warm in cold weather"
+            ]
+        ]
+    },
+    {
+        "query": "The player won five games in a row.",
+        "options": [
+            "Her opponent accused her of cheating.",
+            "Her opponent felt sorry for her."
+        ],
+        "answer": "Her opponent accused her of cheating.",
+        "rules": [
+            [
+                "winning five games in a row",
+                "Causes",
+                "the opponent to accuse the player of cheating"
+            ],
+            [
+                "The opponent",
+                "HasProperty",
+                "angry"
+            ],
+            [
+                "opponent",
+                "CapableOf",
+                "feeling sorry for someone"
+
+            ]
+        ]
+    },
+    {
+        "query": "The man lost weight.",
+        "options": [
+            "People isolated him.",
+            "People complimented him."
+        ],
+        "answer": "People complimented him.",
+        "rules": [
+            [
+                "losing weight",
+                "MannerOf",
+                "gaining a compliment"
+            ],
+            [
+                "complimenting someone",
+                "PartOf",
+                "motivating them"
+            ],
+            [
+                "isolating someone",
+                "PropertyOf",
+                "people"
+            ],
+            [
+                "man",
+                "CapableOf",
+                "being isolated"
+            ]
+        ]
+    },
+    {
+        "query": "The warring countries wanted peace.",
+        "options": [
+            "They developed nuclear weapons.",
+            "They negotiated a treaty."
+        ],
+        "answer": "They negotiated a treaty.",
+        "rules": [
+            [
+                "negotiating a treaty",
+                "MannerOf",
+                "achieving peace"
+            ],
+            [
+                "developing nuclear weapons",
+                "Causes",
+                "war"
+            ],
+            [
+                "developing nuclear weapons",
+                "PropertyOf",
+                "warring countries"
+            ],
+            [
+                "Peace",
+                "IsA",
+                "product of signing a treaty"
+            ]
+        ]
+    },
+    {
+        "query": "The woman bumped into the sofa.",
+        "options": [
+            "The leg of the sofa came loose.",
+            "She bruised her knee."
+        ],
+        "answer": "She bruised her knee.",
+        "rules": [
+            [
+                "trauma to the knee",
+                "Causes",
+                "bruised knee"
+            ],
+            [
+                "loosened leg of sofa",
+                "PropertyOf",
+                "sofa"
+            ],
+            [
+                "bumping into sofa",
+                "Causes",
+                "trauma to the knee"
+            ]
+        ]
+    },
+
+    {
+        "query": "I pushed the door.",
+        "options": [
+            "The door opened.",
+            "The door locked."
+        ],
+        "answer": "The door opened.",
+        "rules": [
+            [
+                "pushing the door",
+                "Causes",
+                "the door to open"
+            ],
+            [
+                "being locked",
+                "PropertyOf",
+                "door"
+            ]
+        ]
+    },
+    {
+        "query": "The child sprinkled fish food into the tank.",
+        "options": [
+            "The fish leapt out of the tank.",
+            "The fish swam towards the food."
+        ],
+        "answer": "The fish swam towards the food.",
+        "rules": [
+            [
+                "fish",
+                "Desires",
+                "fish food"
+            ],
+            [
+                "sprinkling fish food",
+                "Causes",
+                "fish to swim towards food"
+            ],
+            [
+                "fish",
+                "CapableOf",
+                "leaping_out_of_tank"
+            ]
+        ]
+    },
+    {
+        "query": "The bathroom sink was clogged.",
+        "options": [
+            "I turned on the faucet.",
+            "I poured drain cleaner into it."
+        ],
+        "answer": "I poured drain cleaner into it.",
+        "rules": [
+            [
+                "the clogged sink",
+                "unclogged by",
+                "drain cleaner"
+            ],
+            [
+                "turning on the faucet",
+                "Causes",
+                "flow of water"
+            ],
+            [
+                "flow of water",
+                "MayCause",
+                "unclog the sink"
+            ]
+        ]
+    },
+    {
+        "query": "The couple signed a lease for an apartment.",
+        "options": [
+            "The couple moved into the apartment.",
+            "The city condemned the apartment."
+        ],
+        "answer": "The couple moved into the apartment.",
+        "rules": [
+            [
+                
+                "signing A lease",
+                "required for",
+                "moving into an apartment"
+            ],
+            [
+                "the couple",
+                "Desires",
+                "a new apartment"
+            ],
+            [
+                "a lease",
+                "UsedFor",
+                "securing an apartment"
+            ],
+            [
+                "city",
+                "CapableOf",
+                "condemning an apartment"
+            ]
+        ]
+    },
+    {
+        "query": "The woman made a typo in the word processor.",
+        "options": [
+            "She deleted the document.",
+            "She hit the backspace key."
+        ],
+        "answer": "She hit the backspace key.",
+        "rules": [
+            [
+                "writing",
+                "HasSubevent",
+                "a mistake"
+            ],
+            [
+                "the woman",
+                "Desires",
+                "to erase the mistake"
+            ],
+            [
+                "mistake", 
+                "ErasedBy",
+                "hitting the backspace key"
+            ],
+            [
+                "deleting the document",
+                "Causes",
+                "erasing the mistake"
+        ]]
+    },
+    {
+        "query": "The crowd intensified.",
+        "options": [
+            "The father handed his son some money.",
+            "The father grabbed his son's hand."
+        ],
+        "answer": "The father grabbed his son's hand.",
+        "rules": [
+            [
+                "an intense crowd",
+                "CapableOf",
+                "making your son hard to find"
+            ],
+            [
+                "making your son hard to find",
+                "CausesDesire",
+                "keep an eye on son"],
+            [
+                "keeping an eye on son",
+                "ResultsIn",
+                "grabbing son's hand"
+
+            ],
+            [
+                "handing money to son",
+                "Causes",
+                "son having money"
+            ],
+            [
+                "father",
+                "CapableOf",
+                "handing money to son"
+            ]
+        ]
+    },
+    {
+        "query": "The snow was blocking the driveway.",
+        "options": [
+            "I gathered the snow into a snowball.",
+            "I shoveled the snow out of the way."
+        ],
+        "answer": "I shoveled the snow out of the way.",
+        "rules": [
+            [
+                "removing snow",
+                "EnabledBy",
+                "Using a shovel"
+            ],
+            [
+                "snow blocking driveway",
+                "Motivates",
+                "removing snow"
+            ],
+            [
+                "snowball",
+                "MadeOf",
+                "snow"
+            ],
+            [
+                "gathering snow into snowball",
+                "Causes",
+                "snowball"
+            ]
+        ]
+    },
+    {
+        "query": "The girl lost control of her bike.",
+        "options": [
+            "She let go of the handlebars.",
+            "She crashed into a fence."
+        ],
+        "answer": "She crashed into a fence.",
+        "rules": [
+            [
+                "person",
+                "UsedFor",
+                "control moving bike"
+            ],
+            [
+                "uncontrolled moving bike",
+                "CapableOf",
+                "crashing into a fence"
+            ],
+            [
+                "bike",
+                "ObstructedBy",
+                "fence"
+            ],
+            [
+                "letting go of handlebars",
+                "Causes",
+                "uncontrolled moving bike"
+            ],
+            [
+                "girl",
+                "CapableOf",
+                "letting go handlebars"
+            ]
+        ]
+    },
+    {
+        "query": "The husband felt guilty about cheating on his wife.",
+        "options": [
+            "He accused her of infidelity.",
+            "He confessed his infidelity to her."
+        ],
+        "answer": "He confessed his infidelity to her.",
+        "rules": [
+            [
+                "feeling guilty",
+                "CausesDesire",
+                "confess your guilt"
+            ],
+            [
+                "cheating on your partner",
+                "Causes",
+                "a guilty feeling"
+            ],
+            [
+                "accusing of infidelity",
+                "PropertyOf",
+                "husband"
+            ],
+            [
+                "accusing of infidelity",
+                "CausedBy",
+                "cheating"
+            ]
+
+
+        ]
+    },
+    {
+        "query": "The boy put his feet up on the table.",
+        "options": [
+            "His father sat down at the table.",
+            "His father lectured him."
+        ],
+        "answer": "His father lectured him.",
+        "rules": [
+            [
+                "Boy",
+                "CapableOf",
+                "putting feet on table"
+            ],
+            [
+                "Father",
+                "CapableOf",
+                "lecturing"
+            ],
+            [
+                "sitting down at the table",
+                "PropertyOf",
+                "father"
+            ],
+            [
+                "Father",
+                "HasA",
+                "table"
+            ],
+            [
+                "Boy putting Feet on table",
+                "CausesDesire",
+                "father giving lecture"
+            ]
+        ]
+    },
+    {
+        "query": "The government oppressed its citizens.",
+        "options": [
+            "The citizens staged a revolt.",
+            "The citizens registered to vote."
+        ],
+        "answer": "The citizens staged a revolt.",
+        "rules": [
+            [
+                "oppressing citizens",
+                "Causes",
+                "the citizens to revolt"
+            ],
+            [
+                "the citizens",
+                "Desires",
+                "to not be oppressed"
+            ],
+            [
+                "citizens",
+                "CapableOf",
+                "registering to vote"
+            ],
+            [
+                "registering to vote",
+                "CausedBy",
+                "oppression"
+            ]
+        ]
+    },
+    {
+        "query": "The boy was lost in the woods.",
+        "options": [
+            "He pitched a tent.",
+            "He screamed for help."
+        ],
+        "answer": "He screamed for help.",
+        "rules": [
+            [
+                "the woods",
+                "HasProperty",
+                "easy to get lost in"
+            ],
+            [
+                "being lost",
+                "Causes",
+                "being frightened"
+            ],
+            [
+                "being frightened",
+                "CausesDesire",
+                "screaming"
+            ],
+            [
+                "screaming",
+                "MannerOf",
+                "attracting help"
+            ],
+            [
+                "pitching a tent",
+                "PropertyOf",
+                "the boy"
+            ],
+            [
+                "pitching a tent",
+                "Causes",
+                "having a place to sleep"
+            ],
+            [
+                "having a place to sleep",
+                "CausesDesire",
+                "pitching a tent"
+            ],
+            [
+                "tent",
+                "LocatedNear",
+                "woods"
+            ]
+        ]
+        
+    },
+    {
+        "query": "The electricity in my house shut off.",
+        "options": [
+            "I turned on a light.",
+            "I reset the circuit breaker."
+        ],
+        "answer": "I reset the circuit breaker.",
+        "rules": [
+            [
+                "Electricity going off",
+                "HasProperty",
+                "tripping a circuit breaker"
+            ],
+            [
+                "Having circuit breaker go off",
+                "HasProperty",
+                "keeping power off"
+            ],
+            [
+                "tripping a circuit breaker",
+                "CausesDesire",
+                "reset the circuit breaker"
+            ],
+            [
+                "turining on a light",
+                "PropertyOf",
+                "me"
+            ],
+            [
+                "turining on a light",
+                "Causes",
+                "having light"
+            ],
+            [
+                "having light",
+                "CausesDesire",
+                "turining on a light"
+            ]
+        ]
+    },
+    {
+        "query": "A tree fell on the power line.",
+        "options": [
+            "The electricity in the neighborhood went out.",
+            "The forecast predicted heavy winds."
+        ],
+        "answer": "The electricity in the neighborhood went out.",
+        "rules": [
+            [
+                "tree fall",
+                "Causes",
+                "damage to power line"
+            ],
+            [
+                "damaged power line",
+                "Causes",
+                "electricity in neighborhood went out"
+            ],
+            [
+                "weather forecast",
+                "CapableOf",
+                "predicting heavy winds"
+            ],
+            [
+                "heavy winds",
+                "CapableOf",
+                "knocking down trees"
+            ],
+            [
+                "heavy winds",
+                "Causes",
+                "tree fall on power line"
+            ]
+            
+        ]
+    },
+    {
+        "query": "I missed my girlfriend's phone call.",
+        "options": [
+            "I called her back.",
+            "I met her for dinner."
+        ],
+        "answer": "I called her back.",
+        "rules": [
+            [
+                "calling someone back",
+                "MannerOf",
+                "reacting to a missed phone call"
+            ],
+            [
+                "a missed phone call",
+                "CausesDesire",
+                "call the person back"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "meeting for dinner"
+            ],
+            [
+                "girlfriend",
+                "CapableOf",
+                "meeting for dinne"
+            ],
+            [
+                "meeting for dinner",
+                "Causes",
+                "having dinner"
+            ]
+        ]
+    },
+    {
+        "query": "I baked an apple pie.",
+        "options": [
+            "A rotting smell filled the kitchen.",
+            "A warm aroma filled the kitchen."
+        ],
+        "answer": "A warm aroma filled the kitchen.",
+        "rules": [
+            [
+                "Baking a pie",
+                "Causes",
+                "a kitchen to smell warm and delicious"
+            ],
+            [
+                "apple pies baking in the oven",
+                "Causes",
+                "An aroma filled kitchen"
+                
+            ],
+            [
+                "rotting smell",
+                "PropertyOf",
+                "kitchen"
+            ],
+            [
+                "rotting smell",
+                "CausedBy",
+                "apples"
+            ]
+        ]
+    },
+    {
+        "query": "The country declared war on the neighboring territory.",
+        "options": [
+            "Soldiers were sent out to fight.",
+            "Soldiers were reunited with their families."
+        ],
+        "answer": "Soldiers were sent out to fight.",
+        "rules": [
+            [
+                "a soldier",
+                "PartOf",
+                "war"
+            ],
+            [
+                "declaring a war",
+                "Causes",
+                "soldiers to have to fight"
+            ],
+            [
+                "soldiers",
+                "CapableOf",
+                "reuiniting with families"
+            ]
+        ]
+    },
+    {
+        "query": "The court upheld the controversial ruling.",
+        "options": [
+            "A riot broke loose in front of the courthouse.",
+            "A couple exchanged vows in front of the courthouse."
+        ],
+        "answer": "A riot broke loose in front of the courthouse.",
+        "rules": [
+            [
+                "controversial rulings",
+                "CapableOf",
+                "creating mixed emotions among people"
+            ],
+            [
+                "mixed emotions",
+                "Causes",
+                "anger"
+            ],
+            [
+                "anger",
+                "CausesDesire",
+                "rebel"
+            ],
+            [
+                "rebel",
+                "SymbolOf",
+                "rebellion"
+            ],
+            [
+                "rebellion",
+                "Synonym",
+                "riot"
+            ],
+            [
+                "couple",
+                "CapableOf",
+                "exchanging vows"
+            ],
+            [
+                "exchanging vows",
+                "LocatedNear",
+                "courthouse"
+            ]
+        ]
+    },
+    {
+        "query": "The rain was pouring down.",
+        "options": [
+            "The storm worsened.",
+            "I dashed to get inside."
+        ],
+        "answer": "I dashed to get inside.",
+        "rules": [
+            [
+                "getting away from the rain",
+                "Causes",
+                "dashing to get inside"
+            ],
+            [
+                "the rain pouring down",
+                "CausesDesire",
+                "getting away from the rain"
+            ],
+            [
+                "the storm worsening",
+                "Causes",
+                "rain pouring down"
+            ],
+            [
+                "pouring down",
+                "PropertyOf",
+                "rain"
+            ],
+            [
+                "storm",
+                "CapableOf",
+                "worsening"
+            ]
+        ]
+    },
+    {
+        "query": "The father resented his son's alcoholism.",
+        "options": [
+            "The father bought his son a beer.",
+            "The father kicked his son out of the house."
+        ],
+        "answer": "The father kicked his son out of the house.",
+        "rules": [
+            [
+                "father's resentment of son",
+                "CausesDesire",
+                "father evicting the son"
+            ],
+            [
+                "family harmony",
+                "ObstructedBy",
+                "alcoholic son"
+            ],
+            [
+                "eviction",
+                "MannerOf",
+                "remove problem member"
+            ],
+            [
+                "father",
+                "CapableOf",
+                "buying beer"
+            ],
+            [
+                "drinking beer",
+                "PropertyOf",
+                "son"
+            ],
+            [
+                "beer",
+                "RelatedTo",
+                "alcoholism"
+            ]
+        ]
+    },
+    {
+        "query": "The girl handed her money to the cashier.",
+        "options": [
+            "The cashier gave the girl her change.",
+            "The cashier forgot to give the girl a receipt."
+        ],
+        "answer": "The cashier gave the girl her change.",
+        "rules": [
+            [
+                "handing money to cashier",
+                "CapableOf",
+                "overpaying"
+            ],
+            [
+                "overpaying",
+                "Causes",
+                "change to be given"
+            ],
+            [
+                "cashier",
+                "CapableOf",
+                "forgetting to give receipt"
+            ]
+        ]
+    },
+    {
+        "query": "The team lost the tournament.",
+        "options": [
+            "They disappointed their fans.",
+            "They inspired their fans."
+        ],
+        "answer": "They disappointed their fans.",
+        "rules": [
+            [
+                "loosing a tournament",
+                "Causes",
+                "fans to be dissapointed"
+            ],
+            [
+                "dissapointed fans",
+                "CreatedBy",
+                "poor performances by teams"
+            ],
+            [
+                "inspiring fans",
+                "PropertyOf",
+                "team"
+            ],
+            [
+                "inspiring fans",
+                "HasPrerequisite",
+                "team losing the tournament"
+            ]
+        ]
+    },
+    {
+        "query": "My friend pointed out that I had food stuck in my teeth.",
+        "options": [
+            "I felt embarrassed.",
+            "I felt proud."
+        ],
+        "answer": "I felt embarrassed.",
+        "rules": [
+            [
+                "food in teeth",
+                "Causes",
+                "embarrassment"
+            ],
+            [
+                "embarrassment",
+                "PartOf",
+                "an uncomfortable situation"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "feeling proud"
+            ],
+            [
+                "feeling proud",
+                "CausesDesire",
+                "showing teeth to friend"
+            ]
+        ]
+    },
+    {
+        "query": "The two children simultaneously reached down to retrieve the ball.",
+        "options": [
+            "The ball rolled away.",
+            "Their heads collided."
+        ],
+        "answer": "Their heads collided.",
+        "rules": [
+            [
+                "reaching down simultaneously",
+                "Causes",
+                "bumping their head"
+            ],
+            [
+                "the children",
+                "Desires",
+                "the ball"
+            ],
+            [
+                "rolling away",
+                "PropertyOf",
+                "the ball"
+            ],
+            [
+                "ball rolling away",
+                "HasPrerequisite",
+                "children reaching down the ball"
+            ]
+        ]
+    },
+    {
+        "query": "The scratch in my skin was deep.",
+        "options": [
+            "It healed quickly.",
+            "It left a scar."
+        ],
+        "answer": "It left a scar.",
+        "rules": [
+            [
+                "deep scratch",
+                "Causes",
+                "scar"
+            ],
+            [
+                "scratch",
+                "HasProperty",
+                "deep"
+            ],
+            [
+                "scratch",
+                "CapableOf",
+                "scar"
+            ],
+            [
+                "scar",
+                "CreatedBy",
+                "scratch"
+            ],
+            [
+                "healing quickly",
+                "PropertyOf",
+                "scratch"
+            ],
+            [
+                "healing",
+                "HasPrerequisite",
+                "scratch"
+            ],
+            [
+                "scratch",
+                "PropertyOf",
+                "me"
+            ]
+        ]
+    },
+    {
+        "query": "The child left crumbs on the floor.",
+        "options": [
+            "Ants crawled to the crumbs.",
+            "The child put the bread away."
+        ],
+        "answer": "Ants crawled to the crumbs.",
+        "rules": [
+            [
+                "left crumbs",
+                "CapableOf",
+                "attracting ants"
+            ],
+            [
+                "Child",
+                "CapableOf",
+                "leaving crumbs"
+            ],
+            [
+                "child",
+                "CapableOf",
+                "putting the bread away"
+            ],
+            [
+                "putting the bread away",
+                "HasPrerequisite",
+                "leaving crumbs on the floor"
+            ]
+        ]
+    },
+    {
+        "query": "I was lost.",
+        "options": [
+            "I counted my cash.",
+            "I unfolded a map."
+        ],
+        "answer": "I unfolded a map.",
+        "rules": [
+            [
+                "getting lost",
+                "CausesDesire",
+                "getting directions"
+            ],
+            [
+                "getting directions",
+                "CausesDesire",
+                "unfolding a map"
+            ],
+            [
+                "counting cash",
+                "PropertyOf",
+                "me"
+            ],
+            [
+                "counting cash",
+                "HasPrerequisite",
+                "getting lost"
+            ]
+        ]
+    },
+    {
+        "query": "I hung the wet linen on the outdoor clothesline.",
+        "options": [
+            "The linen dried.",
+            "The linen stained."
+        ],
+        "answer": "The linen dried.",
+        "rules": [
+            [
+                "Clothesline",
+                "UsedFor",
+                "drying"
+            ],
+            [
+                "I",
+                "Desires",
+                "dry clothing"
+            ],
+            [
+                "hanging linen on clothesline",
+                "Causes",
+                "dried linen"
+            ],
+            [
+                "get stained",
+                "PropertyOf",
+                "linen"
+            ],
+            [
+                "being wet",
+                "PropertyOf",
+                "linen"
+            ]
+        ]
+    },
+    {
+        "query": "It began to rain.",
+        "options": [
+            "The driver turned on the headlights.",
+            "The driver shifted the car into reverse."
+        ],
+        "answer": "The driver turned on the headlights.",
+        "rules": [
+            [
+                "rainy weather",
+                "Causes",
+                "bad visibility"
+            ],
+            [
+
+                "bad visibility",
+                "CausesDesire",
+                "turning on headlights"
+            ],
+            [
+                "shifting the car into reverse",
+                "PropertyOf",
+                "driver"
+            ],
+            [
+                "shifting the car into reverse",
+                "HasPrerequisite",
+                "beginning to rain"
+            ]
+        ]
+    },
+    {
+        "query": "The wind blew through the open window.",
+        "options": [
+            "The doorbell rang.",
+            "The curtains shuddered."
+        ],
+        "answer": "The curtains shuddered.",
+        "rules": [
+            [
+                "wind blowing",
+                "CapableOf",
+                "shuddering curtains"
+            ],
+            [
+                "doorbell ringing",
+                "PropertyOf",
+                "door"
+            ],
+            [
+                "doorbell ringing",
+                "HasPrerequisite",
+                "wind blowing"
+            ],
+            [
+                "doorbell",
+                "LocatedNear",
+                "door"
+            ],
+            [
+                "a window",
+                "LocatedNear",
+                "the outdoors"
+            ],
+            [
+                "wind",
+                "AtLocation",
+                "the outdoors"
+            ]
+        ]
+    },
+    {
+        "query": "The student tried to do the math in his head.",
+        "options": [
+            "He got out a calculator.",
+            "He got confused."
+        ],
+        "answer": "He got confused.",
+        "rules": [
+            [
+                "doing math in your head",
+                "CapableOf",
+                "making your brain hurt"
+            ],
+            [
+                "using a calculator",
+                "PropertyOf",
+                "student"
+            ],
+            [
+                "using a calculator",
+                "HasPrerequisite",
+                "trying to do math in your head"
+            ],
+            [
+                "calculator",
+                "RelatedTo",
+                "math"
+            ],
+            [
+                "making your brain hurt",
+                "HasSubevent",
+                "being confused"
+            ]
+        ]
+    },
+    {
+        "query": "The girl threw the water balloon at the boy.",
+        "options": [
+            "The boy got a concussion.",
+            "The boy got soaked."
+        ],
+        "answer": "The boy got soaked.",
+        "rules": [
+            [
+                "throwing a water balloon",
+                "Causes",
+                "the water ballon to break"
+            ],
+            [
+                "getting concussion",
+                "PropertyOf",
+                "boy"
+            ],
+            [
+                "concussion",
+                "CausedBy",
+                "object thrown at head"
+            ],
+            [
+                "water balloon breaking",
+                "CapableOf",
+                "soaking the person"
+            ]
+        ]
+    },
+    {
+        "query": "I squeezed the damp sponge.",
+        "options": [
+            "It soaked up water.",
+            "Water seeped out of it."
+        ],
+        "answer": "Water seeped out of it.",
+        "rules": [
+            [
+                "squeezing the sponge",
+                "Causes",
+                "water to seep out of it"
+            ],
+            [
+                "water",
+                "AtLocation",
+                "the sponge"
+            ],
+            [
+                "water",
+                "RelatedTo",
+                "sponge"
+            ],
+            [
+                "soaking up water",
+                "PropertyOf",
+                "sponge"
+            ]
+        ]
+    },
+    {
+        "query": "I paid the tollbooth attendant.",
+        "options": [
+            "She let me pass through the tollbooth.",
+            "She detained me at the tollbooth."
+        ],
+        "answer": "She let me pass through the tollbooth.",
+        "rules": [
+            [
+                "Toothbooth attendant",
+                "Desires",
+                "payment"
+            ],
+            [
+                "Paying tollbooth attendant",
+                "Causes",
+                "permitted to pass through tollbooth"
+            ],
+            [
+                "detaining at tollbooth",
+                "PropertyOf",
+                "attendant"
+            ]
+            
+        ]
+    },
+    {
+        "query": "I missed the bus.",
+        "options": [
+            "I was early to work.",
+            "I was late to work."
+        ],
+        "answer": "I was late to work.",
+        "rules": [
+            [
+                "missing the bus",
+                "Causes",
+                "being late to work"
+            ],
+            [
+                "missing the bus",
+                "CausesDesire",
+                "find different transportation"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "being early to work"
+            ]
+        ]
+    },
+    {
+        "query": "The truck collided with the car.",
+        "options": [
+            "The truck sped up.",
+            "The car got smashed."
+        ],
+        "answer": "The car got smashed.",
+        "rules": [
+            [
+                "collision",
+                "Causes",
+                "smashing car"
+            ],
+            [
+                "Speeding up",
+                "PropertyOf",
+                "truck"
+            ],
+            [
+                "Speeding up",
+                "HasPrerequisite",
+                "collision"
+            ]
+        ]
+    },
+    {
+        "query": "The man stained his suit.",
+        "options": [
+            "He got it dry-cleaned.",
+            "He hung it in his closet."
+        ],
+        "answer": "He got it dry-cleaned.",
+        "rules": [
+            [
+                "Stained suit",
+                "Requires",
+                "Stain removal"
+            ],
+            [
+                "Stain removal",
+                "EnabledBy",
+                "dry-clean"
+            ],
+            [
+                "hanging in closet",
+                "PropertyOf",
+                "man"
+            ],
+            [
+                "hanging in closet",
+                "HasPrerequisite",
+                "stained suit"
+            ]]
+    },
+    {
+        "query": "The girl squeezed the tube of toothpaste.",
+        "options": [
+            "The toothpaste squirted out of the tube.",
+            "The girl spit out the toothpaste."
+        ],
+        "answer": "The toothpaste squirted out of the tube.",
+        "rules": [
+            [
+                "Squeezing tube of toothpaste",
+                "CapableOf",
+                "creating pressure to toothpaste"
+            ],
+            [
+                "pressure to toothpaste",
+                "Causes",
+                "squirting out of tube"
+            ],
+            [
+                "girl",
+                "CapableOf",
+                "spitting out toothpaste"
+            ]]
+    },
+    {
+        "query": "Civilian deaths from the war surged.",
+        "options": [
+            "Pacifists staged a protest.",
+            "Pacifists held a parade."
+        ],
+        "answer": "Pacifists staged a protest.",
+        "rules": [
+            [
+                "civilian deaths",
+                "Motivates",
+                "Pacifists protest"
+            ],
+            [
+                "civilian deaths",
+                "RelatedTo",
+                "the war"
+            ]
+        ]
+    },
+    {
+        "query": "The man got plastic surgery.",
+        "options": [
+            "He aged.",
+            "He looked younger."
+        ],
+        "answer": "He looked younger.",
+        "rules": [
+            [
+                "Plastic surgery",
+                "CapableOf",
+                "removing lines and wrinkles"
+            ],
+            [
+                "lines and wrinkles",
+                "CapableOf",
+                "making persons seem old"
+            ],
+            [
+                "removing lines and wrinkles",
+                "CapableOf",
+                "person looking younger"
+            ],
+            [
+                "man",
+                "CapableOf",
+                "aging"
+            ]]
+    },
+    {
+        "query": "The prisoner starved.",
+        "options": [
+            "He died.",
+            "He fled."
+        ],
+        "answer": "He died.",
+        "rules": [
+            [
+                "starvation",
+                "CapableOf",
+                "causing death"
+            ],
+            
+            ["fleeing",
+            "PropertyOf",
+            "prisoner"
+            ]]
+
+        
+    },
+    {
+        "query": "A cold draft came in through the window.",
+        "options": [
+            "I relaxed.",
+            "I shivered."
+        ],
+        "answer": "I shivered.",
+        "rules": [
+            [
+                "cold",
+                "Causes",
+                "shivering"
+            ],
+            [
+                "cold draft",
+                "CapableOf",
+                "changing temperature"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "relaxing"
+            ]
+        ]
+    },
+    {
+        "query": "The man extended his hand to me.",
+        "options": [
+            "I shook his hand.",
+            "I slapped him."
+        ],
+        "answer": "I shook his hand.",
+        "rules": [
+            [
+                "extending one's hand",
+                "MannerOf",
+                "asking for a handshake"
+            ],
+            [
+                "asking for a handshake",
+                "CausesDesire",
+                "shaking hand"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "slapping"
+            ]
+        ]
+    },
+    {
+        "query": "The husband discovered that his wife was having an affair.",
+        "options": [
+            "He fired his lawyer.",
+            "He filed for divorce."
+        ],
+        "answer": "He filed for divorce.",
+        "rules": [
+            [
+                "wife having affair",
+                "CausesDesire",
+                "file for divorce"
+            ],
+            [
+                "The divorce",
+                "RelatedTo",
+                "the wife's affair"
+            ],
+            [
+                "husband",
+                "CapableOf",
+                "firing lawyer"
+            ]
+        ]
+    },
+    {
+        "query": "The girl dropped the rubber ball.",
+        "options": [
+            "The ball bounced.",
+            "The ball glowed."
+        ],
+        "answer": "The ball bounced.",
+        "rules": [
+            [
+                "dropping a ball",
+                "Causes",
+                "the ball to bounce"
+            ],
+            [
+                "rubber",
+                "IsA",
+                "material that bounces"
+            ],
+            [
+                "glowing",
+                "PropertyOf",
+                "ball"
+            ]
+        ]
+    },
+    {
+        "query": "The girl made a mistake on her exam.",
+        "options": [
+            "She guessed at the answer.",
+            "She erased her answer."
+        ],
+        "answer": "She erased her answer.",
+        "rules": [
+            [
+                "exam",
+                "HasSubevent",
+                "Mistakes"
+            ],
+            [
+                "Mistakes",
+                "CausesDesire",
+                "rectify mistakes"
+            ],
+            [
+                "rectify mistakes",
+                "ReceivesAction",
+                "Erasing"
+            ],
+            [
+                "guessing at the answer",
+                "PropertyOf",
+                "girl"
+            ]
+
+        ]
+    },
+    {
+        "query": "The player tackled his opponent.",
+        "options": [
+            "His opponent caught the pass.",
+            "His opponent hit the ground."
+        ],
+        "answer": "His opponent hit the ground.",
+        "rules": [
+            [
+                "Tackling",
+                "Causes",
+                "hitting the ground"
+            ],
+            [
+                "The player",
+                "Desires",
+                "beat opponent"
+            ],
+            [
+                "opponent",
+                "CapableOf",
+                "catching the pass"
+            ]
+        ]
+    },
+    {
+        "query": "A tornado came through the town.",
+        "options": [
+            "The roof of the courthouse blew off.",
+            "The highway became dangerously icy."
+        ],
+        "answer": "The roof of the courthouse blew off.",
+        "rules": [
+            [
+                "a tornado",
+                "CapableOf",
+                "blowing the roof off"
+            ],
+            [
+                "a roof",
+                "PartOf",
+                "a home"
+            ],
+            [
+                "a tornado",
+                "MadeOf",
+                "very heavy winds"
+            ],
+            [
+                "icy highway",
+                "PropertyOf",
+                "highway"
+            ]
+        ]
+    },
+    {
+        "query": "The student received tutoring.",
+        "options": [
+            "His grades improved.",
+            "He cheated on the exam."
+        ],
+        "answer": "His grades improved.",
+        "rules": [
+            [
+                "receiving tutoring",
+                "Causes",
+                "better understanding"
+            ],
+            [
+                "better understanding",
+                "Causes",
+                "grades improve"
+            ],
+            [
+                "student",
+                "CapableOf",
+                "cheating on the exam"
+            ]
+        ]
+    },
+    {
+        "query": "I polished the stone.",
+        "options": [
+            "It became slippery.",
+            "It became shiny."
+        ],
+        "answer": "It became shiny.",
+        "rules": [
+            [
+                "polishing",
+                "Causes",
+                "item become shiny"
+            ],
+            [
+                "becoming slippery",
+                "PropertyOf",
+                "stone"
+            ],
+            [
+                "becoming slippery",
+                "HasPrerequisite",
+                "polishing"
+            ]
+            
+        ]
+    },
+    {
+        "query": "I added sugar to the coffee.",
+        "options": [
+            "The coffee smelled strong.",
+            "The coffee tasted sweet."
+        ],
+        "answer": "The coffee tasted sweet.",
+        "rules": [
+            [
+                "sugar",
+                "UsedFor",
+                "sweetening the coffee"
+            ],
+            [
+                "adding sugar to coffee",
+                "Causes",
+                "the coffee tastes sweet"
+            ],
+            [
+                "smelling strong",
+                "PropertyOf",
+                "coffee"
+            ]
+        ]
+    },
+    {
+        "query": "The man shuffled through the papers.",
+        "options": [
+            "He got a paper cut.",
+            "He shredded the papers."
+        ],
+        "answer": "He got a paper cut.",
+        "rules": [
+            [
+                "The paper's edge",
+                "HasProperty",
+                "sharp"
+            ],
+            [
+                "paper",
+                "CapableOf",
+                "cutting"
+            ],
+            [
+                "shuffling through papers",
+                "Causes",
+                "paper get cut"
+            ],
+            [
+                "man",
+                "CapableOf",
+                "shredding papers"
+            ]
+        ]
+    },
+    {
+        "query": "I pounded the nail with the hammer.",
+        "options": [
+            "The nail sunk into the wood.",
+            "The nail became rusty."
+        ],
+        "answer": "The nail sunk into the wood.",
+        "rules": [
+            [
+                "the hammer",
+                "UsedFor",
+                "putting the nails into the wood"
+            ],
+            [
+                "pounding nail with hammer",
+                "Causes",
+                "the nail to sink into the wood"
+            ],
+            [
+                "nail",
+                "CapableOf",
+                "becoming rusty"
+            ]
+        ]
+    },
+    {
+        "query": "The girl flashed a smile.",
+        "options": [
+            "Her cheeks reddened.",
+            "Her dimples showed."
+        ],
+        "answer": "Her dimples showed.",
+        "rules": [
+            [
+                "girl",
+                "HasProperty",
+                "happy"
+            ],
+            [
+                "smiling",
+                "Causes",
+                "dimples shown"
+            ],
+            [
+                "dimples",
+                "CreatedBy",
+                "smiling"
+            ],
+            [
+                "reddening cheeks",
+                "PropertyOf",
+                "girl"
+            ],
+            [
+                "reddening cheeks",
+                "CausedBy",
+                "blushing"
+            ],
+            [
+                "blushing",
+                "PropertyOf",
+                "girl"
+            ]
+        ]
+    },
+    {
+        "query": "The detectives dusted the crime scene for fingerprints.",
+        "options": [
+            "They discovered the identity of the murderer.",
+            "They found the weapon at the crime scene."
+        ],
+        "answer": "They discovered the identity of the murderer.",
+        "rules": [
+            [
+                "fingerprint",
+                "UsedFor",
+                "identification"
+            ],
+            [
+                "dusting",
+                "reveals",
+                "fingerprints"
+            ],
+            [
+                "weapon",
+                "AtLocation",
+                "crime scene"
+            ],
+            [
+                "finding weapon",
+                "PropertyOf",
+                "detectives"
+            ]
+        ]
+    },
+    {
+        "query": "There was a lot of traffic on the highway.",
+        "options": [
+            "I took a detour.",
+            "I asked for a ride."
+        ],
+        "answer": "I took a detour.",
+        "rules": [
+            [
+                "avoiding traffic",
+                "caused by",
+                "taking a detour"
+            ],
+            [
+                "traffic",
+                "CausesDesire",
+                "avoiding traffic"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "asking for a ride"
+            ]
+        ]
+    },
+    {
+        "query": "The nation's economy declined.",
+        "options": [
+            "Many people got sick.",
+            "Many people faced unemployment."
+        ],
+        "answer": "Many people faced unemployment.",
+        "rules": [
+            [
+                "economy declining",
+                "Causes",
+                "many people to be unemployed"
+            ],
+            [
+                "people being unemployed",
+                "SymbolOf",
+                "a poor economy"
+            ],
+            [
+                "people getting sick",
+                "PropertyOf",
+                "people"
+            ],
+            [
+                "people getting sick",
+                "CausedBy",
+                "poor economy"
+            ]
+        ]
+    },
+    {
+        "query": "The car ran out of gas.",
+        "options": [
+            "The driver was stranded on the road.",
+            "The driver picked up a hitchhiker."
+        ],
+        "answer": "The driver was stranded on the road.",
+        "rules": [
+            [
+                "Gas",
+                "UsedFor",
+                "car to move"
+            ],
+            [
+                "No gas",
+                "Causes",
+                "no movement of the car"
+            ],
+            [
+                "still car",
+                "Causes",
+                "driver stranded"
+            ],
+            [
+                "driver",
+                "CapableOf",
+                "picking up hitchhiker"
+            ]
+        ]
+    },
+    {
+        "query": "The woman went into labor.",
+        "options": [
+            "The baby was delivered.",
+            "The woman had morning sickness."
+        ],
+        "answer": "The baby was delivered.",
+        "rules": [
+            [
+                "going in labor",
+                "MannerOf",
+                "delivering a baby"
+            ],
+            [
+                "woman",
+                "CapableOf",
+                "having morning sickness"
+            ]
+        ]
+    },
+    {
+        "query": "The boy's forehead felt hot.",
+        "options": [
+            "His mother took his temperature.",
+            "His mother took him to the park."
+        ],
+        "answer": "His mother took his temperature.",
+        "rules": [
+            [
+                "hot forehead",
+                "SymbolOf",
+                "high fever"
+            ],
+            [
+                "high fever",
+                "HealedBy",
+                "taking temperature"
+            ],
+            [
+                "taking him to the park",
+                "PropertyOf",
+                "mother"
+            ],
+            [
+                "taking him to the park",
+                "CapableOf",
+                "Making boy feel better"
+            ]
+        ]
+    },
+    {
+        "query": "My friend's dog died.",
+        "options": [
+            "I rolled my eyes at him.",
+            "I gave him a hug."
+        ],
+        "answer": "I gave him a hug.",
+        "rules": [
+            [
+                "my friend's dog dying",
+                "Causes",
+                "need to show support"
+            ],
+            [
+                "show support",
+                "PerformedBy",
+                "hugging my friend"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "rolling eyes"
+            ]
+        ]
+    },
+    {
+        "query": "The businessman's credit card got declined.",
+        "options": [
+            "He wrote an IOU.",
+            "He paid with cash."
+        ],
+        "answer": "He paid with cash.",
+        "rules": [
+            [
+                "declined credit card",
+                "ReceivesAction",
+                "paying with cash"
+            ],
+            [
+                "The man",
+                "HasA",
+                "cash"
+            ],
+            [
+                "writing IOU",
+                "PropertyOf",
+                "businessman"
+            ],
+            [
+                "writing IOU",
+                "HasPrerequisite",
+                "declined credit card"
+            ]
+        ]
+    },
+    {
+        "query": "The girl wanted to learn about the solar system.",
+        "options": [
+            "She went to the library.",
+            "She looked at the stars."
+        ],
+        "answer": "She went to the library.",
+        "rules": [
+            [
+                "learn about the solar system",
+                "ReceivesAction",
+                "going to the library"
+            ],
+            [
+                "a book",
+                "UsedFor",
+                "learning about different subjects"
+            ],
+            [
+                "looking at the stars",
+                "PropertyOf",
+                "girl"
+            ],
+            [
+                "looking at the stars",
+                "CapableOf",
+                "exploring the solar system"
+            ]
+        ]
+    },
+    {
+        "query": "I arrived late to the lecture.",
+        "options": [
+            "I took a seat in the back row.",
+            "I approached the podium."
+        ],
+        "answer": "I took a seat in the back row.",
+        "rules": [
+            [
+                "arriving late",
+                "Causes",
+                "sitting in back row"
+            ],
+            [
+                "picking seat",
+                "ObstructedBy",
+                "arriving late"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "approaching podium"
+            ]
+        ]
+    },
+    {
+        "query": "I stomped on the aluminum can.",
+        "options": [
+            "The can was recycled.",
+            "The can got crushed."
+        ],
+        "answer": "The can got crushed.",
+        "rules": [
+            [
+                "stomping on aluminum can",
+                "Causes",
+                "the can to crush"
+            ],
+            [
+                "stomping",
+                "Causes",
+                "force onto an object"
+            ],
+            [
+                "being recycled",
+                "PropertyOf",
+                "can"
+            ],
+            [
+                "being recycled",
+                "PropertyOf",
+                "aluminum"
+            ]
+        ]
+    },
+    {
+        "query": "The girl joined the debate team.",
+        "options": [
+            "She learned to use a computer.",
+            "She learned communication skills."
+        ],
+        "answer": "She learned communication skills.",
+        "rules": [
+            [
+                "the girl",
+                "Desires",
+                "to learn to debate"
+            ],
+            [
+                "debating",
+                "CapableOf",
+                "honing communication skills"
+            ],
+            [
+                "learning to use a computer",
+                "PropertyOf",
+                "girl"
+            ]
+        ]
+    },
+    {
+        "query": "The charity made a goal to raise money.",
+        "options": [
+            "They fed the homeless.",
+            "They held an auction."
+        ],
+        "answer": "They held an auction.",
+        "rules": [
+            [
+                "raising money",
+                "ReceivesAction",
+                "holding auction"
+            ],
+            [
+                "feeding the homeless",
+                "PropertyOf",
+                "charity"
+            ]
+
+        ]
+    },
+    {
+        "query": "The roller coaster plunged down the steep drop.",
+        "options": [
+            "The passengers giggled.",
+            "The passengers screamed."
+        ],
+        "answer": "The passengers screamed.",
+        "rules": [
+            [
+                "rollercoaster",
+                "Causes",
+                "excitement and scariness"
+            ],
+            [
+                "excitement and scariness",
+                "Causes",
+                "screaming"
+            ],
+            [
+                "passengers",
+                "CapableOf",
+                "giggling"
+            ]
+        ]
+    },
+    {
+        "query": "I folded the paper.",
+        "options": [
+            "I recycled the paper.",
+            "The paper creased."
+        ],
+        "answer": "The paper creased.",
+        "rules": [
+            [
+                "folding paper",
+                "Causes",
+                "crease"
+            ],
+            [
+                "recycling paper",
+                "PropertyOf",
+                "me"
+            ],
+            [
+                "being recyclable",
+                "PropertyOf",
+                "paper"
+            ]
+        ]
+    },
+    {
+        "query": "The nation endured a natural disaster.",
+        "options": [
+            "Leaders of other countries formed an alliance.",
+            "Leaders of other countries sent emergency relief."
+        ],
+        "answer": "Leaders of other countries sent emergency relief.",
+        "rules": [
+            [
+                "natural disaster",
+                "Requires",
+                "emergency relief"
+            ],
+            [
+                "The leaders",
+                "MotivatedByGoal",
+                "natural disaster"
+            ],
+            [
+                "forming an alliance",
+                "PropertyOf",
+                "leaders"
+            ],
+            [
+                "forming an alliance",
+                "HasPrerequisite",
+                "natural disaster"
+            ]
+        ]
+    },
+    {
+        "query": "I yanked the imposter's hair.",
+        "options": [
+            "Her wig came off.",
+            "She went bald."
+        ],
+        "answer": "Her wig came off.",
+        "rules": [
+            [
+                "yanking the hair",
+                "Causes",
+                "the wig coming off"
+            ],
+            [
+                "going bald",
+                "PropertyOf",
+                "imposter"
+            ],
+            [
+                "going bald",
+                "CausedBy",
+                "wig coming off"
+            ]
+
+        ]
+    },
+    {
+        "query": "The student graduated from the university.",
+        "options": [
+            "He looked for a job.",
+            "He took up a hobby."
+        ],
+        "answer": "He looked for a job.",
+        "rules": [
+            [
+                "graduating",
+                "CausesDesire",
+                "look for a job"
+            ],
+            [
+                "student",
+                "CapableOf",
+                "taking up a hobby"
+            ]
+        ]
+    },
+    {
+        "query": "The artist mixed yellow paint into blue paint.",
+        "options": [
+            "The paint splattered everywhere.",
+            "The paint turned green."
+        ],
+        "answer": "The paint turned green.",
+        "rules": [
+            [
+                "mixing yellow into blue paint",
+                "Causes",
+                "the paint to turn green"
+            ],
+            [
+                "splattering everywhere",
+                "PropertyOf",
+                "paint"
+            ]
+        ]
+    },
+    {
+        "query": "The factory owner refused to raise employees' wages.",
+        "options": [
+            "The owner appointed a new manager.",
+            "The employees went on strike."
+        ],
+        "answer": "The employees went on strike.",
+        "rules": [
+            [
+                "employees being upset",
+                "Causes",
+                "employees going on strike"
+            ],
+            [
+                "refusing to give employees raises",
+                "Causes",
+                "employees to be upset"
+            ],
+            [
+                "appointing a new manager",
+                "PropertyOf",
+                "owner"
+            ],
+            [
+                "appointing a new manager",
+                "CapableOf",
+                "making employees happy"
+            ]
+        ]
+    },
+    {
+        "query": "I walked barefoot on the beach.",
+        "options": [
+            "Sand stuck to my feet.",
+            "Waves crashed along the shore."
+        ],
+        "answer": "Sand stuck to my feet.",
+        "rules": [
+            [
+                "Sand",
+                "PartOf",
+                "the beach"
+            ],
+            [
+                "Walking barefoot on the beach",
+                "Causes",
+                "sand to stick to feet"
+            ],
+            [
+                "waves crashing",
+                "PropertyOf",
+                "beach"
+            ],
+            [
+                "waves crashing",
+                "CausedBy",
+                "ocean"
+            ]
+        ]
+    },
+    {
+        "query": "I woke up in the middle of the night feeling cold.",
+        "options": [
+            "I put sweatpants on.",
+            "I drank a glass of water."
+        ],
+        "answer": "I put sweatpants on.",
+        "rules": [
+            [
+                "sweatpants",
+                "UsedFor",
+                "keeping warm"
+            ],
+            [
+                "feeling cold",
+                "CausesDesire",
+                "to put sweatpants on"
+            ],
+            [
+                "drinking water",
+                "PropertyOf",
+                "me"
+            ],
+            [
+                "drinking water",
+                "HasPrerequisite",
+                "waking up"
+            ]
+
+        ]
+    },
+    {
+        "query": "The boy wore braces.",
+        "options": [
+            "He got a cavity.",
+            "His teeth became straight."
+        ],
+        "answer": "His teeth became straight.",
+        "rules": [
+            
+            [
+                "wearing braces",
+                "UsedFor",
+                "straightening teeth"
+            ],
+            [
+                "Braces",
+                "AtLocation",
+                "the teeth"
+            ],
+            [
+                "getting a cavity",
+                "PropertyOf",
+                "boy"
+            ],
+            [
+                "cavity",
+                "AtLocation",
+                "teeth"
+            ]
+
+        ]
+    },
+    {
+        "query": "I worked out at the gym yesterday.",
+        "options": [
+            "I woke up today with sore muscles.",
+            "I woke up today with a sore throat."
+        ],
+        "answer": "I woke up today with sore muscles.",
+        "rules": [
+            [
+                "Work out",
+                "Causes",
+                "sore muscles"
+            ],
+            [
+                "Work out equipmemt",
+                "AtLocation",
+                "gym"
+            ],
+            [
+                "sore throat",
+                "PropertyOf",
+                "me"
+            ]
+        ]
+    },
+    {
+        "query": "The child landed on the trampoline.",
+        "options": [
+            "She sprung back up into the air.",
+            "She decided to try to do a flip."
+        ],
+        "answer": "She sprung back up into the air.",
+        "rules": [
+            [   "the child to land on a trmpoline",
+                "Causes",
+                "springing back into the air"
+            ],
+            [
+                "the child",
+                "Desires",
+                "to play on the trampoline"
+            ],
+            [
+                "child",
+                "CapableOf",
+                "deciding to try to do a flip"
+            ]
+        ]
+    },
+    {
+        "query": "I deposited the letter in the mailbox.",
+        "options": [
+            "The post office delivered the letter.",
+            "The post office expedited the letter."
+        ],
+        "answer": "The post office delivered the letter.",
+        "rules": [
+            [
+                "depositing a letter in the post office",
+                "MotivatedByGoal",
+                "post office delivering the letter"
+            ],
+            [
+                "the letter",
+                "AtLocation",
+                "the mailbox"
+            ],
+            [
+                "the post office",
+                "CapableOf",
+                "delivering letters"
+            ],
+            [
+                "expediting the letter",
+                "PropertyOf",
+                "post office"
+            ]
+        ]
+    },
+    {
+        "query": "The gambler was confident.",
+        "options": [
+            "He bet all of his money.",
+            "He went home broke."
+        ],
+        "answer": "He bet all of his money.",
+        "rules": [
+            [
+                "Gamber",
+                "HasProperty",
+                "confident"
+            ],
+            [
+                "Gambler",
+                "HasA",
+                "money"
+            ],
+            [
+                "Gambler",
+                "CapableOf",
+                "betting"
+            ],
+            [
+                "Money",
+                "UsedFor",
+                "Gambling"
+            ],
+            [
+                "Bet",
+                "CreatedBy",
+                "Confidence"
+            ],
+            [
+                "Man",
+                "MotivatedByGoal",
+                "money"
+            ],
+            [   "Gambler being confident",
+                "Causes",
+                "Gambler betting all his money"
+            ],
+            [
+                "Going home broke",
+                "PropertyOf",
+                "Gambler"
+            ]
+        ]
+    },
+    {
+        "query": "The child skinned his knee.",
+        "options": [
+            "His mother sent him to his room.",
+            "His mother put a bandage on the wound."
+        ],
+        "answer": "His mother put a bandage on the wound.",
+        "rules": [
+            [
+                "mother",
+                "RelatedTo",
+                "child"
+            ],
+            [
+                "skinned",
+                "Synonym",
+                "cut"
+            ],
+            [
+                "cut",
+                "Motivates",
+                "putting bandage on the wound"
+            ],
+            [
+                "mother",
+                "PropertyOf",
+                "sending to room"
+            ]
+        ]
+    },
+    {
+        "query": "I took a sip of the scalding coffee.",
+        "options": [
+            "I bit my tongue.",
+            "I burnt my tongue."
+        ],
+        "answer": "I burnt my tongue.",
+        "rules": [
+            [
+                "scalding liquid",
+                "Causes",
+                "burnt tongue"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "biting tongue"
+            ]
+        ]
+    },
+    {
+        "query": "The woman was short on money for rent.",
+        "options": [
+            "She worked overtime.",
+            "She quit her job."
+        ],
+        "answer": "She worked overtime.",
+        "rules": [
+            [
+                "making more money",
+                "EnabledBy",
+                "working overtime"
+            ],
+            [
+                "being short on rent",
+                "CreatedBy",
+                "not having enough money"
+            ],
+            [
+                "not having enough money",
+                "Motivates",
+                "making more money"
+            ],
+            [
+                "quitting job",
+                "PropertyOf",
+                "woman"
+            ]
+        ]
+    },
+    {
+        "query": "The company wanted to gauge customer satisfaction.",
+        "options": [
+            "They offered a discount to new customers.",
+            "They distributed a survey to customers."
+        ],
+        "answer": "They distributed a survey to customers.",
+        "rules": [
+            [
+                "a survey",
+                "MannerOf",
+                "learning what your customers think"
+            ],
+            [
+                "knowing your customer satisfaction",
+                "Motivates",
+                "distributing a survey"
+            ],
+            [
+                "offering a discount",
+                "PropertyOf",
+                "company"
+            ],
+            [
+                "offering a discount",
+                "CapableOf",
+                "improving customer satisfaction"
+            ]
+        ]
+    },
+    {
+        "query": "I became enthralled in the book.",
+        "options": [
+            "I returned the book.",
+            "I lost track of time."
+        ],
+        "answer": "I lost track of time.",
+        "rules": [
+            [
+                "enthralled",
+                "Synonym",
+                "engrossed"
+            ],
+            [
+                "engrossed",
+                "Causes",
+                "lack of awareness"
+            ],
+            [
+                "lack of awareness",
+                "Causes",
+                "losing track of time"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "returning the book"
+            ]
+        ]
+    },
+    {
+        "query": "I apologized to my friend.",
+        "options": [
+            "My friend forgave me.",
+            "My friend became infuriated."
+        ],
+        "answer": "My friend forgave me.",
+        "rules": [
+            [
+                "apologizing to friend",
+                "CausesDesire",
+                "frined forgiving"
+            ],
+            [
+                "forgiving",
+                "MannerOf",
+                "showing someone you are not upset"
+            ],
+            [
+                "a friend",
+                "CapableOf",
+                "forgiving"
+            ],
+            [
+                "friend",
+                "CapableOf",
+                "becoming infuriated"
+            ]
+        ]
+    },
+    {
+        "query": "The witness lied under oath.",
+        "options": [
+            "He completed his testimony.",
+            "He was charged with perjury."
+        ],
+        "answer": "He was charged with perjury.",
+        "rules": [
+            [
+                "lie under oath",
+                "Creates",
+                "charged with perjury"
+            ],
+            [
+                "completing testimony",
+                "PropertyOf",
+                "witness"
+            ]
+        ]
+    },
+    {
+        "query": "The immigrants were caught illegally residing in the country.",
+        "options": [
+            "They found employment.",
+            "They were deported."
+        ],
+        "answer": "They were deported.",
+        "rules": [
+        
+            [
+                "illegally residing in a country",
+                "CausesDesire",
+                "being deported"
+            ],
+            [
+                "finding employment",
+                "PropertyOf",
+                "immigrants"
+            ]
+        ]
+    },
+    {
+        "query": "The public speaker cracked a joke.",
+        "options": [
+            "The audience laughed.",
+            "The audience stood up."
+        ],
+        "answer": "The audience laughed.",
+        "rules": [
+            [
+                "creating a joke",
+                "Causes",
+                "audience laughing"
+            ],
+            [
+                "audience",
+                "LocatedNear",
+                "public speaker"
+            ],
+            [
+                "audience",
+                "CapableOf",
+                "standing up"
+            ]
+        ]
+    },
+    {
+        "query": "I felt bored.",
+        "options": [
+            "I snorted.",
+            "I yawned."
+        ],
+        "answer": "I yawned.",
+        "rules": [
+            [
+                "being bored",
+                "CausesDesire",
+                "yawn"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "snorting"
+            ]
+        ]
+    },
+    {
+        "query": "The lights in my friend's apartment were on.",
+        "options": [
+            "I wondered if he was out.",
+            "I decided to pay him a visit."
+        ],
+        "answer": "I decided to pay him a visit.",
+        "rules": [
+            [
+                "lights being on",
+                "SymbolOf",
+                "being home"
+            ],
+            [
+                "being home",
+                "Motivates",
+                "paying visit"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "wondering if he was out"
+            ]
+        ]
+    },
+    {
+        "query": "The student procrastinated on the paper.",
+        "options": [
+            "He submitted the paper early.",
+            "He submitted the paper incomplete."
+        ],
+        "answer": "He submitted the paper incomplete.",
+        "rules": [
+            [
+                "procrastination",
+                "Causes",
+                "work to be done last second"
+            ],
+            [
+                "work to be done last second",
+                "causes",
+                "paper that is rushed"
+            ],
+            [
+                "a rushed paper",
+                "CapableOf",
+                "incomplete paper"
+            ],
+            [
+                "student",
+                "CapableOf",
+                "submitting paper early"
+            ]
+        ]
+    },
+    {
+        "query": "The bird flapped its wings.",
+        "options": [
+            "It laid eggs.",
+            "It ascended upwards."
+        ],
+        "answer": "It ascended upwards.",
+        "rules": [
+            [
+                "wings",
+                "PartOf",
+                "a bird"
+            ],
+            [
+                "flapping wings",
+                "Causes",
+                "flight of a bird"
+            ],
+            [
+                "flight of a bird",
+                "causes",
+                "ascending upwards"
+            ],
+            [
+                "bird",
+                "CapableOf",
+                "laying eggs"
+            
+            ]
+        ]
+    },
+    {
+        "query": "The criminal aimed the gun at his victim.",
+        "options": [
+            "The criminal put down the gun.",
+            "The victim put his hands up."
+        ],
+        "answer": "The victim put his hands up.",
+        "rules": [
+            [
+                "aiming a gun at someone",
+                "Causes",
+                "the person to put their hands up"
+            ],
+            [
+                "putting your hands up",
+                "MannerOf",
+                "showing that you surrender"
+            ],
+            [
+                "criminal",
+                "CapableOf",
+                "putting down the gun"
+            ],
+            [
+                "putting down the gun",
+                "HasPrerequisite",
+                "victim pointing the gun"
+            ]
+        ]
+    },
+    {
+        "query": "The dip tasted bland.",
+        "options": [
+            "I served it.",
+            "I put salt in it."
+        ],
+        "answer": "I put salt in it.",
+        "rules": [
+            [
+                "bland food",
+                "CreatedBy",
+                "not seasoning it properly"
+            ],
+            [
+                "not seasoning it properly",
+                "CausesDesire",
+                "adding salt"
+            ],
+            [
+                "serving food",
+                "PropertyOf",
+                "me"
+            ],
+            [
+                "dip",
+                "CapableOf",
+                "being served"
+            ]
+        ]
+    },
+    {
+        "query": "The woman was interrupted in the midst of reading her book.",
+        "options": [
+            "She bookmarked her page.",
+            "She reread the book."
+        ],
+        "answer": "She bookmarked her page.",
+        "rules": [
+            [
+                "being interrupted",
+                "CausesDesire",
+                "bookmark page"
+            ],
+            [
+                "bookmark",
+                "UsedFor",
+                "remembering page"
+            ],
+            [
+                "woman",
+                "CapableOf",
+                "rereading book"
+            ]
+        ]
+    },
+    {
+        "query": "The town received several inches of snow.",
+        "options": [
+            "Schools shut down.",
+            "People hid underground."
+        ],
+        "answer": "Schools shut down.",
+        "rules": [
+            [
+                "Snowy weather",
+                "CapableOf",
+                "closing school"
+            ],
+            [
+                "people hiding underground",
+                "PropertyOf",
+                "people"
+            ],
+            [
+                "people hiding underground",
+                "CausedBy",
+                "natural disaster"
+            ]
+        ]
+    },
+    {
+        "query": "The woman set an ambitious goal.",
+        "options": [
+            "She slacked off.",
+            "She worked hard."
+        ],
+        "answer": "She worked hard.",
+        "rules": [
+            [
+                "setting an ambitious goal",
+                "Causes",
+                "working hard"
+            ],
+            [
+                "The woman",
+                "MotivatedByGoal",
+                "an ambitious goal"
+            ],
+            [
+                "slacking off",
+                "PropertyOf",
+                "woman"
+            ],
+            [
+                "slacking off",
+                "CausedBy",
+                "not having a proper goal"
+            ]
+        ]
+    },
+    {
+        "query": "I slept through my alarm.",
+        "options": [
+            "I made breakfast.",
+            "I missed breakfast."
+        ],
+        "answer": "I missed breakfast.",
+        "rules": [
+            [
+                "Missing an alarm",
+                "Causes",
+                "not waking up on time"
+            ],
+            [
+                "Waking up late",
+                "Causes",
+                "missed breakfast"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "making breakfast"
+            ]
+        ]
+    },
+    {
+        "query": "The college student wanted to meet other students on campus.",
+        "options": [
+            "He joined a fraternity.",
+            "He majored in engineering."
+        ],
+        "answer": "He joined a fraternity.",
+        "rules": [
+            [
+                "meeting other students",
+                "CausesDesire",
+                "joining a fraternity"
+            ],
+            [
+                "fraternity",
+                "CreatedBy",
+                "students"
+            ],
+            [
+                "the student",
+                "MotivatedByGoal",
+                "meeting other students on campus"
+            ],
+            [
+                "majoring in engineering",
+                "PropertyOf",
+                "student"
+            ]
+        ]
+    },
+    {
+        "query": "The woman was found guilty of a misdemeanor.",
+        "options": [
+            "She was sentenced to perform community service.",
+            "She was put on death row."
+        ],
+        "answer": "She was sentenced to perform community service.",
+        "rules": [
+            [
+                "woman",
+                "HasProperty",
+                "guilty"
+            ],
+            [
+                "woman",
+                "HasProperty",
+                "sentenced"
+            ],
+            [
+                "woman",
+                "CapableOf",
+                "performing  community service"
+            ],
+            [
+                "found guilty of misdemeanor",
+                "Causes",
+                "being sentenced to perform community service"
+            ],
+            [
+                "put on death row",
+                "PropertyOf",
+                "woman"
+            ]
+        ]
+    },
+    {
+        "query": "The criminal ran away from the police.",
+        "options": [
+            "The police attended to the victim.",
+            "The police chased the criminal."
+        ],
+        "answer": "The police chased the criminal.",
+        "rules": [
+            [
+                "the criminal running",
+                "Causes",
+                "the police officer to chase them"
+            ],
+            [
+                "the police",
+                "CapableOf",
+                "running"
+            ],
+            [
+                "police",
+                "CapableOf",
+                "attending to the victim"
+            ]
+        ]
+    },
+    {
+        "query": "The family went to the zoo.",
+        "options": [
+            "The children admired the animals.",
+            "The children chased the animals."
+        ],
+        "answer": "The children admired the animals.",
+        "rules": [
+            [
+                "animals",
+                "AtLocation",
+                "zoo"
+            ],
+            [   "going to zoo",
+                "Causes",
+                "admiring animals"
+            ],
+            [
+                "chasing animals",
+                "PropertyOf",
+                "children"
+            ]
+        ]
+    },
+    {
+        "query": "The air conditioner in the house broke.",
+        "options": [
+            "I brought out blankets.",
+            "I opened the windows."
+        ],
+        "answer": "I opened the windows.",
+        "rules": [
+            [
+                "broken Air conditioner",
+                "CapableOf",
+                "heating the house"
+            ],
+            [
+                "having hot house",
+                "CausesDesire",
+                "cool house"
+            ],
+            [
+                "cooling house",
+                "Desires",
+                "opening window"
+            ],
+            [
+                "bringing out blankets",
+                "PropertyOf",
+                "me"
+            ]
+        ]
+    },
+    {
+        "query": "I struck the match.",
+        "options": [
+            "The flame faded out.",
+            "The match produced a flame."
+        ],
+        "answer": "The match produced a flame.",
+        "rules": [
+            [
+                "striking a match",
+                "Causes",
+                "a flame produced"
+            ],
+            [
+                "matches",
+                "UsedFor",
+                "fire"
+            ],
+            [
+                "fading out",
+                "PropertyOf",
+                "flame"
+            ]
+        ]
+    },
+    {
+        "query": "A meteorite landed in the ocean.",
+        "options": [
+            "A tsunami occurred.",
+            "It began to hail."
+        ],
+        "answer": "A tsunami occurred.",
+        "rules": [
+            [
+                "the meteorite",
+                "CapableOf",
+                "creating a tsunami"
+            ],
+            [
+                "meteorite landing in the ocean",
+                "Causes",
+                "tsunami created"
+            ],
+            [
+                "beginning to hail",
+                "PropertyOf",
+                "meteorite"
+            ]
+        ]
+    },
+    {
+        "query": "I squeezed the lemon wedge.",
+        "options": [
+            "The lemon got moldy.",
+            "The lemon squirted."
+        ],
+        "answer": "The lemon squirted.",
+        "rules": [
+            [
+                "squeezing lemon",
+                "Causes",
+                "lemon squirted"
+            ],
+            [
+                "squeezed",
+                "PropertyOf",
+                "me"
+            ],
+            [
+                "being squeezed",
+                "PropertyOf",
+                "lemon"
+            ],
+            [
+                "getting moldy",
+                "PropertyOf",
+                "lemon"
+            ]
+        ]
+    },
+    {
+        "query": "The country discovered new land.",
+        "options": [
+            "The country abandoned the land.",
+            "The country colonized the land."
+        ],
+        "answer": "The country colonized the land.",
+        "rules": [
+            [
+                "acquiring new land",
+                "Causes",
+                "colonized land"
+            ],
+            [
+                "discovering new land",
+                "Desires",
+                "acquiring new land"
+            ],
+            [
+                "country",
+                "CapableOf",
+                "abandoning land"
+            ]
+        ]
+    },
+    {
+        "query": "The father caught his son lying.",
+        "options": [
+            "His son confessed the truth.",
+            "The father trusted his son."
+        ],
+        "answer": "His son confessed the truth.",
+        "rules": [
+            [
+                "Being caught in a lie",
+                "CausesDesire",
+                "confess"
+            ],
+            [
+                "being caught",
+                "HasProperty",
+                "making people feel guilt"
+            ],
+            [
+                "guilt",
+                "HasProperty",
+                "confession"
+            ],
+            [
+                "trusting",
+                "PropertyOf",
+                "father"
+            ]
+        ]
+    },
+    {
+        "query": "The woman had a sore throat.",
+        "options": [
+            "Her voice sounded raspy.",
+            "She spoke with an accent."
+        ],
+        "answer": "Her voice sounded raspy.",
+        "rules": [
+            [
+                "sore throat",
+                "Causes",
+                "raspy voice"
+            ],
+            [
+                "speaking with an accent",
+                "PropertyOf",
+                "woman"
+            ],
+            [
+                "sore throat",
+                "PropertyOf",
+                "woman"
+            
+            ]
+        ]
+    },
+    {
+        "query": "The woman's business succeeded.",
+        "options": [
+            "She fired her employees.",
+            "She became wealthy."
+        ],
+        "answer": "She became wealthy.",
+        "rules": [
+            [
+                "successful business",
+                "Causes",
+                "becoming wealthy"
+            ],
+            [
+                "woman",
+                "CapableOf",
+                "firing employees"
+            ],
+            [
+                "employees",
+                "AtLocation",
+                "business"
+            ]
+        ]
+    },
+    {
+        "query": "The woman claimed she saw a ghost.",
+        "options": [
+            "Her acquaintances expressed skepticism.",
+            "Her acquaintances related to her."
+        ],
+        "answer": "Her acquaintances expressed skepticism.",
+        "rules": [
+            [
+                "claim seeing a ghost",
+                "HasProperty",
+                "paranormal claim"
+            ],
+            [
+                "paranormal claim",
+                "causes",
+                "skepticism"
+            ],
+            [
+                "relating to her",
+                "PropertyOf",
+                "acquaintances"
+            ]
+        ]
+    },
+    {
+        "query": "The man did a canon ball into the pool.",
+        "options": [
+            "The lifeguard jumped in after him.",
+            "The man soaked the lifeguard."
+        ],
+        "answer": "The man soaked the lifeguard.",
+        "rules": [
+            [
+                "canon ball",
+                "Causes",
+                "large splash"
+            ],
+            [
+                "large splash",
+                "CapableOf",
+                "soaking people"
+            ],
+            [
+                "lifegaurd",
+                "IsA",
+                "person"
+            ],
+            [
+                "jumping in",
+                "PropertyOf",
+                "lifeguard"
+            ]
+        ]
+    },
+    {
+        "query": "I took antibiotics.",
+        "options": [
+            "My infection cleared up.",
+            "My infection spread."
+        ],
+        "answer": "My infection cleared up.",
+        "rules": [
+            [
+                "taking antibiotics",
+                "MannerOf",
+                "healing an infection"
+            ],
+            [
+                "an infection",
+                "CapableOf",
+                "harming you"
+            ],
+            [
+                "spreading",
+                "PropertyOf",
+                "infection"
+            ]
+        ]
+    },
+    {
+        "query": "The traffic light turned yellow.",
+        "options": [
+            "The driver pushed the brake.",
+            "The driver honked his horn."
+        ],
+        "answer": "The driver pushed the brake.",
+        "rules": [
+            [
+                "a car being stopped",
+                "HasFirstSubevent",
+                "pushing the brake"
+            ],
+            [
+                "the light turning red",
+                "Causes",
+                "a car being stopped"
+            ],
+            [
+                "a yellow traffic light",
+                "SymbolOf",
+                "the light turning red"
+            ],
+            [
+                "honking horn",
+                "PropertyOf",
+                "driver"
+            ]
+        ]
+    },
+    {
+        "query": "The boy studied all night.",
+        "options": [
+            "He skipped the exam.",
+            "He passed the exam."
+        ],
+        "answer": "He passed the exam.",
+        "rules": [
+            [
+                "getting ready for the exam",
+                "Causes",
+                "passing the exam"
+            ],
+            [
+                "studying all night",
+                "PartOf",
+                "getting ready for the exam"
+            ],
+            [
+                "boy",
+                "CapableOf",
+                "skipping the exam"
+            ]
+        ]
+    },
+    {
+        "query": "The building adjacent to my office was under construction.",
+        "options": [
+            "My office was crowded.",
+            "My office was noisy."
+        ],
+        "answer": "My office was noisy.",
+        "rules": [
+            [
+                "being under construction",
+                "Causes",
+                "noise"
+            ],
+            [
+                "office",
+                "LocatedNear",
+                "construction"
+            ],
+            [
+                "crowded",
+                "PropertyOf",
+                "office"
+            ]
+        ]
+    },
+    {
+        "query": "The family wanted to get to know their new neighbors.",
+        "options": [
+            "The family invited the neighbors over for dinner.",
+            "The family waved to the neighbors from their yard."
+        ],
+        "answer": "The family invited the neighbors over for dinner.",
+        "rules": [
+            [
+                "getting to know neighbors",
+                "Desires",
+                "inviting neighbors over"
+            ],
+            [
+                "waving to neighbors",
+                "PropertyOf",
+                "family"
+            ]
+        ]
+    },
+    {
+        "query": "I bit into a slice of watermelon.",
+        "options": [
+            "I accidentally swallowed a seed.",
+            "I accidentally chipped my tooth."
+        ],
+        "answer": "I accidentally swallowed a seed.",
+        "rules": [
+            [
+                "a seed",
+                "PartOf",
+                "watermelon"
+            ],
+            [
+                "biting a slice of  watermelon",
+                "Causes",
+                "swallowing a seed"
+            ],
+            [
+                "chipping tooth",
+                "PropertyOf",
+                "me"
+            ],
+            [
+                "tooth",
+                "CapableOf",
+                "getting chipped"
+            ]
+        ]
+    },
+    {
+        "query": "The ship wrecked.",
+        "options": [
+            "The crew drowned.",
+            "The crew encountered pirates."
+        ],
+        "answer": "The crew drowned.",
+        "rules": [
+            [
+                "ship",
+                "HasA",
+                "crew"
+            ],
+            [
+                "crew",
+                "CapableOf",
+                "drowning"
+            ],
+            [
+                "ship wreck",
+                "Causes",
+                "drowning"
+            ],
+            [
+                "encountering pirates",
+                "PropertyOf",
+                "crew"
+            ],
+            [
+                "ship",
+                "AtLocation",
+                "sea"
+            ],
+            [
+                "pirates",
+                "AtLocation",
+                "sea"
+            ]
+        ]
+    },
+    {
+        "query": "The boy felt stumped by the riddle.",
+        "options": [
+            "He solved the riddle.",
+            "He requested a hint."
+        ],
+        "answer": "He requested a hint.",
+        "rules": [
+            [
+                "being stumped",
+                "Desires",
+                "requesting a hint"
+            ],
+            [
+                "find answer",
+                "ReceivesAction",
+                "asking for hint"
+            ],
+            [
+                "solving riddle",
+                "PropertyOf",
+                "boy"
+            ]
+        ]
+    },
+    {
+        "query": "The phone rang.",
+        "options": [
+            "The man hung up the phone.",
+            "The man picked up the phone."
+        ],
+        "answer": "The man picked up the phone.",
+        "rules": [
+            [
+                "a phone ringing",
+                "CausesDesire",
+                "pick up the phone"
+            ],
+            [
+                "hanging up the phone",
+                "PropertyOf",
+                "man"
+            ]
+        ]
+    },
+    {
+        "query": "The woman was staring at me.",
+        "options": [
+            "I hugged her.",
+            "I felt uncomfortable."
+        ],
+        "answer": "I felt uncomfortable.",
+        "rules": [
+            [
+                "being stared",
+                "Causes",
+                "feeling uncomfortable"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "hugging"
+            ]
+        ]
+    },
+    {
+        "query": "The pen ran out of ink.",
+        "options": [
+            "I used a pencil.",
+            "I signed my name."
+        ],
+        "answer": "I used a pencil.",
+        "rules": [
+            [
+                "pen",
+                "HasProperty",
+                "out of ink"
+            ],
+            [
+                "pen",
+                "CapableOf",
+                "running out of ink"
+            ],
+            [
+                "pen running out of ink",
+                "Causes",
+                "using pencil"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "signing name"
+            ]
+        ]
+    },
+    {
+        "query": "The man lost his temper.",
+        "options": [
+            "He turned off his computer.",
+            "He threw a chair across the room."
+        ],
+        "answer": "He threw a chair across the room.",
+        "rules": [
+            [
+                "losing temper",
+                "Causes",
+                "throwing a chair"
+            ],
+            [
+                "throwing a chair across a room",
+                "MannerOf",
+                "showing that you are upset"
+            ],
+            [
+                "being upset",
+                "PartOf",
+                "becoming angry"
+            ],
+            [
+                "man",
+                "CapableOf",
+                "turning off computer"
+            ]
+        ]
+    },
+
+    {
+        "query": "The parents wanted their children to go to college.",
+        "options": [
+            "They set aside a savings fund for tuition.",
+            "They encouraged their children to play outside."
+        ],
+        "answer": "They set aside a savings fund for tuition.",
+        "rules": [
+            [
+                "tuition",
+                "HasProperty",
+                "expensive"
+            ],
+            [
+                "wanting children to go to college",
+                "CausesDesire",
+                "saving funds for tuition"
+            ],
+            [
+                "encouraging children to play outside",
+                "PropertyOf",
+                "parents"
+            ],
+            [
+                "children",
+                "CapableOf",
+                "playing outside"
+            ]
+        ]
+    },
+    {
+        "query": "The man unlaced his shoes.",
+        "options": [
+            "The shoes loosened.",
+            "The shoes became worn."
+        ],
+        "answer": "The shoes loosened.",
+        "rules": [
+            [
+                "Unlacing shoes",
+                "CapableOf",
+                "loosen shoes"
+            ],
+            [
+                "The lace",
+                "PartOf",
+                "a shoe"
+            ],
+            [
+                "shoe",
+                "CapableOf",
+                "becoming worn"
+            ]
+        ]
+    },
+    {
+        "query": "I had to wait in line.",
+        "options": [
+            "I took a seat.",
+            "I skimmed a magazine."
+        ],
+        "answer": "I skimmed a magazine.",
+        "rules": [
+            [
+                "waiting in line",
+                "CausesDesire",
+                "occupy your time"
+            ],
+            [
+                "occupying your time",
+                "Desires",
+                "skimming a magazine"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "taking a seat"
+            ]
+        ]
+    },
+    {
+        "query": "The runner sensed his competitor gaining on him.",
+        "options": [
+            "He dropped out of the race.",
+            "He sped up his pace."
+        ],
+        "answer": "He sped up his pace.",
+        "rules": [
+            [
+                "Speeding up your pace",
+                "MannerOf",
+                "making sure other runners won't gain distance on you"
+            ],
+            [
+                "Thinking that a competitor is gaining ground",
+                "CausesDesire",
+                "speed up pace"
+            ],
+            [
+                "runner",
+                "CapableOf",
+                "dropping out of race"
+            ]
+        ]
+    },
+    {
+        "query": "I thought carefully about the problem.",
+        "options": [
+            "I asked for advice.",
+            "I came up with a solution."
+        ],
+        "answer": "I came up with a solution.",
+        "rules": [
+            [
+                "thinking about a problem",
+                "MannerOf",
+                "learning of a solution"
+            ],
+            [
+                "thinking about the problem",
+                "Creates",
+                "a solution"
+            ],
+            [
+                "me",
+                "CapableOf",
+                "asking for advice"
+            ]
+        ]
+    },
+    {
+        "query": "The traveler walked on the shaky suspension bridge.",
+        "options": [
+            "He felt terrified.",
+            "He felt ecstatic."
+        ],
+        "answer": "He felt terrified.",
+        "rules": [
+            [
+                "walking on shaky suspension bridge",
+                "Causes",
+                "feeling terrified"
+            ],
+            [
+                "traveler",
+                "PropertyOf",
+                "feeling ecstatic"
+            ]
+        ]
+    },
+    {
+        "query": "The man anticipated the team's victory.",
+        "options": [
+            "He met his friends to watch the game.",
+            "He made a bet with his friends."
+        ],
+        "answer": "He made a bet with his friends.",
+        "rules": [
+            [
+                "man",
+                "HasProperty",
+                "anticipating"
+            ],
+            [
+                "man",
+                "CapableOf",
+                "anticipating"
+            ],
+            [
+                "man",
+                "CapableOf",
+                "making a bet"
+            ],
+            [
+                "man",
+                "HasA",
+                "friends"
+            ],
+            [
+                "bet",
+                "CreatedBy",
+                "man"
+            ],
+            [
+                "anticipating tema's victory",
+                "Causes",
+                "making a bet"
+            ],
+            [
+                "man",
+                "CapableOf",
+                "meeting friends to watch game"
+            ]
+
+        ]
+    },
+    {
+        "query": "The boy couldn't fall asleep.",
+        "options": [
+            "He set his alarm clock.",
+            "He counted sheep."
+        ],
+        "answer": "He counted sheep.",
+        "rules": [
+            [
+                "trying to get to sleep",
+                "Desires",
+                "counting sheep"
+            ],
+            [
+                "Counting sheep",
+                "Causes",
+                "a person to get sleepy"
+            ],
+            [
+                "boy",
+                "CapableOf",
+                "setting alarm clock"
+            ],
+            [
+                "falling asleep",
+                "PropertyOf",
+                "boy"
+            ],
+            [
+                "setting alarm clock",
+                "RelatedTo",
+                "sleep"
+            ]
+        ]
+    },
+    {
+        "query": "The trash bag was full.",
+        "options": [
+            "I took it to the dumpster.",
+            "I dumped it to the sink."
+        ],
+        "answer": "I took it to the dumpster.",
+        "rules": [
+            [
+                "I", "Desires", "cleanliness"
+            ],
+            [
+                "trash", "HasProperty", "dirty"
+            ], 
+            [
+                "cleanliness", "ObstructedBy", "too much garbage"
+            ],
+            [
+                "taking out the trash", "MannerOf", "maintaining cleanliness"
+            ],
+            [
+                "I", "CapableOf", "dumping trash in sink"
+            ],
+            [
+                "full trash bag", "Causes", "taking trash to dumpster"
+            ]
+        ]
+    },
+    {
+        "query":"The hiker encountered a poisonous snake.",
+        "options": [
+            "She became dehydrated.",
+            "She panicked."
+        ],
+        "answer": "She panicked.",
+        "rules": [
+            [
+                "poisonous snake", "HasProperty", "dangerous"
+            ],
+            [
+                "hiker", "CapableOf", "encountering poisonous snake"
+            ],
+            [
+                "poisonous snake", "Causes", "panic"
+            ],
+            [
+                "hiker", "CapableOf", "becoming dehydrated"
+            ]
+        ]
+    },
+    {
+        "query": "The wasp flew towards the boy.",
+        "options": [
+            "The boy ran away.",
+            "The boy picked a flower."
+        ],
+        "answer": "The boy ran away.",
+        "rules": [
+            [
+                "wasp", "HasProperty", "stinging"
+            ],
+            [
+                "The boy", "HasProperty", "scared of the wasp"
+            ],
+            [
+                "The wasp", "CapableOf", "stinging the boy"
+            ],
+            [
+                "being scared", "Causes", "running away"
+            ],
+            [
+                "The boy", "CapableOf", "picking a flower"
+            ]
+        ]
+    },
+    {
+        "query": "The boy stepped in mud",
+        "options": [
+            "The mud stuck to his shoes.",
+            "The mud hit him in the face."
+        ],
+        "answer": "The mud stuck to his shoes.",
+        "rules": [
+            [
+                "mud", "CapableOf", "sticking to shoes"
+            ],
+            [
+                "mud", "LocatedNear", "the ground"
+            ],
+            [
+                "mud", "CapableOf", "being stepped on"
+            ],
+            [
+                "stepping on mud", "Causes", "mud sticking to shoes"
+            ],
+            [
+                "mud", "CapableOf", "hitting someone in the face"
+            ]
+        ]
+    },
+    {
+        "query": "The plane hit some turbulence.",
+        "options": [
+            "The man tightened his seatbelt.",
+            "The man looked out the window."
+        ],
+        "answer": "The man tightened his seatbelt.",
+        "rules": [
+            [
+                "turbulence", "CapableOf", "causing discomfort"
+            ],
+            [
+                "seatbelts", "UsedFor", "safety"
+            ],
+            [
+                "the man", "Desires", "to feel safe"
+            ],
+            [
+                "tightening seatbelt", "Causes", "feeling safe"
+            ],
+            [
+                "hitting turbulence", "Causes Desire", "tightening seatbelt"
+            ],
+            [
+                "man", "CapableOf", "looking out the window"
+            ]
+        ]
+    },
+    {
+        "query": "I put the flower under my nose.",
+        "options": [
+            "The petals came off the flower.",
+            "I picked up the flower's scent."
+        ],
+        "answer": "I picked up the flower's scent.",
+        "rules": [
+            [
+                "scent", "PartOf", "flowers"
+            ], 
+            [
+                "nose", "CapableOf", "smelling scents"
+            ],
+            [
+                "flower", "CapableOf", "losing petals"
+            ],
+            [
+                "putting flower under nose", "Causes", "smelling flower's scent"
+            ]
+
+        ]
+    },
+    {
+        "query": "I left the fruit out on the table.",
+        "options": [
+            "The fruit shed seeds.",
+            "Flies swarmed the fruit."
+        ],
+        "answer": "Flies swarmed the fruit.",
+        "rules": [
+            [
+                "Fruit", "HasA", "sweetness that attracts flies"
+            ],
+            [
+                "A fly", "MotivatedByGoal", "a desire for sweet food"
+            ],
+            [
+                "left fruit", "Causes", "flies swarming"
+            ],
+            [
+                "Fruit", "CapableOf", "shedding seeds"
+            ]
+        ]
+    }
+]

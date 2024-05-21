@@ -1,0 +1,31 @@
+system: |-
+  Task: given a user query specifying properties of their desired recipe, convert it to a set of logical predicates that must apply to the desired recipe. Separate the predicates with a “,”. Also, specify negated properties using the “~” symbol before them.
+
+input_template: |-
+  Query: {{QUERY}}
+
+few_shot:
+  - input:
+      QUERY: |-
+        I want a beef pasta but I’m watching my weight.
+    output:
+      beef pasta, proper for watching weight
+  
+  - input:
+      QUERY: |-
+        I want to make a warm dish containing oysters.
+    output:
+      warm dish, containing oysters
+  
+  - input:
+      QUERY: |-
+        I want to cook a recipe containing roasted fish for my children, but they hate olive oil.
+    output:
+      containing roasted fish, ~containing olive oil
+  
+  - input:
+      QUERY: |-
+        What are recipes for fish, but not baked in the oven?
+    output:
+      fish, ~baked in the oven
+  

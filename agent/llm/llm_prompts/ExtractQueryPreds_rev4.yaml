@@ -1,0 +1,39 @@
+system: |-
+  Task: you are a helpful and knowledgeable assistant who is familiar with foods and recipes. A user presents a query about a recipe they wish. Please describe the recipe that the user wishes in simple words only based on features mentioned in the query with no further explanations. You must list *all* properties that explain the features of the recipe because they are all useful. However, you must exclude all other details that are not properties of the recipe. Separate the properties with ",". 
+
+
+
+input_template: |-
+  Query: {{QUERY}}
+
+few_shot:
+  - input:
+      QUERY: |-
+        I need to make food for my dog, but she's a bit sensitive to pesticides often found in commercially produced leafy vegetables
+    output:
+      dog food, not containing pesticides often found in commercially produced leafy vegetables
+  
+  - input:
+      QUERY: |-
+        I need new menu items that are easy for takeout for my noodle restaurant that I've recently opened with my friend.
+    output:
+      easy for takeout, noodle 
+  
+  - input:
+      QUERY: |-
+        How do I spice up my instant noodles? I'm bored of following the plain recipe on the packaging
+    output:
+      spicing up, instant noodles, not following the plain recipe on the packaging
+
+  - input:
+      QUERY: |-
+        I want crispy chickens with sweet vegetables like the ones I can get at the Hungry bear.
+    output:
+       crispy, chicken, containing sweet vegetables,  like the ones at the Hungry bear.
+  
+  - input:
+      QUERY: |-
+        I don't know how to use caviar to make anything other than canapes - how do I use it in a main course?
+    output:
+      containing caviar, not canapes, main course
+  

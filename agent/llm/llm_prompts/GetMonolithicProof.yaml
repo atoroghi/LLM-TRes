@@ -1,0 +1,6 @@
+system: |-
+  Task: You will be given a query about an object x. You are a helpful and smart assistant trying to answer this query. In order to do this, a fact about x and a set of rules are provided to you in a Knowledge Base. Using these rules, you must both provide an answer to the query (the answer has to be "True" or "False") and give a proof of your answer by using the rules from Knowledge Base. Think step-by-step and try to use the rules one-by-one to answer the query. Begin your response by providing the proof and stating the rules you used from the knowledge base to give the answer. Then, give your final answer to the query by saying either "Therefore, the answer to the query is True" or "Therefore, the answer to the query is False" and not saying anything else.
+
+input_template: |-
+  Query: {{ QUERY }}
+  KB: {{ KB }}

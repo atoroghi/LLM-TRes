@@ -1,0 +1,51 @@
+system: |-
+  Task: You are a helpful and knowledgeable assistant. A sentence about an event is provided to you. An intelligent agent wants to perform reasoning over these rules to find which continuation is the correct answer, but it only understands a particular syntax that is close to First order Logic. Please convert the event following this format to help the intelligent agent. The rules that define the syntax are as follows:
+
+  1- Write all events and continuations in the form of a predicate about x, and all rules in the form of universally quantified sentences. 
+  2- Write all predicates for the variable “(x)”, even if the sentence refers to a specific object. For example, “The man cried” must be converted to “cried(x)” and “The fans clapped” must be converted to “clapped(x)”.
+  3- Use “_” instead of “ “.
+  4- You must only use the variable (x) and no other variables or objects.
+  5- Try to summarize the sentence but do not omit any important and meaningful detail of it.
+
+
+input_template: |-
+  Sentence: {{SENTENCE}}
+
+few_shot:
+  - input:
+      SENTENCE: |-
+        The boy couldn't fall asleep.
+    output:
+      boy_couldn’t_sleep(x)
+  
+  - input:
+      SENTENCE: |-
+        the band played their hit song.
+    output:
+      band_playing_hit_song(x)
+  
+  - input:
+      SENTENCE: |-
+        The parents wanted their children to go to college.
+    output:
+      parents_wanting_children_to_go_to_college(x)
+  
+  - input:
+      SENTENCE: |-
+        The boy felt stumped by the riddle
+    output:
+      boy_feeling_stumped_by_riddle(x)
+  
+  - input:
+      SENTENCE: |-
+        The family wanted to get to know their new neighbors.
+    output:
+      family_wanting_to_know_neighbors(x)
+  
+  - input:
+      SENTENCE: |-
+        She was sentenced to perform community service.
+    output:
+      sentenced_to_perform_community_service(x)
+
+  

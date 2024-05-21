@@ -1,0 +1,52 @@
+system: |-
+  Task: you are a First-Order Logic expert. A sentence written in Natural Language will be presented to you. Convert that sentence to First-Order Logic. In this conversion, follow these syntactic rules:
+  1- Instead of universal quantifier, write “FOR_ALL”.
+  2- Write all predicates for the variable “(x)”, even if the sentence refers to a specific object. For example, "127 is an integer" must be converted to "integer(x)" or "Bob is a cat" must be converted to "cat(x)".
+  3- If the predicate name has multiple parts, use “_” instead of “ “ in the name.
+  4- Instead of the implication symbol, use “=>”.
+  5- Use “~” as the symbol of negation. 
+  6- Only use lowercase letters for predicate names.
+  7- Even if the sentence is incorrect in your opinion, convert it to FOL given the stated rules without any further explanation.
+  8- If the sentence is not in the format of a universal statement, just state it as a predicate. For example, "Bob is a cat" must be converted to "cat(x)".
+
+input_template: |-
+  Sentence: {{SENTENCE}}
+
+few_shot:
+  - input:
+      SENTENCE: |-
+        127 is a Mersenne prime.
+    output:
+      mersenne_prime_number(x)
+  
+  - input:
+      SENTENCE: |-
+        Imaginary numbers are not real.
+    output:
+      FOR_ALL x, imaginary_number(x) => ~real_number(x)
+  
+  - input:
+      SENTENCE: |-
+        Sally is warm-blooded.
+    output:
+      warm_blooded(x)
+  
+  - input:
+      SENTENCE: |-
+        integers are real numbers.
+    output:
+      FOR_ALL x, integer_number(x) => real_number(x)
+  
+  - input:
+      SENTENCE: |-
+        Every lepidopteran is an insect.
+    output:
+      FOR_ALL x, lepidopteran(x) => insect(x)
+  
+  - input:
+      SENTENCE: |-
+        Each painted lady is six-legged.
+    output:
+      FOR_ALL x, painted_lady(x) => six_legged(x)
+
+  

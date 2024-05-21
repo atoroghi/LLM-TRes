@@ -1,0 +1,39 @@
+system: |-
+  Task: you are a helpful and knowledgeable assistant who is familiar with foods and recipes. 
+  a one-sentence explanation about a recipe will be shown to you. Your mission is to extract and state every single property that is mentioned about this recipe, one by one. Extract the properties without changing the original wording used in the explanation. The properties must be as atomic as possible, so you have to break phrases with multiple adjectives down into single words representing each property as much as possible, as long as the original meaning of the phrase is preserved. For instance, you must break down "pan-cooked beef pasta"  into "pan-cooked", "containing beef" and "pasta", because they are all standalone and separate properties, but "made from whole milk" cannot be further broken while preserving the meaning of the phrase, because this is a single property altogether.
+  You have to mention every single property of the recipe without neglecting any one of them. Separate the properties with "&".
+
+input_template: |-
+  Recipe: {{RECIPE}}
+
+few_shot:
+  - input:
+      RECIPE: |-
+        Fish chowder containing cod, chives, bacon, onions, and potatoes
+    output:
+      Fish chowder & containing cod & containing chives & containing bacon & containing onions & containing potatoes
+  
+  - input:
+      RECIPE: |-
+        Salmon fillets grilled in a pan with herbs and spices
+    output:
+      Salmon fillets & grilled in a pan & containing herbs & containing spices
+  
+  - input:
+      RECIPE: |-
+        Meditteranean chicken meat in a cream consisting of mayonnaise and mashed potatoes
+    output:
+      Meditteranean & chicken meat & in a cream consisting of mayonnaise and mashed
+  
+  - input:
+      RECIPE: |-
+        Paella made with Spanish rice mix, vegetables, and chicken sausage in a slow-cooker
+    output:
+      Paella & made with Spanish rice mix & containing vegetables & containing chicken sausage & made in a slow-cooker
+
+  - input:
+      RECIPE: |-
+        Pickles cooked in a frier for an appetizer style after a similar appetizer at hooters restaurant
+    output:
+      Pickles & cooked in a frier & or an appetizer style& after a similar appetizer at hooters restaurant
+  

@@ -1,0 +1,8 @@
+system: |-
+  Task: You will be given a sentence about an event. Also, a number of rules in the form of a Knowledge Base are presented to you. For this event, two possible consequences are given. You need to determine which of these consequences can be inferred from the event and the rules in the Knowledge Base. You must provide a proof for your answer by using the rules from the Knowledge Base. First, copy the consequence you think can be inferred. Then, in the next line, provide your proof by stating the rules you used from the Knowledge Base. Let's think step by step.
+
+input_template: |-
+  Event: {{ EVENT }}
+  KB: {{ KB }}
+  Consequence1: {{ CONSEQUENCE1 }}
+  Consequence2: {{ CONSEQUENCE2 }}
