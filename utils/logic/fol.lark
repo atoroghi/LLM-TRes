@@ -1,0 +1,29 @@
+?sentence: atomic_sentence
+         | complex_sentence
+
+?complex_sentence: QUANTIFIER VARIABLE "," sentence    -> quantifier 
+                 | sentence IMPLIES sentence           -> implication
+                 | sentence OR sentence                -> disjunction
+                 | sentence AND sentence               -> conjunction
+                 | NOT sentence                        -> negation 
+
+?atomic_sentence: PREDICATE "(" (term) ("," term)* ")" -> predicate
+
+?term: FUNCTION "(" (term) ("," term)* ")"             -> function 
+     | VARIABLE 
+     | CONSTANT 
+
+QUANTIFIER: "FOR_ALL"
+          | "EXISTS"
+
+CONSTANT: /[A-Z]/
+VARIABLE: /[x-z]/
+PREDICATE: /[a-z]+(?:_[a-z]+)*/ 
+FUNCTION: /[f-h]/
+
+AND: "&&"
+OR: "||"
+NOT: "~"
+IMPLIES: "=>"
+
+%ignore " "
