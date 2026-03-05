@@ -19,7 +19,7 @@ You can run our model on `prontoQA` and `COPA-SSE` using commands like the follo
 python -m run ----dataset_name ProntoQA --scoring_method GD\ resolution --masked_rules 0 --misleading_rules 0 --experiment_name test
 ```
 
-Here, `masked_rules` and `misleading_rules` arguemnts represent the number of rules you would like to ablate from the KB or add to the KB using axioms from other queries.
+Here, `masked_rules` and `misleading_rules` arguments represent the number of rules you would like to ablate from the KB or add to the KB using axioms from other queries.
 
 You can also try GPT baseline purely using the **BART** entailment model by switching the `scoring_method` argument to `monolithic llm` or `pure_entailment` respectively.
 
@@ -148,3 +148,4 @@ If you find our work useful, please consider giving a 🌟 to our repo and citin
 ```
 
 Thank you for your attention.
+
