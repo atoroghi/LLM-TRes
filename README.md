@@ -1,47 +1,33 @@
+# Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution
 
 Thank you for visiting this repository!
-This repository contains the implementation of our EMNLP-24 paper **"Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution"**.
+This repository contains the implementation of our EMNLP-24 paper [**Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution**](https://aclanthology.org/2024.emnlp-main.379/).
 
 In order to use the code, please follow these steps:
 
-## 1- Install requirements
-~~~
+## Step 1: Install Requirements
+
+```bash
 pip install -r requirements.txt
-~~~
-
-## 2- Running Experiments
-You can run our model on prontoQA and COPA-SSE using commands like the following:
-~~~
-python -m run ----dataset_name ProntoQA --scoring_method GD\ resolution --masked_rules 0 --misleading_rules 0 --experiment_name test
-~~~
-
-Here, "masked_rules" and "misleading_rules" arguemnts represent the number of rules you would like to ablate from the KB or add to the KB using axioms from other queries.
-
-You can also try GPT baseline purely using the BART entailment model by switching the "scoring_method" argument to "monolithic llm" or "pure_entailment" respectively.
-
-For running other LLMs, please refer to the "Other_LLMs.ipynb" notebook.
-
-For running our model on Recipe-MPR, please run the notebook "recipe-mpr.ipynb".
-
-
-## Citation
-If you find our work useful, please consider giving a 🌟 to our repo and citing our paper.
-
-```text
-@inproceedings{toroghi2024verifiable,
-  title={Verifiable, debuggable, and repairable commonsense logical reasoning via llm-based theory resolution},
-  author={Toroghi, Armin and Guo, Willis and Pesaranghader, Ali and Sanner, Scott},
-  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
-  pages={6634--6652},
-  year={2024}
-}
 ```
 
-Thank you for your attention!
+## Step 2: Running Experiments
 
+You can run our model on `prontoQA` and `COPA-SSE` using commands like the following:
+
+```bash
+python -m run ----dataset_name ProntoQA --scoring_method GD\ resolution --masked_rules 0 --misleading_rules 0 --experiment_name test
+```
+
+Here, `masked_rules` and `misleading_rules` arguemnts represent the number of rules you would like to ablate from the KB or add to the KB using axioms from other queries.
+
+You can also try GPT baseline purely using the **BART** entailment model by switching the `scoring_method` argument to `monolithic llm` or `pure_entailment` respectively.
+
+For running other LLMs, please refer to the `OtherLLMs.ipynb` notebook.
+
+For running our model on Recipe-MPR, please run the notebook `recipe-mpr.ipynb`.
 
 ## Directory Structure
-
 
 ```text
 /
@@ -144,4 +130,21 @@ Thank you for your attention!
     │   ├── ProntoQA_withfol.json
     │   └── queue.py
     └── retriever.py
+
 ```
+
+## Citation
+
+If you find our work useful, please consider giving a 🌟 to our repo and citing our paper.
+
+```text
+@inproceedings{toroghi2024verifiable,
+  title={Verifiable, debuggable, and repairable commonsense logical reasoning via llm-based theory resolution},
+  author={Toroghi, Armin and Guo, Willis and Pesaranghader, Ali and Sanner, Scott},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  pages={6634--6652},
+  year={2024}
+}
+```
+
+Thank you for your attention.
