@@ -1,7 +1,12 @@
 # Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution
 
-Thank you for visiting this repository!
 This repository contains the implementation of our EMNLP-24 paper [**Verifiable, Debuggable, and Repairable Commonsense Logical Reasoning via LLM-based Theory Resolution**](https://aclanthology.org/2024.emnlp-main.379/).
+
+## Abstract
+
+Recent advances in Large Language Models (LLM) have led to substantial interest in their application to commonsense reasoning tasks. Despite their potential, LLMs are susceptible to reasoning errors and hallucinations that may be harmful in use cases where accurate reasoning is critical. This challenge underscores the need for verifiable, debuggable, and repairable LLM reasoning. Recent works have made progress toward verifiable reasoning with LLMs by using them as either (i) a reasoner over an axiomatic knowledge base, or (ii) a semantic parser for use in existing logical inference systems. However, both settings are unable to extract commonsense axioms from the LLM that are not already formalized in the knowledge base, and also lack a reliable method to repair missed commonsense inferences. In this work, we present LLM-TRes, a logical reasoning framework based on the notion of “theory resolution” that allows for seamless integration of the commonsense knowledge from LLMs with a verifiable logical reasoning framework that mitigates hallucinations and facilitates debugging of the reasoning procedure as well as repair. We crucially prove that repaired axioms are theoretically guaranteed to be given precedence over flawed ones in our theory resolution inference process. We conclude by evaluating on three diverse language-based reasoning tasks—preference reasoning, deductive reasoning, and causal commonsense reasoning—and demonstrate the superior performance of LLM-TRes vs. state-of-the-art LLM-based reasoning methods in terms of both accuracy and reasoning correctness.
+
+---
 
 In order to use the code, please follow these steps:
 
@@ -133,6 +138,8 @@ For running our model on Recipe-MPR, please run the notebook `recipe-mpr.ipynb`.
 
 ```
 
+---
+
 ## Citation
 
 If you find our work useful, please consider giving a 🌟 to our repo and citing our paper.
@@ -146,6 +153,3 @@ If you find our work useful, please consider giving a 🌟 to our repo and citin
   year={2024}
 }
 ```
-
-Thank you for your attention.
-
