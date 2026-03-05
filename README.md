@@ -8,8 +8,6 @@ Recent advances in Large Language Models (LLM) have led to substantial interest 
 
 ---
 
-In order to use the code, please follow these steps:
-
 ## Step 1: Install Requirements
 
 ```bash
@@ -153,3 +151,4 @@ If you find our work useful, please consider giving a 🌟 to our repo and citin
   year={2024}
 }
 ```
+
