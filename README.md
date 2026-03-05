@@ -30,6 +30,8 @@ For running other LLMs, please refer to the `OtherLLMs.ipynb` notebook.
 
 For running our model on Recipe-MPR, please run the notebook `recipe-mpr.ipynb`.
 
+---
+
 ## Directory Structure
 
 ```text
@@ -151,4 +153,5 @@ If you find our work useful, please consider giving a 🌟 to our repo and citin
   year={2024}
 }
 ```
+
 
